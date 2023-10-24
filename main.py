@@ -4,6 +4,8 @@ import algorithm
 
 userinput_courses = list(sys.stdin.readline().rstrip().split())
 userinput_comblength = int(sys.stdin.readline())
+userinput_include = list(sys.stdin.readline().rstrip().split())
+userinput_exclude = list(sys.stdin.readline().rstrip().split())
 
 # combinations (with Structures)
 all_combinations = algorithm.generate_combinations(algorithm.possible_courses(userinput_courses), 
@@ -16,6 +18,23 @@ for combination in all_combinations:
     all_combinations_w_names.append(temp)
 
 all_comb_length = len(all_combinations)
+if userinput_include != []:
+    temp = all_combinations_w_names.copy()
+    for schedule in all_combinations_w_names:
+        for course in userinput_include:
+            if course not in schedule:
+                temp.remove(schedule)
+    all_combinations_w_names = temp
+
+if userinput_exclude != []:
+    temp = all_combinations_w_names.copy()
+    for schedule in all_combinations_w_names:
+        for course in userinput_exclude:
+            if course in schedule:
+                temp.remove(schedule)
+    all_combinations_w_names = temp
+
+
 
 ### clustering all_combinations according to same course combinations but different time periods
 ### "comb_no_repeat" is all the combination of courses that can be made (not taking time periods into account)
