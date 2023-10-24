@@ -19,20 +19,12 @@ for combination in all_combinations:
 
 all_comb_length = len(all_combinations)
 if userinput_include != []:
-    temp = all_combinations_w_names.copy()
-    for schedule in all_combinations_w_names:
-        for course in userinput_include:
-            if course not in schedule:
-                temp.remove(schedule)
-    all_combinations_w_names = temp
+    new_list = [sublist for sublist in all_combinations_w_names if all(string in sublist for string in userinput_include)]
+    all_combinations_w_names = new_list
 
 if userinput_exclude != []:
-    temp = all_combinations_w_names.copy()
-    for schedule in all_combinations_w_names:
-        for course in userinput_exclude:
-            if course in schedule:
-                temp.remove(schedule)
-    all_combinations_w_names = temp
+    new_list = [sublist for sublist in all_combinations_w_names if all(string not in sublist for string in userinput_exclude)]
+    all_combinations_w_names = new_list
 
 
 
