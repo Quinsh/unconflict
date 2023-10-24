@@ -12,7 +12,7 @@
 93329,Active,ALS-113-01,Brazilian Portuguese III,AR  ,,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,8  /8  ,2.00000,,RECORD COUNT 790
 93330,Active,ALS-114-01,Brazilian Portuguese IV,AR  ,,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,10 /10 ,2.00000,,RECORD COUNT 790
 93331,Active,ALS-121-01,Korean I,MWF  ,4:00 PM  - 4:50 PM  ,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,7  /15 ,2.00000,,RECORD COUNT 790
-93918,Active,ALS-121-02,Korean I,T W,11:00 AM - 11:50 AM 6:00 PM  - 6:50 PM ,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,4  /8  ,2.00000,,RECORD COUNT 790
+93918,Active,ALS-121-02,Korean I,T W,11:00 AM - 11:50 AM 6:00 PM  - 6:50 PM,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,4  /8  ,2.00000,,RECORD COUNT 790
 93332,Active,ALS-122-01,Korean II,MW F,5:00 PM  - 5:50 PM 11:00 AM - 11:50 AM,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,3  /8  ,2.00000,,RECORD COUNT 790
 93333,Active,ALS-123-01,Korean III,MW F,4:10 PM  - 5:00 PM 1:00 PM  - 1:50 PM,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,3  /8  ,2.00000,,RECORD COUNT 790
 93342,Active,ALS-124-01,Korean IV,MW TH,3:00 PM  - 3:50 PM 4:00 PM  - 4:50 PM,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,6  /8  ,2.00000,,RECORD COUNT 790
@@ -57,13 +57,13 @@
 93544,Active,ARH-295-01,ST: Empire of Subconscious,MWF  ,10:00 AM - 10:50 AM  ,"Mackenzie, Michael ","Mackenzie, Michael",,,9  /20 ,4.00000,,RECORD COUNT 790
 93545,Active,ARH-295-02,ST: Medieval/Renaissance Art,MW  ,10:00 AM - 11:20 AM  ,"Crites, Danya Alexandra ","Crites, Danya",,,15 /20 ,4.00000,,RECORD COUNT 790
 92230,Active,ARH-400-01,Seminar in Art History,MWF  ,3:00 PM  - 3:50 PM  ,"Anger, Jennifer A ","Anger, Jennifer",,,9  /12 ,4.00000,,RECORD COUNT 790
-92416,Active,ART-111-01,Introduction to the Studio,MW  ,8:00 AM  - 10:50 AM  ,"Kluber, Matthew ","Kluber, Matthew",,,0  /15 ,4.00000,,RECORD COUNT 790
+92416,Active,ART-111-01,Introduction to the Studio,MW  ,8:00 AM  - 10:50 AM ,"Kluber, Matthew ","Kluber, Matthew",,,0  /15 ,4.00000,,RECORD COUNT 790
 92417,Active,ART-111-02,Introduction to the Studio,MW  ,1:00 PM  - 3:50 PM  ,"Kluber, Matthew ","Kluber, Matthew",,,1  /15 ,4.00000,,RECORD COUNT 790
 92418,Active,ART-111-03,Introduction to the Studio,MW  ,1:00 PM  - 3:50 PM  ,"Strangfeld, Robin ","Strangfeld, Robin",,,0  /15 ,4.00000,,RECORD COUNT 790
-92419,Active,ART-134-01,Drawing,TTH  ,8:00 AM  - 10:50 AM  ,"Chen, Jeremy D ","Chen, Jeremy",,,3  /15 ,4.00000,,RECORD COUNT 790
+92419,Active,ART-134-01,Drawing,TTH  ,8:00 AM  - 10:50 AM ,"Chen, Jeremy D ","Chen, Jeremy",,,3  /15 ,4.00000,,RECORD COUNT 790
 92309,Active,ART-155-01,Introduction to Film Studies,MW MW,8:00 AM  - 10:50 AM 8:00 AM  - 10:50 AM,"Tavares, Nicole M ","Tavares, Nicky",,,10 /25 ,4.00000,,RECORD COUNT 790
-92420,Closed (active),ART-238-01,Painting,TTH  ,8:00 AM  - 10:50 AM  ,"Kaufman, Andrew ","Kaufman, Andrew",,,2  /15 ,4.00000,,RECORD COUNT 790
-92422,Active,ART-240-01,Ceramics,MW  ,8:00 AM  - 10:50 AM  ,"Strangfeld, Robin ","Strangfeld, Robin",,,4  /15 ,4.00000,,RECORD COUNT 790
+92420,Closed (active),ART-238-01,Painting,TTH  ,8:00 AM  - 10:50 AM ,"Kaufman, Andrew ","Kaufman, Andrew",,,2  /15 ,4.00000,,RECORD COUNT 790
+92422,Active,ART-240-01,Ceramics,MW  ,8:00 AM  - 10:50 AM ,"Strangfeld, Robin ","Strangfeld, Robin",,,4  /15 ,4.00000,,RECORD COUNT 790
 92421,Active,ART-242-01,Sculpture,TTH  ,1:00 PM  - 3:50 PM  ,"Chen, Jeremy D ","Chen, Jeremy",,,0  /15 ,4.00000,,RECORD COUNT 790
 92313,Active,ART-255-01,Fundamentals Video Production,MW  ,1:00 PM  - 3:50 PM  ,"Tavares, Nicole M ","Tavares, Nicky",,,0  /15 ,4.00000,,RECORD COUNT 790
 92423,Active,ART-315-01,Adv Studio: Contemp Practices,TTH  ,1:00 PM  - 3:50 PM  ,"Kaufman, Andrew ","Kaufman, Andrew",,,3  /12 ,4.00000,,RECORD COUNT 790
@@ -145,7 +145,7 @@
 92285,Active,CHM-358-01,Instrumental Analysis w/lab,T TTH,10:00 AM - 11:50 AM 1:00 PM  - 3:50 PM ,"MacInnes, Molly M ","MacInnes, Molly",,,1  /12 ,4.00000,,RECORD COUNT 790
 92289,Active,CHM-363-01,Physical Chemistry I w/lab,MWF  ,9:00 AM  - 9:50 AM  ,"Hernandez, Heriberto ","Hernandez, Heriberto",,,0  /24 ,4.00000,,RECORD COUNT 790
 92290,Active,CHM-363L-01,Physical Chemistry I Lab,M  ,1:00 PM  - 3:50 PM  ,"Hernandez, Heriberto ","Hernandez, Heriberto",,,0  /12 ,0.00000,,RECORD COUNT 790
-92292,Active,CHM-363L-02,Physical Chemistry I Lab,T  ,8:00 AM  - 10:50 AM  ,"Hernandez, Heriberto ","Hernandez, Heriberto",,,0  /12 ,0.00000,,RECORD COUNT 790
+92292,Active,CHM-363L-02,Physical Chemistry I Lab,T  ,8:00 AM  - 10:50 AM ,"Hernandez, Heriberto ","Hernandez, Heriberto",,,0  /12 ,0.00000,,RECORD COUNT 790
 93831,Closed (active),CHM-399-01,DR: Nanoclusters Computations,AR  ,,"Hernandez, Heriberto ","Hernandez, Heriberto",,,0  /1  ,2.00000,,RECORD COUNT 790
 93832,Closed (active),CHM-399-02,DR: Syn of Lugdunin Der,AR  ,,"Leggans, Erick K ","Leggans, Erick",,,0  /1  ,2.00000,,RECORD COUNT 790
 93895,Closed (active),CHM-399-03,DR: Molten Salt Electrochem,AR  ,,"MacInnes, Molly M ","MacInnes, Molly",,,0  /1  ,2.00000,,RECORD COUNT 790
@@ -588,7 +588,7 @@
 92853,Closed (active),PHY-132L-02,General Physics II Lab,TH  ,1:00 PM  - 3:50 PM  ,"Tjossem, Paul J H  ","Tjossem, Paul",,,7  /24 ,0.00000,,RECORD COUNT 790
 92854,Closed (active),PHY-232-01,Modern Physics w/lab,MWF  ,10:00 AM - 10:50 AM  ,"Burson, Kristen ","Burson, Kristen",,,-1 /20 ,4.00000,,RECORD COUNT 790
 92855,Closed (active),PHY-232-02,Modern Physics w/lab,MWF  ,11:00 AM - 11:50 AM  ,"Christensen, Charlotte ","Christensen, Charlotte",,,6  /20 ,4.00000,,RECORD COUNT 790
-92856,Closed (active),PHY-232L-01,Modern Physics Lab,T  ,8:00 AM  - 10:50 AM  ,"Cunningham, Charles E ","Cunningham, Charles",,,0  /12 ,0.00000,,RECORD COUNT 790
+92856,Closed (active),PHY-232L-01,Modern Physics Lab,T  ,8:00 AM  - 10:50 AM ,"Cunningham, Charles E ","Cunningham, Charles",,,0  /12 ,0.00000,,RECORD COUNT 790
 92857,Closed (active),PHY-232L-02,Modern Physics Lab,TH  ,1:00 PM  - 3:50 PM  ,"Burson, Kristen ","Burson, Kristen",,,2  /12 ,0.00000,,RECORD COUNT 790
 92858,Closed (active),PHY-232L-03,Modern Physics Lab,T  ,1:00 PM  - 3:50 PM  ,"Hasegawa, Keisuke ","Hasegawa, Keisuke",,,-1 /12 ,0.00000,,RECORD COUNT 790
 93905,Closed (active),PHY-299-01,DR: GMD 2D Curved Surface QM,AR  ,,"Rodriguez, Shanshan ","Rodriguez, Shanshan",,,0  /1  ,2.00000,,RECORD COUNT 790

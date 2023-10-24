@@ -1,4 +1,5 @@
 import csv
+from datetime import datetime
 
 from Structure import Structure
 from Structure import storage
@@ -12,22 +13,32 @@ def makestatus(status):
     else:
         return 0
 def makedays(days):
+    temp = days.split()
+
     rdays = []
-    if "TH" in days:
-        rdays.append(4)
-        days.replace("TH", "")
-    if "M" in days:
-        rdays.append(1)
-        days.replace("M", "")
-    if "T" in days:
-        rdays.append(2)
-        days.replace("T", "")
-    if "W" in days:
-        rdays.append(3)
-        days.replace("W", "")
-    if "F" in days:
-        rdays.append(5)
-        days.replace("F", "")
+    for i in range(0, len(temp)):
+        middays = []
+        if "TH" in temp[i]:
+            middays.append(4)
+            d = temp[i].replace("TH", '')
+            temp[i] = d
+        if "M" in temp[i]:
+            middays.append(1)
+            d = temp[i].replace("M", "")
+            temp[i] = d
+        if "T" in temp[i]:
+            middays.append(2)
+            d = temp[i].replace("T", "")
+            temp[i] = d
+        if "W" in temp[i]:
+            middays.append(3)
+            d = temp[i].replace("W", "")
+            temp[i] = d
+        if "F" in temp[i]:
+            middays.append(5)
+            d = temp[i].replace("F", "")
+            temp[i] = d
+        rdays.append(middays)
     rdays.sort()
     return rdays
 
@@ -35,105 +46,29 @@ def makedays(days):
 def maketime(time):
     if time == "":
         return []
+    time_list = time.split()
+    while '-' in time_list:
+        time_list.remove('-')
     fulltime = []
-    if len(time) == 20:
-        start = time[0:7:1]
-        end = time[11:18]
-        tempstart = (int(start[:1]) * 60) + (int(start[2:4]))
-        tempend = (int(end[:1]) * 60) + (int(end[2:4]))
 
-        if "AM" not in start:
-            tempstart += 720
-        if "AM" not in end:
-            tempend += 720
-        fulltime.append(tempstart)
-        fulltime.append(tempend)
-        return fulltime
-    elif len(time) == 21:
-        start = time[0:8:1]
-        end = time[11: 19:1]
-        tempstart = (int(start[:1]) * 60) + (int(start[3:5]))
-        tempend = (int(end[:1]) * 60) + (int(end[3:5]))
-        if "AM" not in start:
-            tempstart += 720
-        if "AM" not in end:
-            tempend += 720
-        fulltime.append(tempstart)
-        fulltime.append(tempend)
-        return fulltime
-    elif len(time) == 37:
-        startone = time[0:7:1]
-        endone = time[11:18:1]
-        starttwo = time[19:26:1]
-        endtwo = time[30:38:1]
+    for i in range(0, len(time_list), 4):
+        start_time_str = f"{time_list[i]} {time_list[i + 1]}"
+        end_time_str = f"{time_list[i + 2]} {time_list[i + 3]}"
 
-        tempstartone = (int(startone[:1]) * 60) + (int(startone[2:4]))
-        tempendone = (int(endone[:1]) * 60) + (int(endone[2:4]))
-        if "AM" not in startone:
-            tempstartone += 720
-        if "AM" not in endone:
-            tempendone += 720
-        tempstarttwo = (int(starttwo[:1]) * 60) + (int(starttwo[2:4]))
-        tempendtwo = (int(endtwo[:1]) * 60) + (int(endtwo[2:4]))
-        if "AM" not in starttwo:
-            tempstarttwo += 720
-        if "AM" not in endtwo:
-            tempendtwo += 720
-        temp = [tempstartone, tempendone]
-        temptwo = [tempstarttwo, tempendtwo]
-        fulltime.append(temp)
-        fulltime.append(temptwo)
-        return fulltime
-    elif len(time) == 39:
-        startone = time[0:8:1]
-        endone = time[11: 19:1]
-        tempstartone = (int(startone[:1]) * 60) + (int(startone[3:5]))
-        tempendone = (int(endone[:1]) * 60) + (int(endone[3:5]))
-        starttwo = time[20:28:1]
-        endtwo = time[31:38:1]
-        tempstarttwo = (int(starttwo[0:1]) * 60) + (int(starttwo[3:5]))
-        tempendtwo = (int(endtwo[:1]) * 60) + (int(endtwo[3:5]))
-        if "AM" not in startone:
-            tempstartone += 720
-        if "AM" not in endone:
-            tempendone += 720
-        if "AM" not in starttwo:
-            tempstarttwo += 720
-        if "AM" not in endtwo:
-            tempendtwo += 720
-        temp = [tempstartone, tempendone]
-        temptwo = [tempstarttwo, tempendtwo]
-        fulltime.append(temp)
-        fulltime.append(temptwo)
-        return fulltime
-    else:
-        startone = time[0:7:1]
-        endone = time[11: 18:1]
-        tempstartone = (int(startone[:1]) * 60) + (int(startone[2:4]))
-        tempendone = (int(endone[:1]) * 60) + (int(endone[2:4]))
-        starttwo = time[19:27:1]
-        endtwo = time[30:38:1]
-        tempstarttwo = (int(starttwo[0:1]) * 60) + (int(starttwo[3:5]))
-        tempendtwo = (int(endtwo[:1]) * 60) + (int(endtwo[3:5]))
-        if "AM" not in startone:
-            tempstartone += 720
-        if "AM" not in endone:
-            tempendone += 720
-        if "AM" not in starttwo:
-            tempstarttwo += 720
-        if "AM" not in endtwo:
-            tempendtwo += 720
-        temp = [tempstartone, tempendone]
-        temptwo = [tempstarttwo, tempendtwo]
-        fulltime.append(temp)
-        fulltime.append(temptwo)
-        return fulltime
+        start_time = datetime.strptime(start_time_str, '%I:%M %p').time()
+        end_time = datetime.strptime(end_time_str, '%I:%M %p').time()
+
+        fulltime.append((start_time, end_time))
+
+    return fulltime
+
 
 def makeifalt(times):
     if len(times) > 36 and len(times) < 40:
         return 1
     else:
         return 0
+
 
 
 
@@ -157,10 +92,12 @@ with open(filename, 'r') as csvfile:
         rows.append(row)
 
 for i in range(1, len(rows) - 1):
-    temp = Structure(makeInt(rows[i][0]), rows[i][3], makestatus(rows[i][1]), makedays(rows[i][4]), maketime(rows[i][5]), rows[i][6], makeifalt(rows[i][5]), i - 1)
+    temp = Structure(makeInt(rows[i][0]), rows[i][3], makestatus(rows[i][1]), makedays(rows[i][4]), maketime(rows[i][5]), rows[i][6], makeifalt(rows[i][5]), rows[i][2][:7], i - 1)
     tempset.add(temp)
     templist.append(temp)
 
 allClasses = storage(tempset, templist)
+
+
 
 

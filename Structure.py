@@ -1,5 +1,5 @@
 class Structure:
-    def __init__(self, id, name, status, days, time, faculty, ifalt,  index):
+    def __init__(self, id, name, status, days, time, faculty, ifalt, secname,  index):
         self.id = id ##should be int
         self.name = name ##should be string
         self.status = status #should be in or boolean
@@ -8,7 +8,7 @@ class Structure:
 
         self.faculty = faculty ## should be string
         self.ifalt = ifalt ##should be boolean or integer
-
+        self.secname = secname ##should be string
         self.index = index
 
     
