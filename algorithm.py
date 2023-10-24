@@ -3,6 +3,9 @@ import sys
 from database import allClasses
 
 courselist = allClasses.list
+courseset = allClasses.set
+
+
 
 ### given user inputs ['CHM-129', 'PHY-132']
 ### make list of Structure objects of the courses above with all different time periods
@@ -17,7 +20,7 @@ def possible_courses(userinputs):
 ### returns the list of structure object that has the coursename (should be inputted like "PHY-132-" including the last '-' or like "PHY-132L")
 def findall_w_name(coursename):
     li = []
-    for course in courselist:
+    for course in courseset:
         if course.secname[:8] == coursename:
             li.append(course)
     return li
