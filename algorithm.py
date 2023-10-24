@@ -9,7 +9,7 @@ courseset = allClasses.set
 ### make list of Structure objects of the courses above with all different time periods
 def possible_courses(userinputs):
     temp_li = []
-    for course in courseset:
+    for course in courselist:
         for usercourse in userinputs:
             if course.secname[:7] == usercourse:
                 temp_li.append(course)
