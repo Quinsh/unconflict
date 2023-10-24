@@ -1,5 +1,5 @@
 class Structure:
-    def __init__(self, id, name, status, days, time, faculty, ifalt, secname,  index):
+    def __init__(self, id, name, status, days, time, faculty, ifalt, secname,  index, tfad, haslab):
         self.id = id ##should be int
         self.name = name ##should be string
         self.status = status #should be in or boolean
@@ -10,9 +10,8 @@ class Structure:
         self.ifalt = ifalt ##should be boolean or integer
         self.secname = secname ##should be string
         self.index = index
-
-    
-
+        self.times_forall_days = tfad
+        self.haslab = haslab
 
 class storage:
     def __init__(self, set, list):

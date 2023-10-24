@@ -68,7 +68,14 @@ def makeifalt(times):
         return 1
     else:
         return 0
+    
 
+def make_timesforalldays(days, time):
+    times_forall_days = [[],[],[],[],[]]
+    for i, daylist in enumerate(days):
+        for day in daylist:
+            times_forall_days[day-1] = [time[i]]
+    return times_forall_days
 
 
 
@@ -92,7 +99,13 @@ with open(filename, 'r') as csvfile:
         rows.append(row)
 
 for i in range(1, len(rows) - 1):
-    temp = Structure(makeInt(rows[i][0]), rows[i][3], makestatus(rows[i][1]), makedays(rows[i][4]), maketime(rows[i][5]), rows[i][6], makeifalt(rows[i][5]), rows[i][2], i - 1)
+    timetemp = maketime(rows[i][5])
+    daystemp = makedays(rows[i][4])
+    
+    temp = Structure(makeInt(rows[i][0]), rows[i][3], makestatus(rows[i][1]), daystemp, 
+                    timetemp, rows[i][6], makeifalt(rows[i][5]), rows[i][2], i - 1, 
+                    make_timesforalldays(daystemp, timetemp))
+    
     tempset.add(temp)
     templist.append(temp)
 
