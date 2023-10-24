@@ -4,7 +4,7 @@ from database import allClasses
 
 courselist = allClasses.list
 
-### given user inputs ['CHM129', 'PHY132']
+### given user inputs ['CHM-129', 'PHY-132']
 ### make list of Structure objects of the courses above with all different time periods
 def possible_courses(userinputs):
     temp_li = []
@@ -24,8 +24,8 @@ def findall_w_name(coursename):
 
 ### this function finds all the possible combinations without time conflict.
 ### it's implemented with recursive method + backtracking
-def generate_combinations(courses, current_combination=[]):
-    if len(current_combination) == 4:
+def generate_combinations(courses, lengthofcomb, current_combination=[]):
+    if len(current_combination) == lengthofcomb:
         return [current_combination.copy()]
 
     if not courses:
@@ -36,13 +36,13 @@ def generate_combinations(courses, current_combination=[]):
 
     # Exclude the current course
     combinations_without_current = generate_combinations(
-        remaining_courses, current_combination)
+        remaining_courses, lengthofcomb, current_combination)
 
     # Include the current course if it doesn't conflict
     combinations_with_current = []
     if not conflicts_with_any(current_course, current_combination):
         combinations_with_current = generate_combinations(
-            remaining_courses, current_combination + [current_course])
+            remaining_courses, lengthofcomb, current_combination + [current_course])
 
     return combinations_without_current + combinations_with_current
 
