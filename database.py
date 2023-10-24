@@ -92,7 +92,7 @@ with open(filename, 'r') as csvfile:
         rows.append(row)
 
 for i in range(1, len(rows) - 1):
-    temp = Structure(makeInt(rows[i][0]), rows[i][3], makestatus(rows[i][1]), makedays(rows[i][4]), maketime(rows[i][5]), rows[i][6], makeifalt(rows[i][5]), rows[i][2][:7], i - 1)
+    temp = Structure(makeInt(rows[i][0]), rows[i][3], makestatus(rows[i][1]), makedays(rows[i][4]), maketime(rows[i][5]), rows[i][6], makeifalt(rows[i][5]), rows[i][2], i - 1)
     tempset.add(temp)
     templist.append(temp)
 
