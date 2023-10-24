@@ -14,6 +14,5 @@ all_combinations_w_names = []
 for combination in all_combinations:
     temp = [course.secname for course in combination]
     all_combinations_w_names.append(temp)
-   
-    
+
 print(all_combinations_w_names)

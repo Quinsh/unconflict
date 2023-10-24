@@ -77,7 +77,17 @@ def make_timesforalldays(days, time):
             times_forall_days[day-1] = [time[i]]
     return times_forall_days
 
+def exists(secname, courseset):
+    for course in courseset:
+        if course.secname[:8] == secname:
+            return True
+    return False
 
+def make_haslab(secname, courseset):
+    if secname[7:8] == '-' and exists(secname[:7]+'L', courseset):
+        return True
+    else:
+        return False
 
 filename = "Course_Offering_0007 (1).csv"
 tempset = set()
@@ -101,15 +111,65 @@ with open(filename, 'r') as csvfile:
 for i in range(1, len(rows) - 1):
     timetemp = maketime(rows[i][5])
     daystemp = makedays(rows[i][4])
+    secname = rows[i][2]
     
     temp = Structure(makeInt(rows[i][0]), rows[i][3], makestatus(rows[i][1]), daystemp, 
-                    timetemp, rows[i][6], makeifalt(rows[i][5]), rows[i][2], i - 1, 
-                    make_timesforalldays(daystemp, timetemp))
+                    timetemp, rows[i][6], makeifalt(rows[i][5]), secname, i - 1, 
+                    make_timesforalldays(daystemp, timetemp), False)
     
-    tempset.add(temp)
     templist.append(temp)
 
+tempset = set(templist)
+
+for i in range(len(templist)):
+    templist[i].haslab = make_haslab(templist[i].secname, tempset)
+
+def findall_w_name(coursename):
+    li = []
+    for course in tempset:
+        if course.secname[:8] == coursename:
+            li.append(course)
+    return li
+
+# making a joint course for courses that have labs
+originalcourses = set()
+for course in templist:
+    if course.haslab:
+        labs = findall_w_name(course.secname[:7] + 'L')
+        for lab in labs:
+            jointdays = course.days + lab.days
+            jointtime = course.time + lab.time
+            joint_timesforalldays = [course.times_forall_days[i] + lab.times_forall_days[i] for i in range(5)]
+            newcourse = Structure(str(course.id) + " " + str(lab.id),
+                                course.name + 'LAB', 
+                                course.status, 
+                                jointdays,
+                                jointtime,
+                                course.faculty + " " + lab.faculty,
+                                course.ifalt + lab.ifalt, 
+                                course.secname + '+' + lab.secname[7:],
+                                0,
+                                joint_timesforalldays,
+                                False)
+            templist.append(newcourse)
+            originalcourses.add(lab)
+        
+        # remove the original course
+        originalcourses.add(course)
+
+for c in originalcourses:
+    templist.remove(c)
+
+tempset = set(templist)
+
 allClasses = storage(tempset, templist)
+
+""" for testing: 
+courselist = allClasses.list
+
+for n in range(95, 105):
+    print(courselist[n].secname, courselist[n].haslab)
+"""
 
 
 

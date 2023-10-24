@@ -5,15 +5,13 @@ from database import allClasses
 courselist = allClasses.list
 courseset = allClasses.set
 
-
-
 ### given user inputs ['CHM-129', 'PHY-132']
 ### make list of Structure objects of the courses above with all different time periods
 def possible_courses(userinputs):
     temp_li = []
     for course in courselist:
         for usercourse in userinputs:
-            if course.secname[:8] == usercourse+'-': # there is reason why I compare like this. It's bcz some courses are like 'CHM-129L' (lab) and we wanna exclude it.
+            if course.secname[:7] == usercourse:
                 temp_li.append(course)
     return temp_li
 
@@ -77,10 +75,6 @@ def conflicts(course1, course2):
     return False
 
 
-### labtime_filter() sees if a combination that has a course w/lab. If it has, 
-def labtime_filter(all_combinations):
-    
-    
 
 ### BELOW JUST FOR TESTING
 """
