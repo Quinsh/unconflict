@@ -23,6 +23,14 @@ def findall_w_name(coursename):
             li.append(course)
     return li
 
+### returns the list of all secnames with names (of 7 letters) 
+def findall_w_name7(coursename):
+    li = []
+    for course in courseset:
+        if course.secname[:7] == coursename:
+            li.append(course.secname)
+    return li
+
 ### this function finds all the possible combinations without time conflict.
 ### it's implemented with recursive method + backtracking
 def generate_combinations(courses, lengthofcomb, current_combination=[]):
