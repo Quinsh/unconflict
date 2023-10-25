@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    {errors}
+    <div id="div-outermost">
+        <div id="space_above"></div>
+        <div id="div-flex">
+            <h1><i class="highlight">UN</i>CONFLICT</h1>
+            <p id="subtitle">course combinations at Grinnell</p>
+            <form method="post" action=".">
+                <p class="ins">Desired Classes</p>
+                <div class="form__group">
+                    <input name="course_input" class="form__input" placeholder="CSC-151 PHI-111 MAT-215" required=""/>
+                </div>
+
+                <p class="ins">Number of Classes in Schedule</p>
+                <div class="form__group">
+                    <p><input name="combination_input" class="form__input" placeholder="4"/></p>
+                </div>
+                
+
+                <p class="ins">Must Include Classes</p>
+                <div class="form__group">
+                    <p><input name="include_input" class="form__input" placeholder="CSC-151-01"/></p>
+                </div>
+
+                <p class="ins">Must Exclude Classes</p>
+                <div class="form__group">
+                    <p><input name="exclude_input" class="form__input" placeholder="MAT-215-05"/></p>
+                </div>
+
+                <p><input id="submitbutton" type="submit" value="MAKE SCHEDULE"/></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

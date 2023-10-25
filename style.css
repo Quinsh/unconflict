@@ -1,13 +1,44 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-size: 62, 5%;
+}
+
+:root {
+    --bgcolor: rgb(245, 245, 245);
+    --pointcolor: #E84A5F;
+    --maincolor: #2A363B;
+    --slightcolor: rgb(96, 96, 96);
+    --inputfield: rgb(253, 253, 253);
+    --placeholder: rgb(161, 161, 161);
+    --buttoncolor: #f15b6f;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    color: var(--maincolor);
+}
+
+i.highlight {
+    color: var(--pointcolor);
+}
+
+p.ins {
+    color: var(--slightcolor);
+    margin-bottom: 5px;
+    font-size: 1em;
 }
 
 #div-outermost {
     display: inline-block;
-    background-color: rgb(220, 220, 220);
+    background-color: var(--bgcolor);
     width: 100vw;
     min-height: 100vh;
 }
@@ -20,14 +51,59 @@ body {
 }
 
 h1 {
-    font-weight: 600;
+    font-size: 2.5em;
+    font-weight: 700;
 }
 
 #subtitle {
-    font-style: italic;
+    margin-bottom: 50px;
 }
 
 #space_above {
     display: block;
         margin: 80px 0;
+}
+
+.form__group {
+    margin-bottom: 20px;
+}
+
+.form__label {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+}
+
+.form__input {
+    font-family: 'Raleway';
+    color: #333;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 0.3rem 1rem;
+    border-radius: 0.2rem;
+    background-color: var(--inputfield);
+    border: none;
+    width: 90%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+
+::placeholder {
+    color: var(--placeholder);
+}
+
+#submitbutton {
+    margin-top: 20px;
+    padding: 0.5em;
+    font-family: 'Raleway';
+    font-weight: 600;
+
+    background-color: var(--buttoncolor);
+    border-color: var(--slightcolor);
+    border-width: 1px;
+
 }
