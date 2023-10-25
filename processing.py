@@ -1,5 +1,5 @@
 import algorithm
-import Structure
+
 
 def solution(course_input, combination_input, include_input, exclude_input):
     userinput_courses = list(course_input.rstrip().split())
@@ -53,7 +53,8 @@ def solution(course_input, combination_input, include_input, exclude_input):
     return text_to_print
 
 def output(schedule):
-    text_to_print = "<br><br>" + f"    class    days    times" + "<br><br>"
+    text_to_print = "<br><br>"
+    text_to_print += f"    class    days    times" + "<br><br>"
     for i in range(len(schedule)):
         text_to_print += f"({i}) {schedule[i].name}  {schedule[i].days} {schedule[i].time}  " + "<br><br>"
     return text_to_print
