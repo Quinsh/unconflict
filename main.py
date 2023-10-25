@@ -17,7 +17,7 @@ for combination in all_combinations:
     temp = [course.secname for course in combination]
     all_combinations_w_names.append(temp)
 
-all_comb_length = len(all_combinations)
+
 if userinput_include != []:
     new_list = [sublist for sublist in all_combinations_w_names if all(string in sublist for string in userinput_include)]
     all_combinations_w_names = new_list
@@ -27,6 +27,7 @@ if userinput_exclude != []:
     all_combinations_w_names = new_list
 
 
+all_comb_length = len(all_combinations_w_names)
 
 ### clustering all_combinations according to same course combinations but different time periods
 ### "comb_no_repeat" is all the combination of courses that can be made (not taking time periods into account)
@@ -44,10 +45,14 @@ for combination in all_combinations_w_names:
         comb_no_repeat.append(set(combination_nosection))
         comb_clusters.append([combination])
 
+text_to_print = ""
 
-print(f"there are {all_comb_length} combinations of {userinput_comblength} courses overall.")
-print(f"there are {len(comb_no_repeat)} course combinations that can be made:")
+text_to_print += f"there are {all_comb_length} combinations of {userinput_comblength} courses overall." + "\n"
+text_to_print += f"there are {len(comb_no_repeat)} course combinations that can be made:" + "\n"
+
 for i in range(len(comb_no_repeat)):
     comb = " ".join(comb_no_repeat[i])
-    print(f"({i}): {comb} -> {len(comb_clusters[i])} different time period combinations")
+    text_to_print += f"({i}): {comb} -> {len(comb_clusters[i])} different time period combinations" + "\n"
+    
+print(text_to_print)
 
