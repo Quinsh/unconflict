@@ -38,7 +38,8 @@ def adder_page():
             for j, course in enumerate(comb_clusters[i]):
                 temp += "<li>"
                 temp += " ".join(course)
-                temp += "".join(print_output(course))
+                temp += "</li><li>"
+                temp += " ".join(print_output(course))
                 temp += "</li>"
             temp += '''</ul>
                         </div>'''

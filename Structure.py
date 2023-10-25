@@ -1,3 +1,4 @@
+from database import allClasses
 class Structure:
     def __init__(self, id, name, status, days, time, faculty, ifalt, secname,  index, tfad, haslab):
         self.id = id ##should be int
@@ -42,15 +43,26 @@ def day_print(day):
         
 
 def print_output(struct):
-    temp = " "
-    if (len(struct.time == 0)):
-        return "No times have been established for this class"
-    else:
-        for i in range(5):
-            if (i == 4):
-              temp += day_print(i) + time_print(struct.time[i])  
-            temp += day_print(i) + time_print(struct.time[i]) + "; "
-    return temp
+    schedtemp = []
+    temp = ""
+    for i in range(len(struct)):
+        classtemp = struct
+
+        for i in allClasses.set:
+            if (i.secname == struct):
+                classtemp = i
+
+        temp += struct + " "
+        if (len(classtemp.time == 0)):
+            temp += "No times have been established for this class"
+        else:
+            for i in range(5):
+                if (i == 4):
+                    temp += day_print(i) + time_print(classtemp.time[i])  
+                temp += day_print(i) + time_print(classtemp.time[i]) + "; "
+        schedtemp.append(temp)
+    return schedtemp
+    
     
 
 
