@@ -35,7 +35,7 @@ def adder_page():
     return '''
         <html>
             <head>
-                <link rel="stylesheet" href="./style.css">
+                <link rel="stylesheet" href="/static/style.css">
             </head>
             <body>
             {errors}
