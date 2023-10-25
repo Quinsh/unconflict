@@ -1,5 +1,8 @@
 #acknowledgement: giles, pythonanywhere
+from email.iterators import _structure
 from flask import Flask, request
+from Structure import Structure
+from Structure import print_output
 
 from processing import solution
 
@@ -35,6 +38,7 @@ def adder_page():
             for j, course in enumerate(comb_clusters[i]):
                 temp += "<li>"
                 temp += " ".join(course)
+                temp += "".join(print_output(course))
                 temp += "</li>"
             temp += '''</ul>
                         </div>'''

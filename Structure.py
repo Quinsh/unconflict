@@ -23,4 +23,36 @@ def compare(class1, class2):
         return False
     else:
         return True
+    
+def time_print(time):
+    return "" + time[0] + "-" + time[1]
+def day_print(day):
+    match day:
+        case 0:
+            return "M: "
+        case 1:
+            return "T: "
+        case 2:
+            return "W: "
+        case 3:
+            return "TH: "
+        case 4:
+            return "F:"
+        
+        
+
+def print_output(struct):
+    temp = " "
+    if (len(struct.time == 0)):
+        return "No times have been established for this class"
+    else:
+        for i in range(5):
+            if (i == 4):
+              temp += day_print(i) + time_print(struct.time[i])  
+            temp += day_print(i) + time_print(struct.time[i]) + "; "
+    return temp
+    
+
+
+
 
