@@ -19,12 +19,12 @@ def adder_page():
         combination_input = request.form["combination_input"]
         include_input = request.form["include_input"]
         exclude_input = request.form["exclude_input"]
-        
+
         returnlist = solution(course_input, combination_input, include_input, exclude_input)
         allcomblength = returnlist[0]
         comb_no_repeat = returnlist[1]
         comb_clusters = returnlist[2]
-        
+
         formattedblocks = ""
         for i in range(len(comb_no_repeat)):
             temp = '''<div class="blocks">
@@ -39,11 +39,11 @@ def adder_page():
             temp.append('''</ul>
                         </div>''')
             formattedblocks.append(temp)
-        
+
         return '''
             <html>
             <head>
-                <link rel="stylesheet" href="./style.css">
+                <link rel="stylesheet" href="/static/style.css">
             </head>
 
             <body>
@@ -52,9 +52,9 @@ def adder_page():
                     <div id="div-flex">
                         <h1 id="combtitle"><i class="highlight">{totalsch}</i> total schedules!</h1>
                         <p class="titledesc">and <i class="highlight2">{coursecomb}</i> course combinations...</p>
-                        
+
                         {blocks}
-                        
+
                         <p><a href="/">Click here to make a new schedule</a>
                     </div>
                 </div>
@@ -64,30 +64,46 @@ def adder_page():
         '''.format(totalsch=allcomblength, coursecomb=len(comb_no_repeat), blocks=formattedblocks)
 
     return '''
-        <html>
-            <head>
-                <link rel="stylesheet" href="/static/style.css">
-            </head>
-            <body>
-            {errors}
-                <div id="div-outermost">
-                    <div id="space_above"></div>
-                    <div id="div-flex">
-                        <h1>UNCONFLICT</h1>
-                        <p id="subtitle">course combinations at Grinnell</p>
-                        <form method="post" action=".">
-                            <p>Input Desired Classes</p>
-                            <p><input name="course_input" /></p>
-                            <p>Input Number of Classes in Schedule</p>
-                            <p><input name="combination_input" /></p>
-                            <p>Input Must Include Classes</p>
-                            <p><input name="include_input" /></p>
-                            <p>Input Must Exclude Classes</p>
-                            <p><input name="exclude_input" /></p>
-                            <p><input type="submit" value="Make Your Schedule!" /></p>
-                        </form>
+    <html>
+
+    <head>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+
+    <body>
+        {errors}
+        <div id="div-outermost">
+            <div id="space_above"></div>
+            <div id="div-flex">
+                <h1><i class="highlight">UN</i>CONFLICT</h1>
+                <p id="subtitle">course combinations at Grinnell</p>
+                <form method="post" action=".">
+                    <p class="ins">Desired Classes</p>
+                    <div class="form__group">
+                        <input name="course_input" class="form__input" placeholder="CSC-151 PHI-111 MAT-215" required=""/>
                     </div>
-                </div>
-            </body>
-        </html>
+
+                    <p class="ins">Number of Classes in Schedule</p>
+                    <div class="form__group">
+                        <p><input name="combination_input" class="form__input" placeholder="4"/></p>
+                    </div>
+
+
+                    <p class="ins">Must Include Classes</p>
+                    <div class="form__group">
+                        <p><input name="include_input" class="form__input" placeholder="CSC-151-01"/></p>
+                    </div>
+
+                    <p class="ins">Must Exclude Classes</p>
+                    <div class="form__group">
+                        <p><input name="exclude_input" class="form__input" placeholder="MAT-215-05"/></p>
+                    </div>
+
+                    <p><input id="submitbutton" type="submit" value="MAKE SCHEDULE"/></p>
+                </form>
+            </div>
+        </div>
+    </body>
+
+    </html>
     '''.format(errors=errors)
