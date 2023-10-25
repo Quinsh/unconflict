@@ -6,23 +6,6 @@ from processing import solution
 app = Flask(__name__)
 app.config["DEBUG"] = True
 
-# just write like this here instead of style.css. lol
-style = """
-<style>
-    #div-outermost {
-        display: inline-block;
-        background-color: rgb(220, 220, 220);
-        width: 100vw;
-        min-height: 100vh;
-    }
-    #div-flex {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: center;
-    }
-</style>
-"""
 
 @app.route("/", methods=["GET", "POST"])
 def adder_page():
@@ -40,19 +23,19 @@ def adder_page():
         return '''
             <html>
                 <head>
-                    {style}
+                    <link rel="stylesheet" href="./style.css">
                 </head>
                 <body>
                     <p>Your potential schedules are: {result}</p>
                     <p><a href="/">Click here to make a new schedule</a>
                 </body>
             </html>
-        '''.format(style=style, result=result)
+        '''.format(result=result)
 
     return '''
         <html>
             <head>
-                {style}
+                <link rel="stylesheet" href="./style.css">
             </head>
             <body>
             {errors}
@@ -74,4 +57,4 @@ def adder_page():
                 </div>
             </body>
         </html>
-    '''.format(style=style, errors=errors)
+    '''.format(errors=errors)
