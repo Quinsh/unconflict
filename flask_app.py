@@ -29,16 +29,16 @@ def adder_page():
         for i in range(len(comb_no_repeat)):
             temp = '''<div class="blocks">
                             <p class="block-title">'''
-            temp.append(" ".join(comb_no_repeat[i]))
-            temp.append('''</p>
-                            <ul>''')
+            temp += " ".join(comb_no_repeat[i])
+            temp += '''</p>
+                            <ul>'''
             for j, course in enumerate(comb_clusters[i]):
-                temp.append("<li>")
-                temp.append(" ".join(course))
-                temp.append("</li>")
-            temp.append('''</ul>
-                        </div>''')
-            formattedblocks.append(temp)
+                temp += "<li>"
+                temp += " ".join(course)
+                temp += "</li>"
+            temp += '''</ul>
+                        </div>'''
+            formattedblocks += temp
 
         return '''
             <html>
