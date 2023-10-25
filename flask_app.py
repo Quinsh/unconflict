@@ -40,8 +40,10 @@ def adder_page():
             <body>
             {errors}
                 <div id="div-outermost">
+                    <div id="space_above"></div>
                     <div id="div-flex">
-                        <h1>Welcome to UnConflict:</h1>
+                        <h1>UNCONFLICT</h1>
+                        <p id="subtitle">course combinations at Grinnell</p>
                         <form method="post" action=".">
                             <p>Input Desired Classes</p>
                             <p><input name="course_input" /></p>
