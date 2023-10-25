@@ -164,6 +164,55 @@ tempset = set(templist)
 
 allClasses = storage(tempset, templist)
 
+def time_print(time):
+    return "" + str(time[0]) + "-" + str(time[1])
+def day_print(day):
+    match day:
+        case 0:
+            return "M: "
+        case 1:
+            return "T: "
+        case 2:
+            return "W: "
+        case 3:
+            return "TH: "
+        case 4:
+            return "F:"
+        
+        
+
+def print_output(struct):
+    schedtemp = []
+    temp = ""
+    
+    for i, coursename in enumerate(struct):
+        classtemp = Structure(0, "", 0, [], [], "", 0, "", 0, [], False)
+        
+        for j in allClasses.set:
+            
+            if (j.secname == coursename):
+                classtemp = j
+                
+                
+        
+        temp += coursename + " "
+        if (len(classtemp.time) == 0):
+            temp += "No times have been established for this class"
+            schedtemp.append(temp)
+            break
+        else:
+            for i in range(len(classtemp.time)):
+                if (i == 4):
+                    temp += day_print(i) 
+                    temp += time_print(classtemp.time[i])
+                temp += day_print(i) 
+                temp += time_print(classtemp.time[i]) + "; "
+        schedtemp.append(temp)
+    return schedtemp
+
+print(print_output([allClasses.list[20].secname]))
+
+
 """ for testing: 
 courselist = allClasses.list
 

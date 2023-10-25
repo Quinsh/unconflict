@@ -2,7 +2,7 @@
 from email.iterators import _structure
 from flask import Flask, request
 from Structure import Structure
-from Structure import print_output
+from database import print_output
 
 from processing import solution
 
