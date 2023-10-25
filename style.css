@@ -1,0 +1,15 @@
+
+
+#div-outermost {
+    display: inline-block;
+    background-color: rgb(220, 220, 220);
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#div-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}

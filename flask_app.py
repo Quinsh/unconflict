@@ -21,6 +21,9 @@ def adder_page():
         result = solution(course_input, combination_input, include_input, exclude_input)
         return '''
             <html>
+                <head>
+                    <link rel="stylesheet" href="./style.css">
+                </head>
                 <body>
                     <p>Your potential schedules are: {result}</p>
                     <p><a href="/">Click here to make a new schedule</a>
@@ -30,20 +33,27 @@ def adder_page():
 
     return '''
         <html>
+            <head>
+                <link rel="stylesheet" href="./style.css">
+            </head>
             <body>
             {errors}
-                <p>Welcome to UnConflict:</p>
-                <form method="post" action=".">
-                    <p>Input Desired Classes</p>
-                    <p><input name="course_input" /></p>
-                    <p>Input Number of Classes in Schedule</p>
-                    <p><input name="combination_input" /></p>
-                    <p>Input Must Include Classes</p>
-                    <p><input name="include_input" /></p>
-                    <p>Input Must Exclude Classes</p>
-                    <p><input name="exclude_input" /></p>
-                    <p><input type="submit" value="Make Your Schedule!" /></p>
-                </form>
+                <div id="div-outermost">
+                    <div id="div-flex">
+                        <h1>Welcome to UnConflict:</h1>
+                        <form method="post" action=".">
+                            <p>Input Desired Classes</p>
+                            <p><input name="course_input" /></p>
+                            <p>Input Number of Classes in Schedule</p>
+                            <p><input name="combination_input" /></p>
+                            <p>Input Must Include Classes</p>
+                            <p><input name="include_input" /></p>
+                            <p>Input Must Exclude Classes</p>
+                            <p><input name="exclude_input" /></p>
+                            <p><input type="submit" value="Make Your Schedule!" /></p>
+                        </form>
+                    </div>
+                </div>
             </body>
         </html>
     '''.format(errors=errors)
