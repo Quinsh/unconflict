@@ -19,18 +19,49 @@ def adder_page():
         combination_input = request.form["combination_input"]
         include_input = request.form["include_input"]
         exclude_input = request.form["exclude_input"]
-        result = solution(course_input, combination_input, include_input, exclude_input)
+        
+        returnlist = solution(course_input, combination_input, include_input, exclude_input)
+        allcomblength = returnlist[0]
+        comb_no_repeat = returnlist[1]
+        comb_clusters = returnlist[2]
+        
+        formattedblocks = ""
+        for i in range(len(comb_no_repeat)):
+            temp = '''<div class="blocks">
+                            <p class="block-title">'''
+            temp.append(" ".join(comb_no_repeat[i]))
+            temp.append('''</p>
+                            <ul>''')
+            for j, course in enumerate(comb_clusters[i]):
+                temp.append("<li>")
+                temp.append(" ".join(course))
+                temp.append("</li>")
+            temp.append('''</ul>
+                        </div>''')
+            formattedblocks.append(temp)
+        
         return '''
             <html>
-                <head>
-                    <link rel="stylesheet" href="./style.css">
-                </head>
-                <body>
-                    <p>Your potential schedules are: {result}</p>
-                    <p><a href="/">Click here to make a new schedule</a>
-                </body>
+            <head>
+                <link rel="stylesheet" href="./style.css">
+            </head>
+
+            <body>
+                <div id="div-outermost">
+                    <div id="space_above"></div>
+                    <div id="div-flex">
+                        <h1 id="combtitle"><i class="highlight">{totalsch}</i> total schedules!</h1>
+                        <p class="titledesc">and <i class="highlight2">{coursecomb}</i> course combinations...</p>
+                        
+                        {blocks}
+                        
+                        <p><a href="/">Click here to make a new schedule</a>
+                    </div>
+                </div>
+            </body>
+
             </html>
-        '''.format(result=result)
+        '''.format(totalsch=allcomblength, coursecomb=len(comb_no_repeat), blocks=formattedblocks)
 
     return '''
         <html>

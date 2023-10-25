@@ -50,7 +50,9 @@ def solution(course_input, combination_input, include_input, exclude_input):
         comb = " ".join(comb_no_repeat[i])
         text_to_print += f"({i}): {comb} -> {len(comb_clusters[i])} different time period combinations" + "<br><br>"
 
-    return text_to_print
+    returnlist = [all_comb_length, comb_no_repeat, comb_clusters]
+    
+    return returnlist
 
 def output(schedule):
     text_to_print = "<br><br>"
