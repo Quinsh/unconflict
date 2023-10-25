@@ -17,7 +17,6 @@ for combination in all_combinations:
     temp = [course.secname for course in combination]
     all_combinations_w_names.append(temp)
 
-
 if userinput_include != []:
     new_list = [sublist for sublist in all_combinations_w_names if all(string in sublist for string in userinput_include)]
     all_combinations_w_names = new_list
@@ -48,7 +47,7 @@ for combination in all_combinations_w_names:
 text_to_print = ""
 
 text_to_print += f"there are {all_comb_length} combinations of {userinput_comblength} courses overall." + "\n"
-text_to_print += f"there are {len(comb_no_repeat)} course combinations that can be made:" + "\n"
+text_to_print += f"there are {len(comb_no_repeat)} course combinations that can be made:" + "\n\n"
 
 for i in range(len(comb_no_repeat)):
     comb = " ".join(comb_no_repeat[i])
