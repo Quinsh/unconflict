@@ -168,15 +168,15 @@ def time_print(time):
     return "" + str(time[0]) + "-" + str(time[1])
 def day_print(day):
     match day:
-        case 0:
-            return "M: "
         case 1:
-            return "T: "
+            return "M: "
         case 2:
-            return "W: "
+            return "T: "
         case 3:
-            return "TH: "
+            return "W: "
         case 4:
+            return "TH: "
+        case 5:
             return "F:"
         
         
@@ -194,23 +194,25 @@ def print_output(struct):
                 classtemp = j
                 
                 
-        
-        temp += coursename + " "
+        if i == 0:
+            temp += classtemp.secname + " "
+        else:
+            temp = classtemp.secname + " "
         if (len(classtemp.time) == 0):
             temp += "No times have been established for this class"
             schedtemp.append(temp)
             break
         else:
-            for i in range(len(classtemp.time)):
-                if (i == 4):
-                    temp += day_print(i) 
-                    temp += time_print(classtemp.time[i])
-                temp += day_print(i) 
-                temp += time_print(classtemp.time[i]) + "; "
+
+            for d in range(len(classtemp.days)):
+                for m in classtemp.days[d]:
+                    if (d > 0):
+                        temp += "LAB => "
+                    temp += day_print(m)
+                    temp += time_print(classtemp.time[d]) + "; "
+
         schedtemp.append(temp)
     return schedtemp
-
-print(print_output([allClasses.list[20].secname]))
 
 
 """ for testing: 
