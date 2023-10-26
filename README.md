@@ -11,7 +11,9 @@ we use brute force method (using recursive backtracking) to come up with differe
 Gun Woo Kim (closhu) | Samuel Grayson (doc4science) | Rhys Howell (Howell45)
 
 GunWoo: algorithm design/dev, feature dev.
+
 Rhys: data structure design/dev, feature dev.
+
 Samuel: website development, web managing
 
 ## Log
