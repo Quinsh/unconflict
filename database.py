@@ -175,8 +175,9 @@ def checkfreq(comb_clust):
 
 
     most_common_variable = var_freq.most_common(1)
+    second_most_common_variable = var_freq.most_common(2)
 
-    tempstring = "<p>Check your priority, but the two most common courses to occur are: " + most_common_variable[0][0] + " and " + most_common_variable[1][0] + "<br></p>"
+    tempstring = "<p>Check your priority, but the two most common courses to occur are: " + most_common_variable[0][0] + " and " + second_most_common_variable[1][0] + "<br></p>"
     return tempstring
 
 
