@@ -4,7 +4,7 @@ from flask import Flask, request
 from processing import solution
 from database import print_output
 from database import checkfreq
-from database import check2freq
+from database import return2freq
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
@@ -47,7 +47,7 @@ def adder_page():
                 temp += "<ul>"
                 for j, course in enumerate(comb_clusters[i]):
                     temp += "<li>"
-                    mostcommoncourses = check2freq(comb_clusters[i])
+                    mostcommoncourses = return2freq(comb_clusters[i])
                     coursestring = ""
                     for c in course:
                         if c == mostcommoncourses[0] or c == mostcommoncourses[1]:
