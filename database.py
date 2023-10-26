@@ -4,6 +4,8 @@ from datetime import datetime
 from Structure import Structure
 from Structure import storage
 
+from collections import Counter
+
 def makeInt(num):
     return int(num)
 
@@ -163,6 +165,20 @@ for c in originalcourses:
 tempset = set(templist)
 
 allClasses = storage(tempset, templist)
+
+def checkfreq(comb_clust):
+    classtuple = tuple(comb_clust)
+
+    templist = [item for lst in classtuple for item in lst]
+    var_freq = Counter(templist)
+
+
+
+    most_common_variable = var_freq.most_common(1)
+
+    tempstring = "<p>Check your priority, but the two most common courses to occur are: " + most_common_variable[0][0] + " and " + most_common_variable[1][0] + "<br></p>"
+    return tempstring
+
 
 def time_print(time):
     return "" + str(time[0]) + "-" + str(time[1])
