@@ -239,7 +239,7 @@ def print_output(struct):
         schedtemp.append(temp)
     return schedtemp
 
-print(print_output(["CSC-161-02", "MAT-215-04", "PHY-132-03+L-01"]))
+
 """ for testing: 
 courselist = allClasses.list
 
