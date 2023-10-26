@@ -70,7 +70,7 @@ def makeifalt(times):
         return 1
     else:
         return 0
-    
+
 
 def make_timesforalldays(days, time):
     times_forall_days = [[],[],[],[],[]]
@@ -114,11 +114,11 @@ for i in range(1, len(rows) - 1):
     timetemp = maketime(rows[i][5])
     daystemp = makedays(rows[i][4])
     secname = rows[i][2]
-    
-    temp = Structure(makeInt(rows[i][0]), rows[i][3], makestatus(rows[i][1]), daystemp, 
-                    timetemp, rows[i][6], makeifalt(rows[i][5]), secname, i - 1, 
+
+    temp = Structure(makeInt(rows[i][0]), rows[i][3], makestatus(rows[i][1]), daystemp,
+                    timetemp, rows[i][6], makeifalt(rows[i][5]), secname, i - 1,
                     make_timesforalldays(daystemp, timetemp), False)
-    
+
     templist.append(temp)
 
 tempset = set(templist)
@@ -143,19 +143,19 @@ for course in templist:
             jointtime = course.time + lab.time
             joint_timesforalldays = [course.times_forall_days[i] + lab.times_forall_days[i] for i in range(5)]
             newcourse = Structure(str(course.id) + " " + str(lab.id),
-                                course.name + 'LAB', 
-                                course.status, 
+                                course.name + 'LAB',
+                                course.status,
                                 jointdays,
                                 jointtime,
                                 course.faculty + " " + lab.faculty,
-                                course.ifalt + lab.ifalt, 
+                                course.ifalt + lab.ifalt,
                                 course.secname + '+' + lab.secname[7:],
                                 0,
                                 joint_timesforalldays,
                                 False)
             templist.append(newcourse)
             originalcourses.add(lab)
-        
+
         # remove the original course
         originalcourses.add(course)
 
@@ -177,10 +177,10 @@ def checkfreq(comb_clust):
     most_common_variable = var_freq.most_common(1)
     second_most_common_variable = var_freq.most_common(2)
 
-    tempstring = "<p>2 most common occurences: <i id='occurence'>" + \
+    tempstring = "<p>2 most common sections: <i id='occurence'>" + \
         most_common_variable[0][0] + "</i> and <i id='occurence'>" + \
         second_most_common_variable[1][0] + "</i> <br></p>"
-        
+
     return tempstring
 
 
@@ -214,21 +214,21 @@ def day_print(day):
             return "TH"
         case 5:
             return "F"
-        
-        
+
+
 
 def print_output(struct):
     schedtemp = []
     temp = ""
-    
+
     for i, coursename in enumerate(struct):
         classtemp = Structure(0, "", 0, [], [], "", 0, "", 0, [], False)
-        
+
         for j in allClasses.set:
-            
+
             if (j.secname == coursename):
                 classtemp = j
-                
+
 
         temp = "<p>"
         temp += classtemp.secname[:7] + " "
@@ -259,13 +259,9 @@ def print_output(struct):
     return schedtemp
 
 print(print_output(["CSC-161-02", "MAT-215-04", "PHY-132-03+L-01"]))
-""" for testing: 
+""" for testing:
 courselist = allClasses.list
 
 for n in range(95, 105):
     print(courselist[n].secname, courselist[n].haslab)
 """
-
-
-
-
