@@ -241,3 +241,13 @@ p.aboutus_slight{
 #githublink {
     color: var(--maincolor);
 }
+
+#occurence {
+    color: var(--pointcolor3);
+    font-weight: 700;
+}
+
+#commoncourse {
+    color: var(--pointcolor3);
+    text-decoration: 500;
+}
