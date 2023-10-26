@@ -177,8 +177,25 @@ def checkfreq(comb_clust):
     most_common_variable = var_freq.most_common(1)
     second_most_common_variable = var_freq.most_common(2)
 
-    tempstring = "<p>Check priority, but the 2 most common courses to occur are: " + most_common_variable[0][0] + " and " + second_most_common_variable[1][0] + "<br></p>"
+    tempstring = "<p>2 most common occurences: <i id='occurence'>" + \
+        most_common_variable[0][0] + "</i> and <i id='occurence'>" + \
+        second_most_common_variable[1][0] + "</i> <br></p>"
+        
     return tempstring
+
+
+def return2freq(comb_clust):
+    classtuple = tuple(comb_clust)
+
+    templist = [item for lst in classtuple for item in lst]
+    var_freq = Counter(templist)
+
+    most_common_variable = var_freq.most_common(1)
+    second_most_common_variable = var_freq.most_common(2)
+
+    returnvalue = [most_common_variable[0][0],
+                   second_most_common_variable[1][0]]
+    return returnvalue
 
 
 def time_print(time):

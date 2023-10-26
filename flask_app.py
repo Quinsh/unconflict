@@ -4,6 +4,7 @@ from flask import Flask, request
 from processing import solution
 from database import print_output
 from database import checkfreq
+from database import check2freq
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
@@ -37,16 +38,28 @@ def adder_page():
                 temp = '''<div class="blocks">
                                 <p class="block-title">'''
                 temp += " ".join(comb_no_repeat[i])
-                temp += '''</p>
-                                <ul>'''
+                temp += '''</p>'''
+
+                # "most frequent 2 courses are ... "
+                temp += checkfreq(comb_clusters[i])
+
+                # list of courses displayed
+                temp += "<ul>"
                 for j, course in enumerate(comb_clusters[i]):
                     temp += "<li>"
-                    temp += " ".join(course)
+                    mostcommoncourses = check2freq(comb_clusters[i])
+                    coursestring = ""
+                    for c in course:
+                        if c == mostcommoncourses[0] or c == mostcommoncourses[1]:
+                            coursestring += "<i id='commmoncourse'>" + c " </i>"
+                        else:
+                            coursestring += c + " "
+
+                    temp += coursestring
         ##  FOR TIMES       # temp += "</li></li>"
         ##  FOR TIMES       # temp += "     ".join(print_output(course))
                     temp += "</li>"
                 temp += "</li></li>"
-                temp += checkfreq(comb_clusters[i])
                 temp += '''</ul>
                             </div>'''
                 formattedblocks += temp
