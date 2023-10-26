@@ -177,7 +177,7 @@ def checkfreq(comb_clust):
     most_common_variable = var_freq.most_common(1)
     second_most_common_variable = var_freq.most_common(2)
 
-    tempstring = "<p>Check your priority, but the two most common courses to occur are: " + most_common_variable[0][0] + " and " + second_most_common_variable[1][0] + "<br></p>"
+    tempstring = "<p>Check priority, but the 2 most common courses to occur are: " + most_common_variable[0][0] + " and " + second_most_common_variable[1][0] + "<br></p>"
     return tempstring
 
 
@@ -210,11 +210,10 @@ def print_output(struct):
             if (j.secname == coursename):
                 classtemp = j
                 
-                
-        if i == 0:
-            temp += "<p>" + classtemp.secname + " "
-        else:
-            temp = classtemp.secname + " "
+
+        temp = "<p>"
+        temp += classtemp.secname[:7] + " "
+
         if (len(classtemp.time) == 0):
             temp += "No times have been established for this class<br></p>"
             schedtemp.append(temp)
@@ -226,18 +225,21 @@ def print_output(struct):
                 for m in classtemp.days[d]:
 
                     if (d > 0):
-                        temp += "LAB => "
+                        temp += classtemp.secname[:7] + "L =>"
                     if k == len(classtemp.days[d]) - 1:
                         temp += day_print(m) + ": "
                     else:
                         temp += day_print(m)
                         k += 1
-                temp += time_print(classtemp.time[d]) + ";<br></p>"
+                if d == len(classtemp.days) - 1:
+                    temp += time_print(classtemp.time[d][:5]) + ";<br></p>"
+                else:
+                    temp += time_print(classtemp.time[d][:5]) + ";<br>"
 
         schedtemp.append(temp)
     return schedtemp
 
-
+print(print_output(["CSC-161-02", "MAT-215-04", "PHY-132-03+L-01"]))
 """ for testing: 
 courselist = allClasses.list
 
