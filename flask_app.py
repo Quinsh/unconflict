@@ -131,12 +131,27 @@ def aboutus_page():
                     <p class="aboutus_st">developed by</p>
                     <p class="aboutus_names"><i id="gunwoo">Gun Woo Kim</i> | <i id="sam">Samuel Grayson</i> | <i id="rhys">Rhys Howell</i></p>
                     <p class="aboutus_desc"><i id="gunwoo">(algorithm dev)</i> | <i id="sam">(web development)</i> | <i id="rhys">(data
-                    structure dev)</i></p>
+                            structure dev)</i></p>
                     <p class="aboutus_slight">CS freshmen as of 2023 :)</p>
                     <p class="aboutus_st">github repo</p>
                     <p class="aboutus_p">https://github.com/closhu/unconflict</p>
                     <p class="aboutus_st">contacts</p>
                     <p class="aboutus_p">kimgunwo@grinnell.edu<br>graysons@grinnell.edu<br>howellrh@grinnell.edu</p>
+                    <p class="aboutus_st">about the project</p>
+                    <br>
+                    <div id="aboutproject">
+                        <img src="/static/us2.png" width="100%"><br><br>
+                        In October 11, we come up with a fun idea to compute best fit course schedules in order to ease students' life in Grinnell.
+                        However, the actual development is postponed until October 23, when we realize it can't be delayed more.
+                        <br><br>
+                        GunWoo designs recursive backtracking approach to generate every possible course combinations with no time conflicts. 
+                        Then, Samuel proposes to display them according to user preference, including or excluding certain sections. 
+                        To see if two courses conflict in their time, a specific data structure has to be made.
+                        This is handled by Rhys, who works on the data designing side. Rhys also works on developing some features of the program with GunWoo.
+                        Finally, Samuel makes the initial python program to be a webside using Flask. The website is revised by GunWoo, who adds css styling to it.
+                    </div>
+                    <br>
+
                 </div>
             </div>
         </body>
