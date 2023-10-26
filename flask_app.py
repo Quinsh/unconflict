@@ -45,6 +45,7 @@ def adder_page():
 
         return '''
             <html>
+            <link rel="shortcut icon" href="/static/favicon.ico">
             <head>
                 <link rel="stylesheet" href="/static/style.css">
             </head>
@@ -68,7 +69,7 @@ def adder_page():
 
     return '''
     <html>
-
+    <link rel="shortcut icon" href="/static/favicon.ico">
     <head>
         <link rel="stylesheet" href="/static/style.css">
     </head>
@@ -92,12 +93,12 @@ def adder_page():
                     </div>
 
 
-                    <p class="ins">Must Include Classes</p>
+                    <p class="ins">Must Include Sections</p>
                     <div class="form__group">
                         <p><input name="include_input" class="form__input" placeholder="CSC-151-01"/></p>
                     </div>
 
-                    <p class="ins">Must Exclude Classes</p>
+                    <p class="ins">Must Exclude Sections</p>
                     <div class="form__group">
                         <p><input name="exclude_input" class="form__input" placeholder="MAT-215-05"/></p>
                     </div>
@@ -119,6 +120,7 @@ def adder_page():
 def aboutus_page():
     return '''
        <html>
+        <link rel="shortcut icon" href="/static/favicon.ico">
         <head>
             <link rel="stylesheet" href="/static/style.css">
         </head>
@@ -144,8 +146,8 @@ def aboutus_page():
                         In October 11, we come up with a fun idea to compute best fit course schedules in order to ease students' life in Grinnell.
                         However, the actual development is postponed until October 23, when we realize it can't be delayed more.
                         <br><br>
-                        GunWoo designs recursive backtracking approach to generate every possible course combinations with no time conflicts. 
-                        Then, Samuel proposes to display them according to user preference, including or excluding certain sections. 
+                        GunWoo designs recursive backtracking approach to generate every possible course combinations with no time conflicts.
+                        Then, Samuel proposes to display them according to user preference, including or excluding certain sections.
                         To see if two courses conflict in their time, a specific data structure has to be made.
                         This is handled by Rhys, who works on the data designing side. Rhys also works on developing some features of the program with GunWoo.
                         Finally, Samuel makes the initial python program to be a webside using Flask. The website is revised by GunWoo, who adds css styling to it.
