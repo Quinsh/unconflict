@@ -51,7 +51,7 @@ def adder_page():
                     coursestring = ""
                     for c in course:
                         if c == mostcommoncourses[0] or c == mostcommoncourses[1]:
-                            coursestring += "<i id='commmoncourse'>" + c " </i>"
+                            coursestring += "<i id='commmoncourse'>" + c + " </i>"
                         else:
                             coursestring += c + " "
 
