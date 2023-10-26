@@ -182,7 +182,9 @@ def checkfreq(comb_clust):
 
 
 def time_print(time):
-    return "" + str(time[0]) + "-" + str(time[1])
+    tempstart =  time[0].strftime("%H:%M")
+    tempend = time[1].strftime("%H:%M")
+    return "" + tempstart + "-" + tempend
 def day_print(day):
     match day:
         case 1:
@@ -234,12 +236,12 @@ def print_output(struct):
                 if d == len(classtemp.days) - 1:
                     temp += time_print(classtemp.time[d][:5]) + ";<br></p>"
                 else:
-                    temp += time_print(classtemp.time[d][:5]) + ";<br>"
+                    temp += time_print(classtemp.time[d]) + ";<br>"
 
         schedtemp.append(temp)
     return schedtemp
 
-
+print(print_output(["CSC-161-02", "MAT-215-04", "PHY-132-03+L-01"]))
 """ for testing: 
 courselist = allClasses.list
 
