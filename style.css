@@ -44,6 +44,10 @@ p.ins {
     font-size: 1em;
 }
 
+i#smallins{
+    font-size: 0.8em;
+}
+
 #div-outermost {
     display: inline-block;
     background-color: var(--bgcolor);

@@ -82,7 +82,7 @@ def adder_page():
                 <h1><i class="highlight">UN</i>CONFLICT</h1>
                 <p id="subtitle">course combinations at Grinnell</p>
                 <form method="post" action=".">
-                    <p class="ins">Desired Classes</p>
+                    <p class="ins">Desired Classes <i id="smallins">(should be separated by space)</i></p>
                     <div class="form__group">
                         <input name="course_input" class="form__input" placeholder="CSC-151 PHI-111 MAT-215" required=""/>
                     </div>
@@ -95,12 +95,12 @@ def adder_page():
 
                     <p class="ins">Must Include Sections</p>
                     <div class="form__group">
-                        <p><input name="include_input" class="form__input" placeholder="CSC-151-01"/></p>
+                        <p><input name="include_input" class="form__input" placeholder="CSC-151-01 MAT-215-03"/></p>
                     </div>
 
                     <p class="ins">Must Exclude Sections</p>
                     <div class="form__group">
-                        <p><input name="exclude_input" class="form__input" placeholder="MAT-215-05"/></p>
+                        <p><input name="exclude_input" class="form__input" placeholder="PHI-111-01"/></p>
                     </div>
 
                     <p><input id="submitbutton" type="submit" value="MAKE SCHEDULE"/></p>
