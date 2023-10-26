@@ -46,7 +46,7 @@ def adder_page():
         ##  FOR TIMES       # temp += "     ".join(print_output(course))
                     temp += "</li>"
                 temp += "</li></li>"
-                temp += " ".check_freq(comb_clusters[i])
+                temp += checkfreq(comb_clusters[i])
                 temp += '''</ul>
                             </div>'''
                 formattedblocks += temp
