@@ -21,8 +21,8 @@ def adder_page():
             combination_input = float(request.form["combination_input"])
         except:
              errors += "<p>Please enter a number in Number of Classes in Schedule</p>\n".format(request.form["combination_input"])
-        include_input = request.form["include_input"]
-        exclude_input = request.form["exclude_input"]
+        include_input = request.form["include_input"].upper()
+        exclude_input = request.form["exclude_input"].upper()
 
         if errors == "":
             returnlist = solution(course_input, combination_input, include_input, exclude_input)
