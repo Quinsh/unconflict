@@ -1,10 +1,8 @@
 #acknowledgement: giles, pythonanywhere
-from email.iterators import _structure
 from flask import Flask, request
-from Structure import Structure
-from database import print_output
 
 from processing import solution
+from database import print_output
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
@@ -38,8 +36,8 @@ def adder_page():
             for j, course in enumerate(comb_clusters[i]):
                 temp += "<li>"
                 temp += " ".join(course)
-                temp += "</li><li>"
-                temp += " ".join(print_output(course))
+     ##  FOR TIMES       # temp += "</li></li>"
+     ##  FOR TIMES       # temp += " ".join(print_output(course))
                 temp += "</li>"
             temp += '''</ul>
                         </div>'''
@@ -105,6 +103,10 @@ def adder_page():
                     </div>
 
                     <p><input id="submitbutton" type="submit" value="MAKE SCHEDULE"/></p>
+                    <br>
+                    <br>
+                    <p>Developed by CS Students at Grinnell College</p>
+                    <a href="/aboutus">About Us</a>
                 </form>
             </div>
         </div>
@@ -112,3 +114,25 @@ def adder_page():
 
     </html>
     '''.format(errors=errors)
+
+@app.route("/aboutus", methods=["GET", "POST"])
+def aboutus_page():
+    return '''
+       <html>
+        <head>
+            <link rel="stylesheet" href="/static/style.css">
+        </head>
+
+        <body>
+            <div id="div-outermost">
+                <div id="space_above"></div>
+                <div id="div-flex">
+                    <p>Developed by CS students at Grinnell</p>
+                    <p>       GunWoo | Samuel | Rhys</p>
+                    <p><a href="/">Click here to go home</a>
+                </div>
+            </div>
+        </body>
+
+        </html>
+    '''
