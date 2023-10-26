@@ -237,3 +237,7 @@ p.aboutus_slight{
         color: var(--slightcolor);
     }
 }
+
+#githublink {
+    color: var(--maincolor);
+}
