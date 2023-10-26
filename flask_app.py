@@ -16,7 +16,7 @@ def adder_page():
         combination_input = None
         include_input = None
         exclude_input = None
-        course_input = request.form["course_input"]
+        course_input = request.form["course_input"].upper()
         try:
             combination_input = float(request.form["combination_input"])
         except:
@@ -87,7 +87,7 @@ def adder_page():
                         <h1><i class="highlight">UN</i>CONFLICT</h1>
                         <p id="subtitle">course combinations at Grinnell</p>
                         <form method="post" action=".">
-                            <p class="ins">Desired Classes <i id="smallins">(should be separated by space)</i></p>
+                            <p class="ins">Desired Classes <i id="smallins">(can be more than 4, should be separated by space)</i></p>
                             <div class="form__group">
                                 <input name="course_input" class="form__input" placeholder="CSC-151 PHI-111 MAT-215" required=""/>
                             </div>
