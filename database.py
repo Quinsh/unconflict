@@ -195,11 +195,11 @@ def print_output(struct):
                 
                 
         if i == 0:
-            temp += classtemp.secname + " "
+            temp += "<p>" + classtemp.secname + " "
         else:
             temp = classtemp.secname + " "
         if (len(classtemp.time) == 0):
-            temp += "No times have been established for this class"
+            temp += "No times have been established for this class<br></p>"
             schedtemp.append(temp)
             break
         else:
@@ -215,7 +215,7 @@ def print_output(struct):
                     else:
                         temp += day_print(m)
                         k += 1
-                temp += time_print(classtemp.time[d]) + "; "
+                temp += time_print(classtemp.time[d]) + ";<br></p>"
 
         schedtemp.append(temp)
     return schedtemp

@@ -42,7 +42,7 @@ def adder_page():
                     temp += "<li>"
                     temp += " ".join(course)
         ##  FOR TIMES       # temp += "</li></li>"
-        ##  FOR TIMES       # temp += " ".join(print_output(course))
+        ##  FOR TIMES       # temp += "     ".join(print_output(course))
                     temp += "</li>"
                 temp += '''</ul>
                             </div>'''
