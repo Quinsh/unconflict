@@ -169,15 +169,15 @@ def time_print(time):
 def day_print(day):
     match day:
         case 1:
-            return "M: "
+            return "M"
         case 2:
-            return "T: "
+            return "T"
         case 3:
-            return "W: "
+            return "W"
         case 4:
-            return "TH: "
+            return "TH"
         case 5:
-            return "F:"
+            return "F"
         
         
 
@@ -205,11 +205,17 @@ def print_output(struct):
         else:
 
             for d in range(len(classtemp.days)):
+                k = 0
                 for m in classtemp.days[d]:
+
                     if (d > 0):
                         temp += "LAB => "
-                    temp += day_print(m)
-                    temp += time_print(classtemp.time[d]) + "; "
+                    if k == len(classtemp.days[d]) - 1:
+                        temp += day_print(m) + ": "
+                    else:
+                        temp += day_print(m)
+                        k += 1
+                temp += time_print(classtemp.time[d]) + "; "
 
         schedtemp.append(temp)
     return schedtemp
