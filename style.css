@@ -192,6 +192,10 @@ p.aboutus_slight{
     font-style: italic;
 }
 
+#aboutproject{
+    width: 50%;
+}
+
 @keyframes gunwoo {
     from {
         color: var(--slightcolor);
