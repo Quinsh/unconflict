@@ -20,13 +20,13 @@ def adder_page():
         try:
             combination_input = float(request.form["combination_input"])
         except:
-             errors += "<p>Please enter a number in Number of Courses</p>\n".format(request.form["combination_input"])
+             errors += "<p>Please enter a number in Number of Classes in Schedule</p>\n".format(request.form["combination_input"])
         include_input = request.form["include_input"]
         exclude_input = request.form["exclude_input"]
 
         if errors == "":
             returnlist = solution(course_input, combination_input, include_input, exclude_input)
-            
+
             allcomblength = returnlist[0]
             comb_no_repeat = returnlist[1]
             comb_clusters = returnlist[2]
