@@ -127,8 +127,8 @@ def aboutus_page():
             <div id="div-outermost">
                 <div id="space_above"></div>
                 <div id="div-flex">
-                    <p>Developed by CS students at Grinnell</p>
-                    <p>       GunWoo | Samuel | Rhys</p>
+                    <p>Developed by:</p>
+                    <p>Gun Woo Kim | Samuel Grayson | Rhys Howell</p>
                     <p><a href="/">Click here to go home</a>
                 </div>
             </div>
