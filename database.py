@@ -236,7 +236,7 @@ def print_output(struct):
         if (len(classtemp.time) == 0):
             temp += "No times have been established for this class<br></p>"
             schedtemp.append(temp)
-            break
+            continue
         else:
 
             for d in range(len(classtemp.days)):
@@ -282,6 +282,9 @@ def print_outputday(struct):
 
 
     return coursetemp[0] + coursetemp[1] + coursetemp[2] + coursetemp[3] + coursetemp[4]
+
+
+
 
 """ for testing:
 courselist = allClasses.list
