@@ -244,7 +244,7 @@ def print_output(struct):
                 for m in classtemp.days[d]:
 
                     if (d > 0):
-                        temp += classtemp.secname[:7] + "L =>"
+                        temp += classtemp.secname[:7] + "L "
                     if k == len(classtemp.days[d]) - 1:
                         temp += day_print(m) + ": "
                     else:
@@ -258,31 +258,7 @@ def print_output(struct):
         schedtemp.append(temp)
     return schedtemp
 
-def print_outputday(struct):
-    coursetemp = ["<p>M:", "T:", "W:", "TH:", "F:"]
-    schedtemp = []
-
-    for i, coursename in enumerate(struct):
-
-        for j in allClasses.set:
-
-            if (j.secname == coursename):
-
-                schedtemp.append(j)
-
-
-
-    for schedcourse in range(len(schedtemp)):
-        for d in range(5):
-            if schedtemp[schedcourse].times_forall_days[d] != []:
-
-                coursetemp[d] += " " + time_print(schedtemp[schedcourse].times_forall_days[d][0])
-        if schedcourse == len(schedtemp) - 1:
-            coursetemp[4] += ";<br></p>"
-
-
-    return coursetemp[0] + coursetemp[1] + coursetemp[2] + coursetemp[3] + coursetemp[4]
-
+print(print_output(["CSC-161-02", "MAT-215-04", "PHY-132-03+L-01"]))
 """ for testing:
 courselist = allClasses.list
 
