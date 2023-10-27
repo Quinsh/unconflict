@@ -9,15 +9,27 @@ from database import return2freq
 app = Flask(__name__)
 app.config["DEBUG"] = True
 
+course_input = None
+combination_input = None
+include_input = None
+exclude_input = None
+returnlist = []
+allcomblength = None
+comb_no_repeat = None
+comb_clusters = None
 
 @app.route("/", methods=["GET", "POST"])
 def adder_page():
     errors = ""
+    global course_input
+    global combination_input
+    global include_input
+    global exclude_input
+    global returnlist
+    global allcomblength
+    global comb_no_repeat
+    global comb_clusters
     if request.method == "POST":
-        course_input = None
-        combination_input = None
-        include_input = None
-        exclude_input = None
         course_input = request.form["course_input"].upper()
         try:
             combination_input = float(request.form["combination_input"])
@@ -56,8 +68,8 @@ def adder_page():
                             coursestring += c + " "
 
                     temp += coursestring
-        ##  FOR TIMES       # temp += "</li></li>"
-        ##  FOR TIMES       # temp += "     ".join(print_output(course))
+                  ###  temp += "</li></li>"
+                   ### temp += "     ".join(print_output(course))
                     temp += "</li>"
                 temp += "</li></li>"
                 temp += '''</ul>
@@ -77,6 +89,7 @@ def adder_page():
                         <div id="div-flex">
                             <h1 id="combtitle"><i class="highlight">{totalsch}</i> total schedules!</h1>
                             <p class="titledesc">and <i class="highlight2">{coursecomb}</i> course combinations...</p>
+                            <a href="/times">Show Times</a>
 
                             {blocks}
 
@@ -224,3 +237,70 @@ def aboutus_page():
 
         </html>
     '''
+
+@app.route("/times", methods=["GET", "POST"])
+def times():
+    global course_input
+    global combination_input
+    global include_input
+    global exclude_input
+    global returnlist
+    global allcomblength
+    global comb_no_repeat
+    global comb_clusters
+
+    formattedblocks = ""
+    for i in range(len(comb_no_repeat)):
+        temp = '''<div class="blocks">
+                        <p class="block-title">'''
+        temp += " ".join(comb_no_repeat[i])
+        temp += '''</p>'''
+
+        # "most frequent 2 courses are ... "
+        temp += checkfreq(comb_clusters[i])
+
+        # list of courses displayed
+        temp += "<ul>"
+        for j, course in enumerate(comb_clusters[i]):
+            temp += "<li>"
+            mostcommoncourses = return2freq(comb_clusters[i])
+            coursestring = ""
+            for c in course:
+                if c == mostcommoncourses[0] or c == mostcommoncourses[1]:
+                    coursestring += "<i id='commoncourse'>" + c + " </i>"
+                else:
+                    coursestring += c + " "
+
+            temp += coursestring
+            temp += "</li></li>"
+            temp += "     ".join(print_output(course))
+            temp += "</li>"
+        temp += "</li></li>"
+        temp += '''</ul>
+                        </div>'''
+        formattedblocks += temp
+
+    return '''
+        <html>
+        <link rel="shortcut icon" href="/static/favicon.ico">
+        <head>
+            <link rel="stylesheet" href="/static/style.css">
+        </head>
+
+        <body>
+            <div id="div-outermost">
+            <div id="space_above"></div>
+                <div id="div-flex">
+                    <h1 id="combtitle"><i class="highlight">{totalsch}</i> total schedules!</h1>
+                    <p class="titledesc">and <i class="highlight2">{coursecomb}</i> course combinations...</p>
+
+                    {blocks}
+
+                    <p><a href="/">Click here to make a new schedule</a>
+                </div>
+            </div>
+        </body>
+
+        </html>
+    '''.format(totalsch=allcomblength, coursecomb=len(comb_no_repeat), blocks=formattedblocks)
+
