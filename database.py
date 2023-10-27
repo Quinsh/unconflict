@@ -244,7 +244,7 @@ def print_output(struct):
                 for m in classtemp.days[d]:
 
                     if (d > 0):
-                        temp += classtemp.secname[:7] + "L =>"
+                        temp += classtemp.secname[:7] + "L "
                     if k == len(classtemp.days[d]) - 1:
                         temp += day_print(m) + ": "
                     else:
