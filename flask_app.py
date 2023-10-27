@@ -249,6 +249,12 @@ def times():
     global comb_no_repeat
     global comb_clusters
 
+    if returnlist == []:
+        return'''
+        <html>
+        <p><a href="/">Click here to go home</a>
+        </html>
+        '''
     formattedblocks = ""
     for i in range(len(comb_no_repeat)):
         temp = '''<div class="blocks">
