@@ -252,3 +252,45 @@ p.aboutus_slight{
     color: var(--pointcolor3);
     text-decoration: 500;
 }
+
+#linktime {
+  color: var(--maincolor);
+  background-color: transparent;
+  text-decoration: none;
+}
+  .info-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Style for the text */
+  .info-text {
+    display: inline;
+  }
+
+  /* Style for the info button */
+  .info-button::before {
+    content: "(?)";
+    font-size: 15px;
+    color: #f30a0a;
+  }
+
+  /* Pop-up content style */
+  .info-content {
+    display: none;
+    position: absolute;
+    background-color: #f30a0a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    top: 30px;
+    left: 100%;
+    transform: translateX(-100%);
+    z-index: 1;
+  }
+
+  /* Show the pop-up content on hover */
+  .info-button:hover .info-content {
+    display: block;
+  }
