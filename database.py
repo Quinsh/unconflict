@@ -294,7 +294,7 @@ def is_time_in_range(start_time, check_time, end_time):
 def timegraph_helper(timesforalldays_combined):
     courseexists = "XXXXXXXXX"
     coursedoesnot = "         "
-    text = "      |    MON    |    TUE    |    WED    |    THU    |    FRI    " + "\n"
+    text = "<pre>      |    MON    |    TUE    |    WED    |    THU    |    FRI    " + "<br>"
     current_time = datetime.time(8, 0)
     end_time = datetime.time(21, 0)
     interval_minutes = 20
@@ -320,6 +320,8 @@ def timegraph_helper(timesforalldays_combined):
         # Extract the time part again
         current_time = datetime_combined.time()
     
+    text += "</pre>"
+    
     return text
     
 
@@ -332,7 +334,6 @@ def timegraph(listofcourses):
                 
     return timegraph_helper(timeforalldays_combined)
     
-
     
 
 """ for testing:

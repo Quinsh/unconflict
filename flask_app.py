@@ -288,11 +288,12 @@ def aboutus_page():
 @app.route("/time", methods=["GET", "POST"])
 def time_func():
     li = request.args.get('var1', '')
+    li = li.split()
     for i, element in enumerate(li):
         if element[:2] == "L-":
-            li[i-1] += element
+            li[i-1] += "+"+element
             li.remove(element)
-            
+
     html = f'''
         <html>
         <head>
@@ -302,11 +303,11 @@ def time_func():
             <div id="div-outermost">
                 <div id="space_above"></div>
                 <div id="div-flex">
-                {timegraph(li)}    
+                {timegraph(li)}
                 </div>
             </div>
         </body>
         </html>
     '''
-    
+
     return html
