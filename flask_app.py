@@ -288,6 +288,7 @@ def aboutus_page():
 @app.route("/time", methods=["GET", "POST"])
 def time_func():
     li = request.args.get('var1', '')
+    li2 = li
     li = li.split()
     for i, element in enumerate(li):
         if element[:2] == "L-":
@@ -303,6 +304,10 @@ def time_func():
             <div id="div-outermost">
                 <div id="space_above"></div>
                 <div id="div-flex">
+                <h1 id="timetitle"><class="highlight">Visual Schedule for</h1>
+                <h1 id="timecourse"><class="highlight2">{li2}</h1>
+                </br>
+                </br>
                 {timegraph(li)}
                 </div>
             </div>
