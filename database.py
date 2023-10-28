@@ -1,5 +1,5 @@
 import csv
-from datetime import datetime
+import datetime
 
 from Structure import Structure
 from Structure import storage
@@ -57,8 +57,8 @@ def maketime(time):
         start_time_str = f"{time_list[i]} {time_list[i + 1]}"
         end_time_str = f"{time_list[i + 2]} {time_list[i + 3]}"
 
-        start_time = datetime.strptime(start_time_str, '%I:%M %p').time()
-        end_time = datetime.strptime(end_time_str, '%I:%M %p').time()
+        start_time = datetime.datetime.strptime(start_time_str, '%I:%M %p').time()
+        end_time = datetime.datetime.strptime(end_time_str, '%I:%M %p').time()
 
         fulltime.append((start_time, end_time))
 
@@ -126,6 +126,11 @@ tempset = set(templist)
 for i in range(len(templist)):
     templist[i].haslab = make_haslab(templist[i].secname, tempset)
 
+def find_w_name(coursename):
+    for course in tempset:
+        if course.secname == coursename:
+            return course
+    
 def findall_w_name(coursename):
     li = []
     for course in tempset:
@@ -283,11 +288,52 @@ def print_outputday(struct):
 
     return coursetemp[0] + coursetemp[1] + coursetemp[2] + coursetemp[3] + coursetemp[4]
 
+def is_time_in_range(start_time, check_time, end_time):
+    return start_time <= check_time <= end_time
+
+def timegraph_helper(timesforalldays_combined):
+    courseexists = "XXXXXXXXX"
+    coursedoesnot = "         "
+    text = "      |    MON    |    TUE    |    WED    |    THU    |    FRI    " + "\n"
+    current_time = datetime.time(8, 0)
+    end_time = datetime.time(21, 0)
+    interval_minutes = 20
+
+    while current_time <= end_time:
+        text += current_time.strftime("%H:%M") + " "
+        
+        for days in timesforalldays_combined:
+            if not days:
+                text += "| " + coursedoesnot + " "
+            else:
+                for timetuples in days:
+                    if is_time_in_range(timetuples[0], current_time, timetuples[1]):
+                        text += "| " + courseexists + " "
+                        break
+                else:
+                    text += "| " + coursedoesnot + " "
+        text += " <br>"
+        
+        # Convert time to datetime to perform arithmetic operations
+        datetime_combined = datetime.datetime.combine(datetime.date.today(), current_time)
+        datetime_combined += datetime.timedelta(minutes=interval_minutes)
+        # Extract the time part again
+        current_time = datetime_combined.time()
+    
+    return text
+    
 
 def timegraph(listofcourses):
-    pass
-
-print()
+    timeforalldays_combined = [[],[],[],[],[]]
+    for coursename in listofcourses:
+        course = find_w_name(coursename)
+        for i, times_each_day in enumerate(course.times_forall_days):
+            timeforalldays_combined[i] += times_each_day
+                
+    return timeforalldays_combined
+    
+print(timegraph_helper(timegraph(["CSC-161-02", "PHI-101-01", "MAT-215-02"])))
+print(timegraph(["CSC-161-02", "PHI-101-01", "MAT-215-01"]))
 
 
 """ for testing:
