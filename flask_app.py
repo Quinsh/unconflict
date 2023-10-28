@@ -89,7 +89,6 @@ def adder_page():
                         <div id="div-flex">
                             <h1 id="combtitle"><i class="highlight">{totalsch}</i> total schedules!</h1>
                             <p class="titledesc">and <i class="highlight2">{coursecomb}</i> course combinations...</p>
-                            <a href="/times">Show Times</a>
 
                             {blocks}
 
@@ -237,76 +236,3 @@ def aboutus_page():
 
         </html>
     '''
-
-@app.route("/times", methods=["GET", "POST"])
-def times():
-    global course_input
-    global combination_input
-    global include_input
-    global exclude_input
-    global returnlist
-    global allcomblength
-    global comb_no_repeat
-    global comb_clusters
-
-    if returnlist == []:
-        return'''
-        <html>
-        <p><a href="/">Click here to go home</a>
-        </html>
-        '''
-    formattedblocks = ""
-    for i in range(len(comb_no_repeat)):
-        temp = '''<div class="blocks">
-                        <p class="block-title">'''
-        temp += " ".join(comb_no_repeat[i])
-        temp += '''</p>'''
-
-        # "most frequent 2 courses are ... "
-        temp += checkfreq(comb_clusters[i])
-
-        # list of courses displayed
-        temp += "<ul>"
-        for j, course in enumerate(comb_clusters[i]):
-            temp += "<li>"
-            mostcommoncourses = return2freq(comb_clusters[i])
-            coursestring = ""
-            for c in course:
-                if c == mostcommoncourses[0] or c == mostcommoncourses[1]:
-                    coursestring += "<i id='commoncourse'>" + c + " </i>"
-                else:
-                    coursestring += c + " "
-
-            temp += coursestring
-            temp += "</li></li>"
-            temp += "     ".join(print_output(course))
-            temp += "</li>"
-        temp += "</li></li>"
-        temp += '''</ul>
-                        </div>'''
-        formattedblocks += temp
-
-    return '''
-        <html>
-        <link rel="shortcut icon" href="/static/favicon.ico">
-        <head>
-            <link rel="stylesheet" href="/static/style.css">
-        </head>
-
-        <body>
-            <div id="div-outermost">
-            <div id="space_above"></div>
-                <div id="div-flex">
-                    <h1 id="combtitle"><i class="highlight">{totalsch}</i> total schedules!</h1>
-                    <p class="titledesc">and <i class="highlight2">{coursecomb}</i> course combinations...</p>
-
-                    {blocks}
-
-                    <p><a href="/">Click here to make a new schedule</a>
-                </div>
-            </div>
-        </body>
-
-        </html>
-    '''.format(totalsch=allcomblength, coursecomb=len(comb_no_repeat), blocks=formattedblocks)
-
