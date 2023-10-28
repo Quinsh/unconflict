@@ -63,11 +63,11 @@ def adder_page():
                     coursestring = ""
                     for c in course:
                         if c == mostcommoncourses[0] or c == mostcommoncourses[1]:
-                            coursestring += "<i id='commoncourse'>" + c + " </i>"
+                            coursestring += "<i id='commoncourse'>" +  c + " </i>"
                         else:
                             coursestring += c + " "
 
-                    temp += coursestring
+                    temp += f"<p><a href='/time?var1={' '.join(course)}'>" + coursestring + "</a>"
                   ###  temp += "</li></li>"
                    ### temp += "     ".join(print_output(course))
                     temp += "</li>"
@@ -236,3 +236,8 @@ def aboutus_page():
 
         </html>
     '''
+
+
+@app.route("/time", methods=["GET", "POST"])
+def time_func():
+    return request.args.get('var1', '')
