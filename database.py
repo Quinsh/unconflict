@@ -284,6 +284,10 @@ def print_outputday(struct):
     return coursetemp[0] + coursetemp[1] + coursetemp[2] + coursetemp[3] + coursetemp[4]
 
 
+def timegraph(listofcourses):
+    pass
+
+print()
 
 
 """ for testing:
