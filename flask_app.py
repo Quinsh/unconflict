@@ -67,7 +67,7 @@ def adder_page():
                         else:
                             coursestring += c + " "
 
-                    temp += f"<p><a href='/time?var1={' '.join(course)}'>" + coursestring + "</a>"
+                    temp += f"<p><a id='linktime' href='/time?var1={' '.join(course)}'>" + coursestring + "</a>"
                   ###  temp += "</li></li>"
                    ### temp += "     ".join(print_output(course))
                     temp += "</li>"
@@ -115,23 +115,45 @@ def adder_page():
                         <h1><i class="highlight">UN</i>CONFLICT</h1>
                         <p id="subtitle">course combinations at Grinnell</p>
                         <form method="post" action=".">
-                            <p class="ins">Desired Classes <i id="smallins">(can be more than 4, should be separated by space)</i></p>
+                            <p class="ins">Desired Classes <i id="smallins">(can be more than 4, should be separated by space)</i> <span class="info-button">
+                    <span class="info-icon"></span>
+                    <span class="info-content">
+                      Enter a list of classes that you are interested in taking. Each class should be entered in the following format "AAA-### BBB-###". For example, one might enter "CSC-161 RUS-222 PHY-132 SOC-104 HIS-100 CHM-210" There is no limit to the number of classes entered.
+                    </span>
+                  </span></p>
                             <div class="form__group">
                                 <input name="course_input" class="form__input" placeholder="CSC-151 PHI-111 MAT-215" required=""/>
-                            </div>
-
-                            <p class="ins">Number of Classes in Schedule</p>
+                             </div>
+                            <p class="ins">Number of Classes in Schedule
+                            <span class="info-button">
+                             <span class="info-icon"></span>
+                              <span class="info-content">
+                                 Enter the number of classes that you want in your schedule. For instance enter "4" if you want to take four classes. This number must be less than the number of courses entered in the above field.
+                             </span>
+                            </span></p>
                             <div class="form__group">
                                 <p><input name="combination_input" class="form__input" placeholder="4" required=""/></p>
                             </div>
 
 
-                            <p class="ins">Must Include Sections</p>
+                            <p class="ins">Must Include Sections
+                            <span class="info-button">
+                             <span class="info-icon"></span>
+                            <span class="info-content">
+                              Enter specific section numbers that you want included in your schedule. For example, type "CSC-161-01" if you only want schedules with the 1st section of CSC-161 included.
+                             </span>
+                           </span></p>
                             <div class="form__group">
                                 <p><input name="include_input" class="form__input" placeholder="CSC-151-01 MAT-215-03"/></p>
                             </div>
 
-                            <p class="ins">Must Exclude Sections</p>
+                            <p class="ins">Must Exclude Sections
+                            <span class="info-button">
+                            <span class="info-icon"></span>
+                              <span class="info-content">
+                                Enter specific section numbers that you do not want included in your schedule. For example, type "CSC-161-01" if you want to take CSC-161, but not the 1st section.
+                              </span>
+                            </span></p>
                             <div class="form__group">
                                 <p><input name="exclude_input" class="form__input" placeholder="PHI-111-01"/></p>
                             </div>
@@ -164,23 +186,47 @@ def adder_page():
                 <h1><i class="highlight">UN</i>CONFLICT</h1>
                 <p id="subtitle">course combinations at Grinnell</p>
                 <form method="post" action=".">
-                    <p class="ins">Desired Classes <i id="smallins">(can be more than 4, should be separated by space)</i></p>
+                    <p class="ins">Desired Classes <i id="smallins">(can be more than 4, should be separated by space)</i>
+                    <span class="info-button">
+                    <span class="info-icon"></span>
+                    <span class="info-content">
+                      Enter a list of classes that you are interested in taking. Each class should be entered in the following format "AAA-### BBB-###". For example, one might enter "CSC-161 RUS-222 PHY-132 SOC-104 HIS-100 CHM-210" There is no limit to the number of classes entered.
+                    </span>
+                  </span></p>
                     <div class="form__group">
                         <input name="course_input" class="form__input" placeholder="CSC-151 PHI-111 MAT-215" required=""/>
                     </div>
 
-                    <p class="ins">Number of Classes in Schedule</p>
+                    <p class="ins">Number of Classes in Schedule
+                    <span class="info-button">
+                    <span class="info-icon"></span>
+                    <span class="info-content">
+                      Enter the number of classes that you want in your schedule. For instance enter "4" if you want to take four classes. This number must be less than the number of courses entered in the above field.
+                    </span>
+                  </span></p>
                     <div class="form__group">
                         <p><input name="combination_input" class="form__input" placeholder="4" required=""/></p>
                     </div>
 
 
-                    <p class="ins">Must Include Sections</p>
+                    <p class="ins">Must Include Sections
+                    <span class="info-button">
+                    <span class="info-icon"></span>
+                    <span class="info-content">
+                      Enter specific section numbers that you want included in your schedule. For example, type "CSC-161-01" if you only want schedules with the 1st section of CSC-161 included.
+                    </span>
+                  </span></p>
                     <div class="form__group">
                         <p><input name="include_input" class="form__input" placeholder="CSC-151-01 MAT-215-03"/></p>
                     </div>
 
-                    <p class="ins">Must Exclude Sections</p>
+                    <p class="ins">Must Exclude Sections
+                    <span class="info-button">
+                    <span class="info-icon"></span>
+                    <span class="info-content">
+                      Enter specific section numbers that you do not want included in your schedule. For example, type "CSC-161-01" if you want to take CSC-161, but not the 1st section.
+                    </span>
+                  </span></p>
                     <div class="form__group">
                         <p><input name="exclude_input" class="form__input" placeholder="PHI-111-01"/></p>
                     </div>
