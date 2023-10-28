@@ -5,6 +5,7 @@ from processing import solution
 from database import print_output
 from database import checkfreq
 from database import return2freq
+from database import timegraph
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
@@ -286,4 +287,26 @@ def aboutus_page():
 
 @app.route("/time", methods=["GET", "POST"])
 def time_func():
-    return request.args.get('var1', '')
+    li = request.args.get('var1', '')
+    for i, element in enumerate(li):
+        if element[:2] == "L-":
+            li[i-1] += element
+            li.remove(element)
+            
+    html = f'''
+        <html>
+        <head>
+            <link rel="stylesheet" href="/static/style.css">
+        </head>
+        <body>
+            <div id="div-outermost">
+                <div id="space_above"></div>
+                <div id="div-flex">
+                {timegraph(li)}    
+                </div>
+            </div>
+        </body>
+        </html>
+    '''
+    
+    return html

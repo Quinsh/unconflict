@@ -330,11 +330,10 @@ def timegraph(listofcourses):
         for i, times_each_day in enumerate(course.times_forall_days):
             timeforalldays_combined[i] += times_each_day
                 
-    return timeforalldays_combined
+    return timegraph_helper(timeforalldays_combined)
     
-print(timegraph_helper(timegraph(["CSC-161-02", "PHI-101-01", "MAT-215-02"])))
-print(timegraph(["CSC-161-02", "PHI-101-01", "MAT-215-01"]))
 
+    
 
 """ for testing:
 courselist = allClasses.list
