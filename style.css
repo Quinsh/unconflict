@@ -14,7 +14,7 @@
     --bgcolor: rgb(245, 245, 245);
     --pointcolor: #E84A5F;
     --pointcolor2: #e8c84a;
-    --pointcolor3: #31499e;
+    --pointcolor3: #35af56;
     --maincolor: #2A363B;
     --slightcolor: rgb(96, 96, 96);
     --inputfield: rgb(253, 253, 253);
@@ -38,6 +38,7 @@ i.highlight2 {
     color: var(--pointcolor2);
     font-weight: 800;
 }
+
 
 p.ins {
     color: var(--slightcolor);
@@ -66,6 +67,11 @@ i#smallins{
 h1 {
     font-size: 2.5em;
     font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 500;
 }
 
 h1#combtitle {
@@ -294,3 +300,4 @@ p.aboutus_slight{
   .info-button:hover .info-content {
     display: block;
   }
+
