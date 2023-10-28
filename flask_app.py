@@ -90,6 +90,7 @@ def adder_page():
                         <div id="div-flex">
                             <h1 id="combtitle"><i class="highlight">{totalsch}</i> total schedules!</h1>
                             <p class="titledesc">and <i class="highlight2">{coursecomb}</i> course combinations...</p>
+                            <p><i>(click on a schedule to see it visually)</i></p>
 
                             {blocks}
 
@@ -298,6 +299,7 @@ def time_func():
 
     html = f'''
         <html>
+        <link rel="shortcut icon" href="/static/favicon.ico">
         <head>
             <link rel="stylesheet" href="/static/style.css">
         </head>
@@ -310,6 +312,9 @@ def time_func():
                 </br>
                 </br>
                 {timegraph(li)}
+                </br>
+                </br>
+                <p><a href="/">Click here to make a new schedule</a>
                 </div>
             </div>
         </body>
