@@ -6,6 +6,7 @@ def solution(course_input, combination_input, include_input, exclude_input):
     userinput_comblength = int(combination_input)
     userinput_include = list(include_input.rstrip().split())
     userinput_exclude = list(exclude_input.rstrip().split())
+    userinput_courses_include = list(include_input.rstrip().split())
     # combinations (with Structures)
     all_combinations = algorithm.generate_combinations(algorithm.possible_courses(userinput_courses),
                                                        userinput_comblength)
@@ -21,6 +22,10 @@ def solution(course_input, combination_input, include_input, exclude_input):
 
     if userinput_exclude != []:
         new_list = [sublist for sublist in all_combinations_w_names if all(string not in sublist for string in userinput_exclude)]
+        all_combinations_w_names = new_list
+    
+    if userinput_courses_include != []:
+        new_list = [sublist for sublist in all_combinations_w_names if any(string in sublist for string in userinput_courses_include)]
         all_combinations_w_names = new_list
 
     all_comb_length = len(all_combinations_w_names)
