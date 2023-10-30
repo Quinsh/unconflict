@@ -296,6 +296,7 @@ def time_func():
             li[i-1] += "+"+element
             li.remove(element)
     li2 = " ".join(str(li3) for li3 in li)
+    li4 = " ".join(print_output(li))
 
     html = f'''
         <html>
@@ -308,8 +309,9 @@ def time_func():
                 <div id="space_above"></div>
                 <div id="div-flex">
                 <h2 id="timetitle"><class="highlight">Visual Schedule for</h2>
-                <h2 id="timecourse"><class="highlight2">{li2}</h2>
+                <h2 id="timecourse">{li2}</h2>
                 </br>
+                <p id="vis-subt">{li4}</p>
                 </br>
                 {timegraph(li)}
                 </br>
