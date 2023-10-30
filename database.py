@@ -130,7 +130,7 @@ def find_w_name(coursename):
     for course in tempset:
         if course.secname == coursename:
             return course
-    
+
 def findall_w_name(coursename):
     li = []
     for course in tempset:
@@ -256,9 +256,9 @@ def print_output(struct):
                         temp += day_print(m)
                         k += 1
                 if d == len(classtemp.days) - 1:
-                    temp += time_print(classtemp.time[d][:5]) + ";<br></p>"
+                    temp += time_print(classtemp.time[d][:5]) + "<br></p>"
                 else:
-                    temp += time_print(classtemp.time[d]) + ";<br>"
+                    temp += time_print(classtemp.time[d]) + "<br>"
 
         schedtemp.append(temp)
     return schedtemp
@@ -301,7 +301,7 @@ def timegraph_helper(timesforalldays_combined):
 
     while current_time <= end_time:
         text += current_time.strftime("%H:%M") + " "
-        
+
         for days in timesforalldays_combined:
             if not days:
                 text += "| " + coursedoesnot + " "
@@ -313,17 +313,17 @@ def timegraph_helper(timesforalldays_combined):
                 else:
                     text += "| " + coursedoesnot + " "
         text += " <br>"
-        
+
         # Convert time to datetime to perform arithmetic operations
         datetime_combined = datetime.datetime.combine(datetime.date.today(), current_time)
         datetime_combined += datetime.timedelta(minutes=interval_minutes)
         # Extract the time part again
         current_time = datetime_combined.time()
-    
+
     text += "</pre>"
-    
+
     return text
-    
+
 
 def timegraph(listofcourses):
     timeforalldays_combined = [[],[],[],[],[]]
@@ -331,10 +331,10 @@ def timegraph(listofcourses):
         course = find_w_name(coursename)
         for i, times_each_day in enumerate(course.times_forall_days):
             timeforalldays_combined[i] += times_each_day
-                
+
     return timegraph_helper(timeforalldays_combined)
-    
-    
+
+
 
 """ for testing:
 courselist = allClasses.list
