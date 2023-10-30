@@ -74,6 +74,11 @@ h2 {
     font-weight: 500;
 }
 
+.vis-subt {
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
 h1#combtitle {
     font-size: 3.0em;
     margin-bottom: 10px;
@@ -207,6 +212,11 @@ p.aboutus_slight{
     width: 50%;
 }
 
+h2#timecourse{
+      margin-bottom: 10px;
+}
+
+
 @keyframes gunwoo {
     from {
         color: var(--slightcolor);
@@ -300,4 +310,6 @@ p.aboutus_slight{
   .info-button:hover .info-content {
     display: block;
   }
+
+
 
