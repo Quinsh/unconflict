@@ -8,7 +8,7 @@ anyone can use freely. For experience go to http://www.unconflictgrinnell.com/
 we use brute force method (using recursive backtracking) to come up with different course schedules and sort out the best based on diverse criteria.
 
 ## Responsibles
-Gun Woo Kim (closhu) | Samuel Grayson (doc4science) | Rhys Howell (Howell45)
+Gun Woo Kim (Quinsh) | Samuel Grayson (doc4science) | Rhys Howell (Howell45)
 
 GunWoo: algorithm design/dev, feature dev.
 
