@@ -1,0 +1,578 @@
+﻿REG_ID,SEC_CUR_STAT,SEC_NAME,SEC_TITLE,Days,Time,Faculty,FAC_ID1_PREFERRED_LN,FAC_ID2_PREFERRED_LN,FAC_ID2_PREFERRED_LN1,SeatsAvailableScheduledCapacity,CR_MIN,CR_MAX,Textbox8
+94338,Active,ALS-101-01,Alternate Language Study,AR  ,,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,45 /45 ,1.00000,,RECORD COUNT 576
+94340,Active,ALS-111-01,Brazilian Portuguese I,AR  ,,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,8  /8  ,2.00000,,RECORD COUNT 576
+94341,Active,ALS-112-01,Brazilian Portuguese II,AR  ,,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,8  /8  ,2.00000,,RECORD COUNT 576
+94342,Active,ALS-113-01,Brazilian Portuguese III,AR  ,,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,8  /8  ,2.00000,,RECORD COUNT 576
+94343,Active,ALS-114-01,Brazilian Portuguese IV,AR  ,,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,8  /8  ,2.00000,,RECORD COUNT 576
+94344,Active,ALS-121-01,Korean I,AR  ,,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,8  /8  ,2.00000,,RECORD COUNT 576
+94345,Active,ALS-122-01,Korean II,AR  ,,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,8  /8  ,2.00000,,RECORD COUNT 576
+94346,Active,ALS-123-01,Korean III,AR  ,,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,8  /8  ,2.00000,,RECORD COUNT 576
+94347,Active,ALS-124-01,Korean IV,AR  ,,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,8  /8  ,2.00000,,RECORD COUNT 576
+95069,Active,AMS-130-01,Intro to American Studies,MW  ,10:00 AM - 11:20 AM  ,"Reznick, Jordan ","Reznick, Jordan",,,25 /25 ,4.00000,,RECORD COUNT 576
+94417,Active,AMS-220-01,Racing Through Genetics,TTH  ,8:30 AM  - 9:50 AM  ,"Gregg-Jolly, Leslie A ","Gregg-Jolly, Leslie",,,20 /20 ,4.00000,,RECORD COUNT 576
+94412,Active,AMS-295-01,ST: The Camera and the Body,MW  ,1:00 PM  - 2:20 PM  ,"Reznick, Jordan ","Reznick, Jordan",,,20 /20 ,4.00000,,RECORD COUNT 576
+94235,Active,ANT-104-01,Anthropological Inquiries,MWF  ,8:00 AM  - 8:50 AM  ,"Staff, - ","Staff, -",,,25 /25 ,4.00000,,RECORD COUNT 576
+94236,Active,ANT-104-02,Anthropological Inquiries,MWF  ,10:00 AM - 10:50 AM  ,"Staff, - ","Staff, -",,,25 /25 ,4.00000,,RECORD COUNT 576
+94237,Active,ANT-104-03,Anthropological Inquiries,MWF  ,11:00 AM - 11:50 AM  ,"Demars, Lily ","Demars, Lily",,,25 /25 ,4.00000,,RECORD COUNT 576
+94238,Active,ANT-104-04,Anthropological Inquiries,MWF  ,2:00 PM  - 2:50 PM  ,"Demars, Lily ","Demars, Lily",,,25 /25 ,4.00000,,RECORD COUNT 576
+94239,Active,ANT-104-05,Anthropological Inquiries,TTH  ,2:30 PM  - 3:50 PM  ,"Roper, Jackson Montgomery ","Roper, Monty",,,25 /25 ,4.00000,,RECORD COUNT 576
+94244,Active,ANT-205-01,Human Evolution,MWF  ,9:00 AM  - 9:50 AM  ,"Demars, Lily ","Demars, Lily",,,20 /20 ,4.00000,,RECORD COUNT 576
+94240,Active,ANT-210-01,"Illness, Healing and Culture",MWF  ,9:00 AM  - 9:50 AM  ,"Tapias, Maria ","Tapias, Maria",,,20 /20 ,4.00000,,RECORD COUNT 576
+94241,Active,ANT-210-02,"Illness, Healing and Culture",MWF  ,1:00 PM  - 1:50 PM  ,"Tapias, Maria ","Tapias, Maria",,,20 /20 ,4.00000,,RECORD COUNT 576
+95136,Active,ANT-212-01,Graphic Medicine,MW  ,2:30 PM  - 3:50 PM  ,"Tapias, Maria ","Tapias, Maria",,,20 /20 ,4.00000,,RECORD COUNT 576
+94419,Active,ANT-220-01,Racing Through Genetics,TTH  ,8:30 AM  - 9:50 AM  ,"Gregg-Jolly, Leslie A ","Gregg-Jolly, Leslie",,,20 /20 ,4.00000,,RECORD COUNT 576
+94243,Active,ANT-265-01,Ethngrphy of Comm: Mthd & Thry,TTH  ,8:30 AM  - 9:50 AM  ,"Kohl, Owen N ","Kohl, Owen",,,20 /20 ,4.00000,,RECORD COUNT 576
+94242,Active,ANT-280-01,Theories of Culture,TTH  ,1:00 PM  - 2:20 PM  ,"Kohl, Owen N ","Kohl, Owen",,,20 /20 ,4.00000,,RECORD COUNT 576
+95425,Active,ANT-291-01,Meth Empirical Investigation,MW  ,10:00 AM - 11:20 AM  ,"Escandell, Xavier ","Escandell, Xavier",,,18 /18 ,4.00000,,RECORD COUNT 576
+95426,Active,ANT-291-02,Meth Empirical Investigation,MW  ,1:00 PM  - 2:20 PM  ,"Escandell, Xavier ","Escandell, Xavier",,,18 /18 ,4.00000,,RECORD COUNT 576
+95147,Active,ANT-295-02,ST: Stone Tools,TTH  ,2:00 PM  - 3:50 PM  ,"Kamp, Kathryn; Whittaker, John C","Kamp, Kathryn","Whittaker, John","Whittaker, John",8  /8  ,2.00000,,RECORD COUNT 576
+94245,Active,ANT-326-01,Anthropology of Religion,MWF  ,3:00 PM  - 3:50 PM  ,"Andelson, Jonathan ","Andelson, Jonathan",,,15 /15 ,4.00000,,RECORD COUNT 576
+95439,Active,ANT-388-01,Landscapes Soc Inequality,MW  ,10:00 AM - 11:20 AM  ,"Ng, Laura Wai ","Ng, Laura",,,15 /15 ,4.00000,,RECORD COUNT 576
+95137,Cancelled,ANT-88-01,Landscapes Soc Inequality,MW  ,10:00 AM - 11:20 AM  ,"Ng, Laura Wai ","Ng, Laura",,,15 /15 ,4.00000,,RECORD COUNT 576
+94302,Active,ARB-101-01,Beginning Arabic I,MTWTHF  ,10:00 AM - 10:50 AM  ,"Staff, - ","Staff, -",,,25 /25 ,5.00000,,RECORD COUNT 576
+94303,Active,ARB-221-01,Intermediate Arabic I,MTWF  ,11:00 AM - 11:50 AM  ,"Staff, - ","Staff, -",,,20 /20 ,4.00000,,RECORD COUNT 576
+94257,Active,ARH-103-01,Intro to Art History,MWF  ,10:00 AM - 10:50 AM  ,"Rivera, Alfredo ","Rivera, Fredo",,,25 /25 ,4.00000,,RECORD COUNT 576
+94258,Active,ARH-103-02,Intro to Art History,MWF  ,1:00 PM  - 1:50 PM  ,"Rivera, Alfredo ","Rivera, Fredo",,,25 /25 ,4.00000,,RECORD COUNT 576
+94397,Active,ARH-295-01,ST: Modern & Cont S Asian Art,MWF  ,10:00 AM - 10:50 AM  ,"Mackenzie, Michael ","Mackenzie, Michael",,,20 /20 ,4.00000,,RECORD COUNT 576
+94411,Active,ARH-295-02,ST: The Camera and the Body,MW  ,1:00 PM  - 2:20 PM  ,"Reznick, Jordan ","Reznick, Jordan",,,20 /20 ,4.00000,,RECORD COUNT 576
+94764,Active,ARH-295-03,ST: Medieval Art,TTH  ,1:00 PM  - 2:20 PM  ,"Staff, - ","Staff, -",,,20 /20 ,4.00000,,RECORD COUNT 576
+94401,Active,ARH-295-05,ST: From Edo to Istanbu,TTH  ,2:30 PM  - 3:50 PM  ,"Shea, Eiren ","Shea, Eiren",,,20 /20 ,4.00000,,RECORD COUNT 576
+94260,Active,ARH-400-01,Seminar in Art History,MWF  ,3:00 PM  - 3:50 PM  ,"Rivera, Alfredo ","Rivera, Fredo",,,12 /12 ,4.00000,,RECORD COUNT 576
+94249,Active,ART-111-01,Introduction to the Studio,MW  ,8:00 AM  - 10:50 AM  ,"Staff, - ","Staff, -",,,15 /15 ,4.00000,,RECORD COUNT 576
+94250,Active,ART-111-02,Introduction to the Studio,MW  ,1:00 PM  - 3:50 PM  ,"Staff, - ","Staff, -",,,15 /15 ,4.00000,,RECORD COUNT 576
+94252,Active,ART-111-03,Introduction to the Studio,TTH  ,8:00 AM  - 10:50 AM  ,"Kluber, Matthew ","Kluber, Matthew",,,15 /15 ,4.00000,,RECORD COUNT 576
+94251,Active,ART-111-04,Introduction to the Studio,TTH  ,1:00 PM  - 3:50 PM  ,"Kluber, Matthew ","Kluber, Matthew",,,15 /15 ,4.00000,,RECORD COUNT 576
+94306,Active,ART-155-01,Introduction to Film Studies,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Tavares, Nicole M ","Tavares, Nicky",,,25 /25 ,4.00000,,RECORD COUNT 576
+94254,Active,ART-236-01,Print Media,MW  ,1:00 PM  - 3:50 PM  ,"Kluber, Matthew ","Kluber, Matthew",,,15 /15 ,4.00000,,RECORD COUNT 576
+94253,Active,ART-238-01,Painting,TTH  ,1:00 PM  - 3:50 PM  ,"Kaufman, Andrew ","Kaufman, Andrew",,,15 /15 ,4.00000,,RECORD COUNT 576
+94255,Active,ART-240-01,Ceramics,MW  ,8:00 AM  - 10:50 AM  ,"Strangfeld, Robin ","Strangfeld, Robin",,,15 /15 ,4.00000,,RECORD COUNT 576
+94308,Active,ART-255-01,Fundamentals Video Production,TTH  ,1:00 PM  - 3:50 PM  ,"Tavares, Nicole M ","Tavares, Nicky",,,15 /15 ,4.00000,,RECORD COUNT 576
+94256,Active,ART-310-01,Advanced Studio: Hybrid Media,MW  ,1:00 PM  - 3:50 PM  ,"Strangfeld, Robin ","Strangfeld, Robin",,,12 /12 ,4.00000,,RECORD COUNT 576
+95440,Active,ASC-101-01,Scholars' Seminar,TTH  ,1:00 PM  - 2:20 PM  ,"Backous, Belinda S; Ferraro, Katherine Frances","Backous, Belinda","Ferraro, Kate","Ferraro, Kate",20 /20 ,2.00000,,RECORD COUNT 576
+94261,Active,BCM-262-01,Intro Biological Chem w/lab,MWF  ,9:00 AM  - 9:50 AM  ,"Bailey, Charvann ","Bailey, Charvann",,,24 /24 ,4.00000,,RECORD COUNT 576
+94262,Active,BCM-262L-01,Intro to Biological Chem Lab,TH  ,1:00 PM  - 3:50 PM  ,"Bailey, Charvann ","Bailey, Charvann",,,12 /12 ,0.00000,,RECORD COUNT 576
+94263,Active,BCM-262L-02,Intro to Biological Chem Lab,F  ,1:00 PM  - 3:50 PM  ,"Levandoski, Mark M ","Levandoski, Mark",,,12 /12 ,0.00000,,RECORD COUNT 576
+94360,Active,BIO-150-01,Intro to Biolgcl Inqry w/lab,MWF  ,8:00 AM  - 9:50 AM  ,"Praitis, Vida ","Praitis, Vida",,,24 /24 ,4.00000,,RECORD COUNT 576
+94361,Active,BIO-150-02,Intro to Biolgcl Inqry w/lab,MW  ,8:00 AM  - 10:50 AM  ,"Lafontant, Pascal ","Lafontant, Pascal",,,24 /24 ,4.00000,,RECORD COUNT 576
+94363,Active,BIO-150-03,Intro to Biolgcl Inqry w/lab,MW  ,1:00 PM  - 3:50 PM  ,"DeRidder, Benjamin ","DeRidder, Benjamin",,,24 /24 ,4.00000,,RECORD COUNT 576
+94364,Active,BIO-150-04,Intro to Biolgcl Inqry w/lab,TTH TTH,1:00 PM  - 3:50 PM 1:00 PM  - 3:50 PM ,"Dong, Caroline ","Dong, Caroline",,,24 /24 ,4.00000,,RECORD COUNT 576
+94370,Active,BIO-220-01,Racing Through Genetics,TTH  ,8:30 AM  - 9:50 AM  ,"Gregg-Jolly, Leslie A ","Gregg-Jolly, Leslie",,,20 /20 ,4.00000,,RECORD COUNT 576
+94371,Active,BIO-240-01,Animal Behavior w/lab,MWF W,10:00 AM - 10:50 AM 1:00 PM  - 3:50 PM ,"Queathem, Elizabeth J ","Queathem, Liz",,,12 /12 ,4.00000,,RECORD COUNT 576
+94365,Active,BIO-251-01,"Molcls, Cells, & Orgnsm w/lab",MWF W,9:00 AM  - 9:50 AM 1:00 PM  - 3:50 PM ,"Staff, - ","Staff, -",,,24 /24 ,4.00000,,RECORD COUNT 576
+94366,Active,BIO-251-02,"Molcls, Cells, & Orgnsm w/lab",MWF T,11:00 AM - 11:50 AM 1:00 PM  - 3:50 PM ,"Staff, - ","Staff, -",,,24 /24 ,4.00000,,RECORD COUNT 576
+94367,Active,BIO-251-03,"Molcls, Cells, & Orgnsm w/lab",MWF TH,3:00 PM  - 3:50 PM 8:00 AM  - 10:50 AM,"Staff, - ","Staff, -",,,24 /24 ,4.00000,,RECORD COUNT 576
+94368,Active,BIO-251-04,"Molcls, Cells, & Orgnsm w/lab",T TH,10:00 AM - 11:50 AM 1:00 PM  - 3:50 PM ,"Staff, - ","Staff, -",,,24 /24 ,4.00000,,RECORD COUNT 576
+95068,Active,BIO-295-01,ST: People in Biology,M  ,1:00 PM  - 3:50 PM  ,"Gregg-Jolly, Leslie A ","Gregg-Jolly, Leslie",,,30 /30 ,2.00000,,RECORD COUNT 576
+94372,Active,BIO-325-01,Fungal Biology w/lab,T T,10:00 AM - 11:50 AM 1:00 PM  - 3:50 PM ,"Jacobson, Kathryn M ","Jacobson, Kathy",,,12 /12 ,4.00000,,RECORD COUNT 576
+94373,Active,BIO-365-01,Microbiology w/lab,MF W,10:00 AM - 11:20 AM 9:00 AM  - 11:50 AM,"Hinsa-Leasure, Shannon ","Hinsa-Leasure, Shannon",,,12 /12 ,4.00000,,RECORD COUNT 576
+94374,Active,BIO-373-01,Mechanisms of Evolution,MWF TH,9:00 AM  - 9:50 AM 1:00 PM  - 3:50 PM ,"Cooper, Idelle A ","Cooper, Idelle",,,18 /18 ,4.00000,,RECORD COUNT 576
+94375,Active,BIO-380-01,Molecular Biology w/lab,T F,10:00 AM - 11:50 AM 1:00 PM  - 3:50 PM ,"DeRidder, Benjamin ","DeRidder, Benjamin",,,12 /12 ,4.00000,,RECORD COUNT 576
+95445,Active,BIO-390-01,Readings in Biology,MW  ,1:00 PM  - 2:20 PM  ,"Bailey, Charvann ","Bailey, Charvann",,,18 /18 ,2.00000,,RECORD COUNT 576
+94416,Active,BIO-390-02,Readings in Biology,F  ,1:00 PM  - 3:50 PM  ,"Cooper, Idelle A ","Cooper, Idelle",,,18 /18 ,2.00000,,RECORD COUNT 576
+94383,Active,CHI-101-01,Beginning Chinese I,MWF  ,10:00 AM - 10:50 AM  ,"Yang, Dong ","Yang, Dong",,,25 /25 ,4.00000,,RECORD COUNT 576
+94384,Active,CHI-101L-01,Beginning Chinese I Lab,TTH  ,10:00 AM - 10:50 AM  ,"Staff, - ","Staff, -",,,15 /15 ,0.00000,,RECORD COUNT 576
+94385,Active,CHI-101L-02,Beginning Chinese I Lab,TTH  ,2:00 PM  - 2:50 PM  ,"Staff, - ","Staff, -",,,15 /15 ,0.00000,,RECORD COUNT 576
+94386,Active,CHI-221-01,Intermediate Chinese I,MWF TTH,11:00 AM - 11:50 AM 1:00 PM  - 1:50 PM ,"Feng, Jin; Staff, -","Feng, Jin","Staff, -","Staff, -",18 /18 ,4.00000,,RECORD COUNT 576
+94387,Active,CHI-331-01,Advanced Chinese I,MTWTHF  ,3:00 PM  - 3:50 PM  ,"Feng, Jin; Staff, -","Feng, Jin","Staff, -","Staff, -",18 /18 ,4.00000,,RECORD COUNT 576
+94388,Active,CHI-461-01,Classical Chinese,MWF  ,1:00 PM  - 1:50 PM  ,"Yang, Dong ","Yang, Dong",,,12 /12 ,4.00000,,RECORD COUNT 576
+94265,Active,CHM-129-01,General Chemistry w/lab,MWF  ,8:00 AM  - 9:50 AM  ,"Kamunde-Devonish, Maisha ","Kamunde-Devonish, Maisha",,,24 /24 ,4.00000,,RECORD COUNT 576
+94266,Active,CHM-129-02,General Chemistry w/lab,MWF  ,10:00 AM - 10:50 AM  ,"Trimmer, Elizabeth E ","Trimmer, Elizabeth",,,24 /24 ,4.00000,,RECORD COUNT 576
+94267,Active,CHM-129-03,General Chemistry w/lab,MWF  ,11:00 AM - 11:50 AM  ,"Leggans, Erick K ","Leggans, Erick",,,24 /24 ,4.00000,,RECORD COUNT 576
+94268,Active,CHM-129L-01,General Chemistry Lab,M  ,1:00 PM  - 3:50 PM  ,"Kamunde-Devonish, Maisha ","Kamunde-Devonish, Maisha",,,24 /24 ,0.00000,,RECORD COUNT 576
+94269,Active,CHM-129L-02,General Chemistry Lab,TH  ,1:00 PM  - 3:50 PM  ,"Staff, - ","Staff, -",,,24 /24 ,0.00000,,RECORD COUNT 576
+94270,Active,CHM-210-01,Analytical Chemistry w/Lab,MWF T,9:00 AM  - 9:50 AM 1:00 PM  - 3:50 PM ,"MacInnes, Molly M; Levandoski, Mark M","MacInnes, Molly","Levandoski, Mark","Levandoski, Mark",24 /24 ,4.00000,,RECORD COUNT 576
+94271,Active,CHM-221-01,Organic Chemistry I w/lab,MWF  ,8:00 AM  - 8:50 AM  ,"Sieck, Stephen R ","Sieck, Steve",,,24 /24 ,4.00000,,RECORD COUNT 576
+94272,Active,CHM-221-02,Organic Chemistry I w/lab,MWF  ,9:00 AM  - 9:50 AM  ,"Mobley, Thomas Andrew ","Mobley, Andy",,,24 /24 ,4.00000,,RECORD COUNT 576
+94273,Active,CHM-221-03,Organic Chemistry I w/lab,MWF  ,10:00 AM - 10:50 AM  ,"Swartz, James E ","Swartz, Jim",,,24 /24 ,4.00000,,RECORD COUNT 576
+94274,Active,CHM-221-04,Organic Chemistry I w/lab,TTH  ,8:30 AM  - 9:50 AM  ,"Leggans, Erick K ","Leggans, Erick",,,24 /24 ,4.00000,,RECORD COUNT 576
+94275,Active,CHM-221L-01,Organic Chemistry I Lab,M M,1:00 PM  - 3:50 PM 1:00 PM  - 3:50 PM ,"Leggans, Erick K ","Leggans, Erick",,,20 /20 ,0.00000,,RECORD COUNT 576
+94276,Active,CHM-221L-02,Organic Chemistry I Lab,T T,8:00 AM  - 10:50 AM 8:00 AM  - 10:50 AM,"Sieck, Stephen R ","Sieck, Steve",,,20 /20 ,0.00000,,RECORD COUNT 576
+94277,Active,CHM-221L-03,Organic Chemistry I Lab,T T,1:00 PM  - 3:50 PM 1:00 PM  - 3:50 PM ,"Trimmer, Elizabeth E ","Trimmer, Elizabeth",,,20 /20 ,0.00000,,RECORD COUNT 576
+94278,Active,CHM-221L-04,Organic Chemistry I Lab,W W,1:00 PM  - 3:50 PM 1:00 PM  - 3:50 PM ,"Swartz, James E ","Swartz, Jim",,,20 /20 ,0.00000,,RECORD COUNT 576
+94279,Active,CHM-221L-05,Organic Chemistry I Lab,TH TH,1:00 PM  - 3:50 PM 1:00 PM  - 3:50 PM ,"Mobley, Thomas Andrew ","Mobley, Andy",,,20 /20 ,0.00000,,RECORD COUNT 576
+94280,Active,CHM-221L-06,Organic Chemistry I Lab,F F,1:00 PM  - 3:50 PM 1:00 PM  - 3:50 PM ,"Sieck, Stephen R ","Sieck, Steve",,,20 /20 ,0.00000,,RECORD COUNT 576
+94281,Active,CHM-358-01,Instrumental Analysis w/lab,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"MacInnes, Molly M ","MacInnes, Molly",,,12 /12 ,4.00000,,RECORD COUNT 576
+95456,Active,CHM-358L-01,Intsrumental Analysis Lab,T  ,1:00 PM  - 3:50 PM  ,"MacInnes, Molly M ","MacInnes, Molly",,,12 /12 ,0.00000,,RECORD COUNT 576
+95457,Active,CHM-358L-02,Intsrumental Analysis Lab,TH  ,1:00 PM  - 3:50 PM  ,"MacInnes, Molly M ","MacInnes, Molly",,,12 /12 ,0.00000,,RECORD COUNT 576
+94282,Active,CHM-363-01,Physical Chemistry I w/lab,MWF  ,9:00 AM  - 9:50 AM  ,"Staff, - ","Staff, -",,,18 /18 ,4.00000,,RECORD COUNT 576
+94283,Active,CHM-363-02,Physical Chemistry I w/lab,MWF  ,10:00 AM - 10:50 AM  ,"Ortiz, Corasi ","Ortiz, Cori",,,18 /18 ,4.00000,,RECORD COUNT 576
+94284,Active,CHM-363L-01,Physical Chemistry I Lab,M  ,1:00 PM  - 3:50 PM  ,"Staff, - ","Staff, -",,,12 /12 ,0.00000,,RECORD COUNT 576
+94285,Active,CHM-363L-02,Physical Chemistry I Lab,T  ,8:00 AM  - 10:50 AM  ,"Marzluff, Elaine M ","Marzluff, Elaine",,,12 /12 ,0.00000,,RECORD COUNT 576
+94286,Active,CHM-363L-03,Physical Chemistry I Lab,W  ,1:00 PM  - 3:50 PM  ,"Staff, - ","Staff, -",,,12 /12 ,0.00000,,RECORD COUNT 576
+95203,Active,CHM-395-01,ST: Adv NMR Spectroscopy,WF  ,1:00 PM  - 3:50 PM  ,"Mobley, Thomas Andrew ","Mobley, Andy",,,12 /12 ,4.00000,,RECORD COUNT 576
+94354,Active,CLS-231-01,History of Ancient Philosophy,TTH  ,8:30 AM  - 9:50 AM  ,"Cummins, W Joseph ","Cummins, W",,,25 /25 ,4.00000,,RECORD COUNT 576
+94389,Active,CLS-258-01,The Roman Empire,MW  ,8:30 AM  - 9:50 AM  ,"Cummins, Monessa F ","Cummins, Monessa",,,25 /25 ,4.00000,,RECORD COUNT 576
+95343,Active,CLS-395-01,ST: Emotions of the Greeks,MW  ,1:00 PM  - 2:20 PM  ,"Dixon, Dustin ","Dixon, Dustin",,,15 /15 ,4.00000,,RECORD COUNT 576
+94395,Active,CLS-495-01,Senior Seminar,F  ,1:00 PM  - 3:50 PM  ,"Cummins, W Joseph ","Cummins, W",,,15 /15 ,4.00000,,RECORD COUNT 576
+95376,Active,CSC-151-01,Functional Prob Solving w/lab,MWF  ,8:30 AM  - 9:50 AM  ,"Osera, Peter-Michael Santos ","Osera, Peter-Michael",,,24 /24 ,4.00000,,RECORD COUNT 576
+95377,Active,CSC-151-02,Functional Prob Solving w/lab,MWF  ,10:00 AM - 11:20 AM  ,"Liu, Yuandong ","Liu, Cyrus",,,24 /24 ,4.00000,,RECORD COUNT 576
+95378,Active,CSC-151-03,Functional Prob Solving w/lab,MWF  ,2:30 PM  - 3:50 PM  ,"Perlmutter, Leah R ","Perlmutter, Leah",,,24 /24 ,4.00000,,RECORD COUNT 576
+95379,Active,CSC-161-01,Imperative Prob Solving w/lab,MWF  ,8:30 AM  - 9:50 AM  ,"Eikmeier, Nicole E ","Eikmeier, Nicole",,,24 /24 ,4.00000,,RECORD COUNT 576
+95380,Active,CSC-161-02,Imperative Prob Solving w/lab,MWF  ,1:00 PM  - 2:20 PM  ,"Weinman, Jerod ","Weinman, Jerod",,,24 /24 ,4.00000,,RECORD COUNT 576
+95167,Active,CSC-207-01,"OO Prob Slvg, Data Struc/Alg",TTH  ,8:00 AM  - 9:50 AM  ,"Rebelsky, Samuel A ","Rebelsky, Samuel",,,24 /24 ,4.00000,,RECORD COUNT 576
+95168,Active,CSC-207-02,"OO Prob Slvg, Data Struc/Alg",TTH  ,2:00 PM  - 3:50 PM  ,"Rebelsky, Samuel A ","Rebelsky, Samuel",,,24 /24 ,4.00000,,RECORD COUNT 576
+95169,Active,CSC-208-01,Discrete Structures,MWF  ,3:00 PM  - 3:50 PM  ,"Osera, Peter-Michael Santos ","Osera, Peter-Michael",,,20 /20 ,4.00000,,RECORD COUNT 576
+95171,Active,CSC-213-01,Oper Sys/Paral Algor w/lab,MWF  ,10:00 AM - 11:50 AM  ,"Curtsinger, Charles Miskimen ","Curtsinger, Charlie",,,24 /24 ,4.00000,,RECORD COUNT 576
+95172,Active,CSC-213-02,Oper Sys/Paral Algor w/lab,MWF  ,2:00 PM  - 3:50 PM  ,"Curtsinger, Charles Miskimen ","Curtsinger, Charlie",,,24 /24 ,4.00000,,RECORD COUNT 576
+95340,Active,CSC-262-01,Computer Vision,MW  ,10:00 AM - 11:50 AM  ,"Weinman, Jerod ","Weinman, Jerod",,,18 /18 ,4.00000,,RECORD COUNT 576
+95173,Active,CSC-301-01,Analysis of Algorithms,TTH  ,2:30 PM  - 3:50 PM  ,"Autry, Eric Arthur ","Autry, Eric",,,20 /20 ,4.00000,,RECORD COUNT 576
+95174,Active,CSC-324-01,Software Design & Dev w/Lab,MWF  ,10:00 AM - 11:50 AM  ,"Eliott, Fernanda M. ","Eliott, Fernanda",,,16 /16 ,4.00000,,RECORD COUNT 576
+95176,Active,CSC-324-02,Software Design & Dev w/Lab,MWF  ,2:00 PM  - 3:50 PM  ,"Eliott, Fernanda M. ","Eliott, Fernanda",,,16 /16 ,4.00000,,RECORD COUNT 576
+95338,Active,CSC-341-01,"Auto, Frm Lng, Cmp Cmplxty",TTH  ,8:30 AM  - 9:50 AM  ,"Eikmeier, Nicole E ","Eikmeier, Nicole",,,20 /20 ,4.00000,,RECORD COUNT 576
+95339,Active,CSC-341-02,"Auto, Frm Lng, Cmp Cmplxty",TTH  ,1:00 PM  - 2:20 PM  ,"Eikmeier, Nicole E ","Eikmeier, Nicole",,,20 /20 ,4.00000,,RECORD COUNT 576
+95341,Active,CSC-395-01,"ST: Algorithms, Ethics & Soc",MW  ,10:00 AM - 11:50 AM  ,"Perlmutter, Leah R ","Perlmutter, Leah",,,20 /20 ,4.00000,,RECORD COUNT 576
+94746,Active,DST-154-01,Evolution of Technology,TTH  ,2:30 PM  - 3:50 PM  ,"Bauder, Julia ","Bauder, Julia",,,25 /25 ,4.00000,,RECORD COUNT 576
+95449,Active,DST-295-01,ST: Dig Prjct Dev & Practice,TTH  ,2:30 PM  - 3:50 PM  ,"Cave, Elizabeth ","Cave, Elizabeth",,,10 /10 ,2.00000,,RECORD COUNT 576
+95448,Active,DST-395-01,ST: DST Capstone Seminar,F  ,10:00 AM - 11:50 AM  ,"Purcell, Sarah J ","Purcell, Sarah",,,12 /12 ,2.00000,,RECORD COUNT 576
+95431,Active,EAS-195-01,ST: Transnational Lit/Film,MWF  ,3:00 PM  - 3:50 PM  ,"Seong, Eun Young ","Seong, Eun Young",,,20 /20 ,4.00000,,RECORD COUNT 576
+94403,Active,EAS-295-01,ST: From Edo to Istanbu,TTH  ,2:30 PM  - 3:50 PM  ,"Shea, Eiren ","Shea, Eiren",,,20 /20 ,4.00000,,RECORD COUNT 576
+95161,Active,EAS-295-02,ST: Gender/Power Chinese Hist,MW  ,1:00 PM  - 2:20 PM  ,"Chen, Xiao ","Chen, Xiao",,,25 /25 ,4.00000,,RECORD COUNT 576
+95386,Active,ECN-111-01,Introduction to Economics,MWF  ,8:00 AM  - 8:50 AM  ,"Lee, Logan ","Lee, Logan",,,26 /26 ,4.00000,,RECORD COUNT 576
+95388,Active,ECN-111-02,Introduction to Economics,MWF  ,10:00 AM - 10:50 AM  ,"Graham, Bradley ","Graham, Bradley",,,26 /26 ,4.00000,,RECORD COUNT 576
+95389,Active,ECN-111-03,Introduction to Economics,MWF  ,11:00 AM - 11:50 AM  ,"Graham, Bradley ","Graham, Bradley",,,26 /26 ,4.00000,,RECORD COUNT 576
+95390,Active,ECN-111-04,Introduction to Economics,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Staff, - ","Staff, -",,,26 /26 ,4.00000,,RECORD COUNT 576
+95391,Active,ECN-111-05,Introduction to Economics,TTH  ,1:00 PM  - 2:20 PM  ,"Staff, - ","Staff, -",,,26 /26 ,4.00000,,RECORD COUNT 576
+95392,Active,ECN-111-06,Introduction to Economics,TTH  ,2:30 PM  - 3:50 PM  ,"Staff, - ","Staff, -",,,26 /26 ,4.00000,,RECORD COUNT 576
+95393,Active,ECN-226-01,Economics of Innovation,MWF  ,2:00 PM  - 2:50 PM  ,"Graham, Bradley ","Graham, Bradley",,,25 /25 ,4.00000,,RECORD COUNT 576
+95394,Active,ECN-235-01,Money and Banking,MWF  ,9:00 AM  - 9:50 AM  ,"Lu, Xinchan ","Lu, Xinchan",,,25 /25 ,4.00000,,RECORD COUNT 576
+95395,Active,ECN-240-01,Resource & Environ Economics,MW  ,10:00 AM - 11:50 AM  ,"Brouhle, Keith R ","Brouhle, Keith",,,25 /25 ,4.00000,,RECORD COUNT 576
+95396,Active,ECN-280-01,Microeconomic Analysis,MWF  ,2:00 PM  - 2:50 PM  ,"Brouhle, Keith R ","Brouhle, Keith",,,25 /25 ,4.00000,,RECORD COUNT 576
+95397,Active,ECN-280-02,Microeconomic Analysis,MWF  ,3:00 PM  - 3:50 PM  ,"Brouhle, Keith R ","Brouhle, Keith",,,25 /25 ,4.00000,,RECORD COUNT 576
+95398,Active,ECN-282-01,Macroeconomic Analysis,MWF  ,11:00 AM - 11:50 AM  ,"Lu, Xinchan ","Lu, Xinchan",,,25 /25 ,4.00000,,RECORD COUNT 576
+95399,Active,ECN-282-02,Macroeconomic Analysis,TTH  ,8:30 AM  - 9:50 AM  ,"Bui, Thu Ha ","Bui, Thu Ha",,,25 /25 ,4.00000,,RECORD COUNT 576
+95400,Active,ECN-286-01,Econometrics,TTH  ,8:30 AM  - 9:50 AM  ,"Paker, Meredith M ","Paker, Meredith",,,20 /20 ,4.00000,,RECORD COUNT 576
+95401,Active,ECN-286-02,Econometrics,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Paker, Meredith M ","Paker, Meredith",,,20 /20 ,4.00000,,RECORD COUNT 576
+95402,Active,ECN-326-01,Financial/Managerial Acctng,TTH  ,8:30 AM  - 9:50 AM  ,"Ohrn, Eric Carl ","Ohrn, Eric",,,20 /20 ,4.00000,,RECORD COUNT 576
+95403,Active,ECN-366-01,Seminar in Health Economics,TTH  ,2:00 PM  - 3:50 PM  ,"Kelly, Andrea M ","Kelly, Andrea",,,12 /12 ,4.00000,,RECORD COUNT 576
+95404,Active,ECN-375-01,Seminar Corporate Taxation,TTH  ,2:00 PM  - 3:50 PM  ,"Ohrn, Eric Carl ","Ohrn, Eric",,,12 /12 ,4.00000,,RECORD COUNT 576
+95405,Active,ECN-379-01,Seminar in Econ of Crime,MW  ,10:00 AM - 11:50 AM  ,"Lee, Logan ","Lee, Logan",,,12 /12 ,4.00000,,RECORD COUNT 576
+95444,Active,ECN-379-02,Seminar in Econ of Crime,MW  ,1:00 PM  - 3:50 PM  ,"Lee, Logan ","Lee, Logan",,,12 /12 ,4.00000,,RECORD COUNT 576
+95233,Active,ECN-395-01,ST: Time Series Econometrics,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Bui, Thu Ha ","Bui, Thu Ha",,,20 /20 ,4.00000,,RECORD COUNT 576
+95235,Active,ECN-395-02,ST: Seminar Economic History,TTH  ,2:00 PM  - 3:50 PM  ,"Paker, Meredith M ","Paker, Meredith",,,12 /12 ,4.00000,,RECORD COUNT 576
+94405,Active,EDU-101-01,Education Princ/Plural Society,MWF  ,9:00 AM  - 9:50 AM  ,"Staff, - ","Staff, -",,,25 /25 ,4.00000,,RECORD COUNT 576
+94406,Active,EDU-101-02,Education Princ/Plural Society,MWF  ,3:00 PM  - 3:50 PM  ,"Hutchison, Paul ","Hutchison, Paul",,,25 /25 ,4.00000,,RECORD COUNT 576
+94398,Active,EDU-102-01,Intro Particip Obsrvtn Schools,T  ,10:00 AM - 11:50 AM  ,"Larson, Jonathan L ","Larson, Jonathan",,,15 /15 ,2.00000,,RECORD COUNT 576
+94402,Active,EDU-115-01,How to Learn Physics,MWF  ,10:00 AM - 11:50 AM  ,"Hutchison, Paul ","Hutchison, Paul",,,24 /24 ,4.00000,,RECORD COUNT 576
+94407,Active,EDU-215-01,Reading & Writing Youth Cult,MWF  ,1:00 PM  - 1:50 PM  ,"Staff, - ","Staff, -",,,20 /20 ,4.00000,,RECORD COUNT 576
+94399,Active,EDU-217-01,Comparative & Int'l Education,TTH  ,2:30 PM  - 3:50 PM  ,"Larson, Jonathan L ","Larson, Jonathan",,,20 /20 ,4.00000,,RECORD COUNT 576
+94400,Active,EDU-250-01,Differentiating Instruction,MW  ,2:30 PM  - 3:50 PM  ,"Michaels, Deborah L ","Michaels, Deborah",,,20 /20 ,4.00000,,RECORD COUNT 576
+95375,Active,EDU-301-01,Teaching & Tutoring Writing,TTH  ,2:30 PM  - 3:50 PM  ,"Turk, Martisha ","Turk, Tisha",,,12 /12 ,4.00000,,RECORD COUNT 576
+94409,Active,EDU-460-01,Sem in Teaching Young Adult,M  ,7:00 PM  - 9:50 PM  ,"Staff, - ","Staff, -",,,15 /15 ,4.00000,,RECORD COUNT 576
+94410,Active,EDU-469-01,Student Teaching Internship,AR  ,,"Michaels, Deborah L ","Michaels, Deborah",,,6  /6  ,4.00000,8.00000,RECORD COUNT 576
+95131,Active,ENG-120-01,Literary Analysis,MW  ,8:30 AM  - 9:50 AM  ,"Andrews, Stephen R ","Andrews, Steve",,,20 /20 ,4.00000,,RECORD COUNT 576
+95118,Active,ENG-120-02,Literary Analysis,MWF  ,11:00 AM - 11:50 AM  ,"Simpson, Erik ","Simpson, Erik",,,20 /20 ,4.00000,,RECORD COUNT 576
+95119,Active,ENG-120-03,Literary Analysis,MWF  ,2:00 PM  - 2:50 PM  ,"Simpson, Erik ","Simpson, Erik",,,20 /20 ,4.00000,,RECORD COUNT 576
+95132,Active,ENG-120-04,Literary Analysis,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Smith, Paula V ","Smith, Paula",,,20 /20 ,4.00000,,RECORD COUNT 576
+95121,Active,ENG-121-01,Introduction to Shakespeare,MWF  ,8:00 AM  - 8:50 AM  ,"Eklund, Hillary ","Eklund, Hillary",,,20 /20 ,4.00000,,RECORD COUNT 576
+95120,Active,ENG-121-02,Introduction to Shakespeare,MWF  ,1:00 PM  - 1:50 PM  ,"Abdelkarim, Sherif M ","Abdelkarim, Sherif",,,20 /20 ,4.00000,,RECORD COUNT 576
+95122,Active,ENG-205-01,The Craft of Fiction,MWF  ,9:00 AM  - 9:50 AM  ,"Dantas Lobato, Bruna ","Dantas Lobato, Bruna",,,15 /15 ,4.00000,,RECORD COUNT 576
+95123,Active,ENG-206-01,The Craft of Poetry,TTH  ,8:00 AM  - 9:50 AM  ,"Phan, Hai-Dang D ","Phan, Hai-Dang",,,15 /15 ,4.00000,,RECORD COUNT 576
+95124,Active,ENG-210-01,Studies in Genre,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Lavan, Makeba N ","Lavan, Makeba",,,25 /25 ,4.00000,,RECORD COUNT 576
+94408,Active,ENG-215-01,Reading & Writing Youth Cult,MWF  ,1:00 PM  - 1:50 PM  ,"Staff, - ","Staff, -",,,20 /20 ,4.00000,,RECORD COUNT 576
+95125,Active,ENG-223-01,Tradition of English Lit I,MWF  ,10:00 AM - 10:50 AM  ,"Eklund, Hillary ","Eklund, Hillary",,,25 /25 ,4.00000,,RECORD COUNT 576
+95126,Active,ENG-225-01,Intro to Postcolonial Lit,TTH  ,1:00 PM  - 2:20 PM  ,"Kapila, Shuchi ","Kapila, Shuchi",,,25 /25 ,4.00000,,RECORD COUNT 576
+95135,Active,ENG-230-01,English Historical Linguistics,MWF  ,3:00 PM  - 3:50 PM  ,"Abdelkarim, Sherif M ","Abdelkarim, Sherif",,,25 /25 ,4.00000,,RECORD COUNT 576
+95133,Active,ENG-231-01,American Lit Traditions III,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Phan, Hai-Dang D ","Phan, Hai-Dang",,,25 /25 ,4.00000,,RECORD COUNT 576
+95127,Active,ENG-303-01,Chaucer,M  ,7:00 PM  - 9:50 PM  ,"Abdelkarim, Sherif M ","Abdelkarim, Sherif",,,15 /15 ,4.00000,,RECORD COUNT 576
+95134,Active,ENG-326-01,Studies American Poetry I,MW  ,10:00 AM - 11:50 AM  ,"Andrews, Stephen R ","Andrews, Steve",,,15 /15 ,4.00000,,RECORD COUNT 576
+95128,Active,ENG-327-01,The Romantics,TTH  ,2:00 PM  - 3:50 PM  ,"Simpson, Erik ","Simpson, Erik",,,15 /15 ,4.00000,,RECORD COUNT 576
+95129,Active,ENG-385-01,Writing Seminar: Fiction,MW  ,1:00 PM  - 2:20 PM  ,"Dantas Lobato, Bruna ","Dantas Lobato, Bruna",,,15 /15 ,4.00000,,RECORD COUNT 576
+94304,Active,ENV-145-01,Nations & Global Environment,MWF  ,11:00 AM - 11:50 AM  ,"Campbell, David G ","Campbell, David",,,40 /40 ,4.00000,,RECORD COUNT 576
+94305,Active,FMS-155-01,Introduction to Film Studies,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Tavares, Nicole M ","Tavares, Nicky",,,25 /25 ,4.00000,,RECORD COUNT 576
+94763,Active,FMS-195-01,ST: Ethics True Crime Media,MW  ,10:00 AM - 11:20 AM  ,"Staff, - ","Staff, -",,,30 /30 ,1.00000,,RECORD COUNT 576
+94307,Active,FMS-255-01,Fundamentals Video Production,TTH  ,1:00 PM  - 3:50 PM  ,"Tavares, Nicole M ","Tavares, Nicky",,,15 /15 ,4.00000,,RECORD COUNT 576
+94586,Active,FMS-395-01,ST: Film Theory & Criticism,MWF  ,2:00 PM  - 3:50 PM  ,"Staff, - ","Staff, -",,,20 /20 ,4.00000,,RECORD COUNT 576
+94291,Active,FRN-101-01,Introduction to French I,MWF T,8:00 AM  - 8:50 AM 11:00 AM - 11:50 AM,"Staff, - ","Staff, -",,,24 /24 ,5.00000,,RECORD COUNT 576
+94292,Active,FRN-101-02,Introduction to French I,MTWF  ,10:00 AM - 10:50 AM  ,"Staff, - ","Staff, -",,,24 /24 ,5.00000,,RECORD COUNT 576
+94293,Active,FRN-103-01,Accelerated Intro to French,MTWF  ,10:00 AM - 10:50 AM  ,"Harrison, David ","Harrison, David",,,24 /24 ,5.00000,,RECORD COUNT 576
+94301,Active,FRN-201-01,French Cnvrstn Thru Media,TTH  ,1:00 PM  - 1:50 PM  ,"Staff, - ","Staff, -",,,10 /10 ,1.00000,,RECORD COUNT 576
+94287,Active,FRN-221-01,Intermediate French I,MWF  ,9:00 AM  - 9:50 AM  ,"Staff, - ","Staff, -",,,15 /15 ,4.00000,,RECORD COUNT 576
+94288,Active,FRN-221-02,Intermediate French I,MWF  ,2:00 PM  - 2:50 PM  ,"Staff, - ","Staff, -",,,15 /15 ,4.00000,,RECORD COUNT 576
+94295,Active,FRN-222-01,Intermediate French II,MWF  ,8:00 AM  - 8:50 AM  ,"Staff, - ","Staff, -",,,15 /15 ,4.00000,,RECORD COUNT 576
+94296,Active,FRN-222-02,Intermediate French II,MWF  ,2:00 PM  - 2:50 PM  ,"Staff, - ","Staff, -",,,15 /15 ,4.00000,,RECORD COUNT 576
+94297,Active,FRN-301-01,Adv Reading & Written Exprsn,MWF  ,1:00 PM  - 1:50 PM  ,"Moisan, Philippe J ","Moisan, Philippe",,,15 /15 ,2.00000,,RECORD COUNT 576
+94298,Active,FRN-304-01,Frn Civil II: Rvltn & Idntits,MWF  ,9:00 AM  - 9:50 AM  ,"Moisan, Philippe J ","Moisan, Philippe",,,15 /15 ,4.00000,,RECORD COUNT 576
+94299,Active,FRN-313-01,Intro French Lit/19 & 20 Cent,MWF  ,11:00 AM - 11:50 AM  ,"Staff, - ","Staff, -",,,15 /15 ,4.00000,,RECORD COUNT 576
+94300,Active,FRN-327-01,Social Climbers and Rebels,TTH  ,2:00 PM  - 3:50 PM  ,"Harrison, David ","Harrison, David",,,12 /12 ,4.00000,,RECORD COUNT 576
+94248,Active,GDS-111-01,Intro to Global Dev Studies,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Roper, Jackson Montgomery ","Roper, Monty",,,25 /25 ,4.00000,,RECORD COUNT 576
+94317,Active,GDS-325-01,Fragile/Cnflct Affctd Country,MW  ,2:00 PM  - 3:50 PM  ,"Brottem, Leif ","Brottem, Leif",,,15 /15 ,4.00000,,RECORD COUNT 576
+94595,Active,GLS-281-01,Major Russ Writers: Nabokov,MWF  ,1:00 PM  - 1:50 PM  ,"Herold, Kelly ","Herold, Kelly",,,25 /25 ,4.00000,,RECORD COUNT 576
+95330,Active,GLS-350-01,Theatre Methods: Dramaturgy,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Miller, Kristina K ","Miller, Karie",,,20 /20 ,4.00000,,RECORD COUNT 576
+94391,Active,GRE-101-01,Elementary Greek,MTWTHF  ,10:00 AM - 10:50 AM  ,"Dixon, Dustin ","Dixon, Dustin",,,20 /20 ,5.00000,,RECORD COUNT 576
+94392,Active,GRE-302-01,Plato,MTWF  ,11:00 AM - 11:50 AM  ,"Cummins, W Joseph ","Cummins, W",,,15 /15 ,4.00000,,RECORD COUNT 576
+94446,Active,GRM-101-01,Introductory German I,MWF  ,10:00 AM - 10:50 AM  ,"Reynolds, Daniel P ","Reynolds, Dan",,,20 /20 ,4.00000,,RECORD COUNT 576
+94447,Active,GRM-101-02,Introductory German I,MWF  ,11:00 AM - 11:50 AM  ,"Staff, - ","Staff, -",,,20 /20 ,4.00000,,RECORD COUNT 576
+94448,Active,GRM-101L-01,Introductory German I Lab,TH  ,10:00 AM - 10:50 AM  ,"Staff, -; Reynolds, Daniel P","Staff, -","Reynolds, Dan","Reynolds, Dan",10 /10 ,0.00000,,RECORD COUNT 576
+94449,Active,GRM-101L-02,Introductory German I Lab,TH  ,1:00 PM  - 1:50 PM  ,"Staff, -; Reynolds, Daniel P","Staff, -","Reynolds, Dan","Reynolds, Dan",10 /10 ,0.00000,,RECORD COUNT 576
+94450,Active,GRM-101L-03,Introductory German I Lab,F  ,1:00 PM  - 1:50 PM  ,"Staff, -; Reynolds, Daniel P","Staff, -","Reynolds, Dan","Reynolds, Dan",10 /10 ,0.00000,,RECORD COUNT 576
+94451,Active,GRM-101L-04,Introductory German I Lab,F  ,3:00 PM  - 3:50 PM  ,"Staff, -; Reynolds, Daniel P","Staff, -","Reynolds, Dan","Reynolds, Dan",10 /10 ,0.00000,,RECORD COUNT 576
+94453,Active,GRM-221-01,Intermediate German I,MWF  ,11:00 AM - 11:50 AM  ,"Reynolds, Daniel P ","Reynolds, Dan",,,20 /20 ,4.00000,,RECORD COUNT 576
+94454,Active,GRM-221-02,Intermediate German I,MWF  ,3:00 PM  - 3:50 PM  ,"Staff, - ","Staff, -",,,20 /20 ,4.00000,,RECORD COUNT 576
+94455,Active,GRM-311-01,Germany Through Media,TTH  ,1:00 PM  - 2:20 PM  ,"Sun, Xiaoxue ","Sun, Wendy",,,15 /15 ,4.00000,,RECORD COUNT 576
+94456,Active,GRM-495-01,Research Seminar in German,MW  ,8:30 AM  - 9:50 AM  ,"Staff, - ","Staff, -",,,15 /15 ,4.00000,,RECORD COUNT 576
+94420,Active,GWS-111-01,"Intro Gndr, Wmn's & Sxlty Stud",MWF  ,8:00 AM  - 8:50 AM  ,"Johnson, Lakesia ","Johnson, Lakesia",,,25 /25 ,4.00000,,RECORD COUNT 576
+94418,Active,GWS-111-02,"Intro Gndr, Wmn's & Sxlty Stud",TTH  ,1:00 PM  - 2:20 PM  ,"Torralba, Stefan Carlo ","Torralba, Stefan",,,25 /25 ,4.00000,,RECORD COUNT 576
+94422,Active,GWS-211-01,Foundations of LGBTQ Studies,TTH  ,8:30 AM  - 9:50 AM  ,"Torralba, Stefan Carlo ","Torralba, Stefan",,,25 /25 ,4.00000,,RECORD COUNT 576
+94358,Active,GWS-243-01,Epistemic Injustices,MW  ,10:00 AM - 11:20 AM  ,"Nyden, Tammy ","Nyden, Tammy",,,22 /22 ,4.00000,,RECORD COUNT 576
+94421,Active,GWS-249-01,Theory & Methods in GWSS,TTH  ,8:30 AM  - 9:50 AM  ,"Johnson, Lakesia ","Johnson, Lakesia",,,25 /25 ,4.00000,,RECORD COUNT 576
+94587,Active,GWS-395-01,ST: Abolitionist Feminisms,MW  ,2:00 PM  - 3:50 PM  ,"Montague, Clara Margaret ","Montague, Clara",,,20 /20 ,4.00000,,RECORD COUNT 576
+94429,Active,HIS-100-01,"Guns/Germs, Steel & Spn Cnqst",MWF  ,9:00 AM  - 9:50 AM  ,"Silva, J Pablo ","Silva, Pablo",,,25 /25 ,4.00000,,RECORD COUNT 576
+94801,Active,HIS-100-02,East and West Encounters,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Chen, Xiao ","Chen, Xiao",,,25 /25 ,4.00000,,RECORD COUNT 576
+94430,Active,HIS-100-03,Global Reformations,MWF  ,1:00 PM  - 2:20 PM  ,"Chou, Catherine ","Chou, Catherine",,,25 /25 ,4.00000,,RECORD COUNT 576
+94431,Active,HIS-100-04,The Prophet Muhammad,MWF  ,3:00 PM  - 3:50 PM  ,"Saba, Elias G ","Saba, Elias",,,25 /25 ,4.00000,,RECORD COUNT 576
+94432,Active,HIS-202-01,Modern Latin America,MWF  ,3:00 PM  - 3:50 PM  ,"Silva, J Pablo ","Silva, Pablo",,,25 /25 ,4.00000,,RECORD COUNT 576
+94434,Active,HIS-225-01,"Native Amer History, 1491-1865",TTH  ,1:00 PM  - 2:20 PM  ,"Lacson, Paul Albert ","Lacson, Paul",,,25 /25 ,4.00000,,RECORD COUNT 576
+94435,Active,HIS-232-01,"Medieval Europe, 300-1000",MWF  ,8:30 AM  - 9:50 AM  ,"Chou, Catherine ","Chou, Catherine",,,25 /25 ,4.00000,,RECORD COUNT 576
+94433,Active,HIS-236-01,Modern Britain & the Empire,TTH  ,8:30 AM  - 9:50 AM  ,"Prevost, Elizabeth ","Prevost, Elizabeth",,,25 /25 ,4.00000,,RECORD COUNT 576
+94436,Active,HIS-242-01,Rise & Fall of Soviet Union,MWF  ,10:00 AM - 10:50 AM  ,"Cohn, Edward D ","Cohn, Edward",,,25 /25 ,4.00000,,RECORD COUNT 576
+94390,Active,HIS-258-01,Roman Empire,MW  ,8:30 AM  - 9:50 AM  ,"Cummins, Monessa F ","Cummins, Monessa",,,25 /25 ,4.00000,,RECORD COUNT 576
+94437,Active,HIS-266-01,History of Modern Middle East,MW  ,10:00 AM - 11:20 AM  ,"Staff, - ","Staff, -",,,25 /25 ,4.00000,,RECORD COUNT 576
+95446,Active,HIS-266-02,History of Modern Middle East,TTH  ,1:00 PM  - 2:20 PM  ,"Staff, - ","Staff, -",,,25 /25 ,4.00000,,RECORD COUNT 576
+94438,Active,HIS-295-01,ST: Contested US Pres Elect,MWF  ,8:00 AM  - 8:50 AM  ,"Purcell, Sarah J ","Purcell, Sarah",,,25 /25 ,2.00000,,RECORD COUNT 576
+95159,Cancelled,HIS-295-02,ST: Israel/Palestine History,MW  ,1:00 PM  - 2:20 PM  ,"Staff, - ","Staff, -",,,25 /25 ,4.00000,,RECORD COUNT 576
+95162,Active,HIS-295-02,ST: Gender/Power Chinese Hist,MW  ,1:00 PM  - 2:20 PM  ,"Chen, Xiao ","Chen, Xiao",,,25 /25 ,4.00000,,RECORD COUNT 576
+95429,Cancelled,HIS-295-04,ST: The Essay in/as History,T  ,9:00 AM  - 11:50 AM  ,"Staff, - ","Staff, -",,,25 /25 ,4.00000,,RECORD COUNT 576
+94439,Active,HIS-311-01,Pol His in Early Amer Republic,MW  ,2:00 PM  - 3:50 PM  ,"Purcell, Sarah J ","Purcell, Sarah",,,12 /12 ,4.00000,,RECORD COUNT 576
+94440,Active,HIS-334-01,Decolonization,TTH  ,2:00 PM  - 3:50 PM  ,"Prevost, Elizabeth ","Prevost, Elizabeth",,,12 /12 ,4.00000,,RECORD COUNT 576
+94802,Active,HIS-372-01,China and the West Since 1800,MW  ,10:00 AM - 11:50 AM  ,"Chen, Xiao ","Chen, Xiao",,,12 /12 ,4.00000,,RECORD COUNT 576
+95443,Active,HIS-395-01,ST: The Essay in/as History,T  ,9:00 AM  - 11:50 AM  ,"Staff, - ","Staff, -",,,12 /12 ,4.00000,,RECORD COUNT 576
+95130,Active,HUM-101-01,Hum I: Ancient Greek World,TTH  ,2:30 PM  - 3:50 PM  ,"Smith, Paula V ","Smith, Paula",,,20 /20 ,4.00000,,RECORD COUNT 576
+94376,Active,JPN-101-01,Beginning Japanese I,MWF  ,10:00 AM - 10:50 AM  ,"Seong, Eun Young ","Seong, Eun Young",,,20 /20 ,4.00000,,RECORD COUNT 576
+94377,Active,JPN-101-02,Beginning Japanese I,MWF  ,2:00 PM  - 2:50 PM  ,"Seong, Eun Young ","Seong, Eun Young",,,20 /20 ,4.00000,,RECORD COUNT 576
+94378,Active,JPN-101L-01,Beginning Japanese I Lab,TTH  ,10:00 AM - 10:50 AM  ,"Staff, - ","Staff, -",,,20 /20 ,0.00000,,RECORD COUNT 576
+94379,Active,JPN-101L-02,Beginning Japanese I Lab,TTH  ,2:00 PM  - 2:50 PM  ,"Staff, - ","Staff, -",,,20 /20 ,0.00000,,RECORD COUNT 576
+95430,Active,JPN-195-01,ST: Transnational Lit/Film,MWF  ,3:00 PM  - 3:50 PM  ,"Seong, Eun Young ","Seong, Eun Young",,,20 /20 ,4.00000,,RECORD COUNT 576
+94380,Active,JPN-221-01,Intermediate Japanese I,MTWTHF  ,1:00 PM  - 1:50 PM  ,"Schimmel, Mariko Shigeta; Staff, -","Schimmel, Mariko Shigeta","Staff, -","Staff, -",18 /18 ,4.00000,,RECORD COUNT 576
+94381,Active,JPN-331-01,Advanced Japanese I,MWF  ,9:00 AM  - 9:50 AM  ,"Schimmel, Mariko Shigeta ","Schimmel, Mariko Shigeta",,,18 /18 ,4.00000,,RECORD COUNT 576
+95360,Active,LAS-221-01,Intro to U. S. Latinx Studies,MWF  ,11:00 AM - 11:50 AM  ,"Petrus, John ","Petrus, John",,,20 /20 ,4.00000,,RECORD COUNT 576
+94393,Active,LAT-103-01,Elementary Latin,MTWTHF  ,10:00 AM - 10:50 AM  ,"Cummins, Monessa F ","Cummins, Monessa",,,20 /20 ,5.00000,,RECORD COUNT 576
+94394,Active,LAT-333-01,Roman Historians,TTH  ,2:00 PM  - 3:50 PM  ,"Cummins, Monessa F ","Cummins, Monessa",,,15 /15 ,4.00000,,RECORD COUNT 576
+94442,Active,LIN-114-01,Intro to General Linguistics,MWF  ,9:00 AM  - 9:50 AM  ,"Staff, - ","Staff, -",,,25 /25 ,4.00000,,RECORD COUNT 576
+94443,Active,LIN-114-02,Intro to General Linguistics,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Staff, - ","Staff, -",,,25 /25 ,4.00000,,RECORD COUNT 576
+94444,Active,LIN-295-01,ST: Loanword Adaptation,MW  ,1:00 PM  - 2:20 PM  ,"Staff, - ","Staff, -",,,25 /30 ,4.00000,,RECORD COUNT 576
+94607,Active,LIN-295-02,ST: Second Lang Acquisition,TTH  ,2:30 PM  - 3:50 PM  ,"Izmaylova, Anastasia ","Izmaylova, Anastasia",,,25 /25 ,4.00000,,RECORD COUNT 576
+94423,Active,MAT-100-01,Math Laboratory,AR  ,,"Bourgeois Parsons, Renee F ","Bourgeois Parsons, Renee",,,15 /15 ,1.00000,,RECORD COUNT 576
+94424,Active,MAT-131-01,Calculus I,MWF  ,8:30 AM  - 9:50 AM  ,"Wolf, A Royce ","Wolf, Royce",,,26 /26 ,4.00000,,RECORD COUNT 576
+94425,Active,MAT-131-02,Calculus I,MWF  ,10:00 AM - 11:20 AM  ,"Chamberland, Marc A ","Chamberland, Marc",,,26 /26 ,4.00000,,RECORD COUNT 576
+94426,Active,MAT-131-03,Calculus I,MWF  ,10:00 AM - 11:20 AM  ,"Staff, - ","Staff, -",,,26 /26 ,4.00000,,RECORD COUNT 576
+94427,Active,MAT-131-04,Calculus I,MWF  ,1:00 PM  - 2:20 PM  ,"Wolf, A Royce ","Wolf, Royce",,,26 /26 ,4.00000,,RECORD COUNT 576
+94428,Active,MAT-131-05,Calculus I,MWF  ,2:30 PM  - 3:50 PM  ,"Staff, - ","Staff, -",,,26 /26 ,4.00000,,RECORD COUNT 576
+94458,Active,MAT-133-01,Calculus II,MWF  ,8:30 AM  - 9:50 AM  ,"Webster, Joe W ","Webster, Joe",,,26 /26 ,4.00000,,RECORD COUNT 576
+94459,Active,MAT-133-02,Calculus II,MWF  ,8:30 AM  - 9:50 AM  ,"Hazel, Christina L ","Hazel, Christy",,,26 /26 ,4.00000,,RECORD COUNT 576
+94460,Active,MAT-133-03,Calculus II,MWF  ,10:00 AM - 11:20 AM  ,"Hazel, Christina L ","Hazel, Christy",,,26 /26 ,4.00000,,RECORD COUNT 576
+94461,Active,MAT-133-04,Calculus II,MWF  ,1:00 PM  - 2:20 PM  ,"French, Christopher P ","French, Christopher",,,26 /26 ,4.00000,,RECORD COUNT 576
+94463,Active,MAT-133-05,Calculus II,MWF  ,2:30 PM  - 3:50 PM  ,"French, Christopher P ","French, Christopher",,,26 /26 ,4.00000,,RECORD COUNT 576
+94589,Active,MAT-195-01,ST: Intro to Math Practice,MWF  ,9:00 AM  - 9:50 AM  ,"French, Christopher P ","French, Christopher",,,20 /20 ,4.00000,,RECORD COUNT 576
+95170,Active,MAT-208-01,Discrete Structures,MWF  ,3:00 PM  - 3:50 PM  ,"Osera, Peter-Michael Santos ","Osera, Peter-Michael",,,20 /20 ,4.00000,,RECORD COUNT 576
+94465,Active,MAT-215-01,Linear Algebra,MWF  ,8:00 AM  - 8:50 AM  ,"Staff, - ","Staff, -",,,20 /20 ,4.00000,,RECORD COUNT 576
+94466,Active,MAT-215-02,Linear Algebra,MWF  ,1:00 PM  - 1:50 PM  ,"Bhattacharya, Debdeep ","Bhattacharya, Debdeep",,,20 /20 ,4.00000,,RECORD COUNT 576
+94467,Active,MAT-215-03,Linear Algebra,MWF  ,3:00 PM  - 3:50 PM  ,"Kenkel, Jennifer ","Kenkel, Jennifer",,,20 /20 ,4.00000,,RECORD COUNT 576
+94468,Active,MAT-218-01,Elementary Number Theory,MWF  ,11:00 AM - 11:50 AM  ,"Wolf, A Royce ","Wolf, Royce",,,20 /20 ,4.00000,,RECORD COUNT 576
+94469,Active,MAT-218-02,Elementary Number Theory,MWF  ,1:00 PM  - 1:50 PM  ,"Kenkel, Jennifer ","Kenkel, Jennifer",,,20 /20 ,4.00000,,RECORD COUNT 576
+94470,Active,MAT-220-01,Differential Equations,TTH  ,2:30 PM  - 3:50 PM  ,"Hebbar, Pratima ","Hebbar, Pratima",,,28 /28 ,4.00000,,RECORD COUNT 576
+94471,Active,MAT-313-01,Numerical Analysis,MWF  ,2:00 PM  - 2:50 PM  ,"Bhattacharya, Debdeep ","Bhattacharya, Debdeep",,,20 /20 ,4.00000,,RECORD COUNT 576
+94472,Active,MAT-316-01,Foundations of Analysis,MWF  ,3:00 PM  - 3:50 PM  ,"Chamberland, Marc A ","Chamberland, Marc",,,20 /20 ,4.00000,,RECORD COUNT 576
+94476,Active,MAT-317-01,Fourier Analysis,MWF  ,10:00 AM - 10:50 AM  ,"Webster, Joe W ","Webster, Joe",,,15 /15 ,4.00000,,RECORD COUNT 576
+94474,Active,MAT-321-01,Foundatns of Abstract Algebra,TTH  ,1:00 PM  - 2:20 PM  ,"Hazel, Christina L ","Hazel, Christy",,,20 /20 ,4.00000,,RECORD COUNT 576
+94319,Active,MAT-335-01,Probability & Statistics I,MWF  ,1:00 PM  - 1:50 PM  ,"Wells, Jonathan M ","Wells, Jonathan",,,25 /25 ,4.00000,,RECORD COUNT 576
+94320,Active,MAT-335-02,Probability & Statistics I,MWF  ,3:00 PM  - 3:50 PM  ,"Wells, Jonathan M ","Wells, Jonathan",,,25 /25 ,4.00000,,RECORD COUNT 576
+94519,Active,MUS-100-01,Introduction to Music Studies,MWF  ,10:00 AM - 10:50 AM  ,"Rommereim, John Christian ","Rommereim, John",,,30 /30 ,4.00000,,RECORD COUNT 576
+94520,Active,MUS-100L-01,Intro to Music Studies Lab,T  ,11:00 AM - 11:50 AM  ,"Westphalen, Melinda ","Westphalen, Melinda",,,15 /15 ,0.00000,,RECORD COUNT 576
+94521,Active,MUS-100L-02,Intro to Music Studies Lab,T  ,2:00 PM  - 2:50 PM  ,"Westphalen, Melinda ","Westphalen, Melinda",,,15 /15 ,0.00000,,RECORD COUNT 576
+94503,Active,MUS-101-01,Balinese Sound Ensemble,TTH  ,4:00 PM  - 6:00 PM  ,"Hiranmayena, I Putu Tangkas Adi ","Hiranmayena, I Putu Tangkas",,,50 /50 ,1.00000,,RECORD COUNT 576
+94504,Active,MUS-101-02,Oratorio Society,M  ,7:00 PM  - 9:00 PM  ,"Rommereim, John Christian ","Rommereim, John",,,50 /50 ,1.00000,,RECORD COUNT 576
+94505,Active,MUS-101-03,Collegium Musicum,AR  ,,"Staff, - ","Staff, -",,,50 /50 ,1.00000,,RECORD COUNT 576
+94506,Active,MUS-101-04,Grinnell Singers,TTH  ,4:30 PM  - 6:00 PM  ,"Rommereim, John Christian ","Rommereim, John",,,50 /50 ,1.00000,,RECORD COUNT 576
+94507,Active,MUS-101-06,Grinnell Symphony Orchestra,MW W,4:30 PM  - 6:00 PM 7:00 PM  - 9:00 PM ,"McIntyre, Eric L ","McIntyre, Eric",,,50 /50 ,1.00000,,RECORD COUNT 576
+94508,Active,MUS-101-07,Latin American Ensemble,T  ,4:30 PM  - 6:30 PM  ,"Espinosa, Gabriel ","Espinosa, Gabriel",,,50 /50 ,1.00000,,RECORD COUNT 576
+94509,Active,MUS-101-08,"Percussn, Mrmba, Steel Pan Ens",T  ,7:00 PM  - 9:00 PM  ,"Ramirez, Stacey ","Ramirez, Stacey",,,50 /50 ,1.00000,,RECORD COUNT 576
+94510,Active,MUS-101-09,Fresh Flutes,TH  ,4:15 PM  - 5:45 PM  ,"Anderson, Claudia ","Anderson, Claudia",,,50 /50 ,1.00000,,RECORD COUNT 576
+94511,Active,MUS-101-10,YGB Gospel Choir,W  ,7:00 PM  - 8:30 PM  ,"Jones, Barry V ","Jones, Barry",,,50 /50 ,1.00000,,RECORD COUNT 576
+94512,Active,MUS-101-14,Chamber Ensembles,T  ,7:00 PM  - 9:00 PM  ,"Finkelshteyn, Tracy V ","Finkelshteyn, Tracy",,,50 /50 ,1.00000,,RECORD COUNT 576
+94513,Active,MUS-101-17,Jazz Ensemble,TTH  ,7:00 PM  - 9:00 PM  ,"Laver, Mark ","Laver, Mark",,,50 /50 ,1.00000,,RECORD COUNT 576
+94514,Active,MUS-101-19,Symphonic Band,TH  ,7:00 PM  - 9:00 PM  ,"Metzger, Kara L ","Metzger, Kara",,,50 /50 ,1.00000,,RECORD COUNT 576
+94515,Active,MUS-101-20,Zimbabwean Mbira Ens,MW  ,4:00 PM  - 6:00 PM  ,"Perman, Tony ","Perman, Tony",,,50 /50 ,1.00000,,RECORD COUNT 576
+94804,Active,MUS-120-01,Perf: Violin,AR  ,,"Finkelshteyn, Tracy V ","Finkelshteyn, Tracy",,,20 /20 ,1.00000,,RECORD COUNT 576
+94805,Active,MUS-120-02,Perf: Voice,AR  ,,"Whitney, Mackenzie ","Whitney, Mackenzie",,,20 /20 ,1.00000,,RECORD COUNT 576
+94806,Active,MUS-120-03,Perf: Trombone,AR  ,,"Parker, Robert C ","Parker, Robert",,,20 /20 ,1.00000,,RECORD COUNT 576
+94807,Active,MUS-120-04,Perf: French Horn,AR  ,,"Stout, Amanda ","Stout, Amanda",,,20 /20 ,1.00000,,RECORD COUNT 576
+94808,Active,MUS-120-05,Perf: Trumpet,AR  ,,"Swartz, Craig L ","Swartz, Craig",,,20 /20 ,1.00000,,RECORD COUNT 576
+94809,Active,MUS-120-06,Perf: Bagpipes,AR  ,,"Clower, Robert P ","Clower, Robert",,,20 /20 ,1.00000,,RECORD COUNT 576
+94810,Active,MUS-120-07,Perf: Saxophone,AR  ,,"Smith, Ryan J ","Smith, Ryan",,,20 /20 ,1.00000,,RECORD COUNT 576
+94811,Active,MUS-120-08,Perf: Percussion,AR  ,,"Ramirez, Stacey ","Ramirez, Stacey",,,20 /20 ,1.00000,,RECORD COUNT 576
+94812,Active,MUS-120-09,Perf: Clarinet,AR  ,,"Smith, Ryan J ","Smith, Ryan",,,20 /20 ,1.00000,,RECORD COUNT 576
+94813,Active,MUS-120-10,Perf: Jazz Saxophone,AR  ,,"Smith, Ryan J ","Smith, Ryan",,,20 /20 ,1.00000,,RECORD COUNT 576
+94814,Active,MUS-120-11,Perf: Guitar,AR  ,,"Smith, Rex Patrick ","Smith, Rex",,,20 /20 ,1.00000,,RECORD COUNT 576
+94815,Active,MUS-120-13,Perf: Voice,AR  ,,"Mayne, Taylor J ","Mayne, Taylor",,,20 /20 ,1.00000,,RECORD COUNT 576
+94816,Active,MUS-120-14,Perf: Piano,AR  ,,"Messerschmitt, Nicole C ","Messerschmitt, Nicole",,,20 /20 ,1.00000,,RECORD COUNT 576
+94836,Active,MUS-120-15,Perf: Voice,AR  ,,"Sojka, Gregory J ","Sojka, Gregory",,,20 /20 ,1.00000,,RECORD COUNT 576
+94817,Active,MUS-120-16,Perf: Banjo,AR  ,,"Buck, Fred L ","Buck, Fred",,,20 /20 ,1.00000,,RECORD COUNT 576
+94818,Active,MUS-120-17,Perf: Piano,AR  ,,"Liu, Hsin-Hui ","Liu, Hsin-Hui",,,20 /20 ,1.00000,,RECORD COUNT 576
+94819,Active,MUS-120-18,Perf: Harp,AR  ,,"Erickson, Laura J ","Erickson, Laura",,,20 /20 ,1.00000,,RECORD COUNT 576
+94820,Active,MUS-120-19,Perf: Organ,AR  ,,"Elsbernd, Michael J ","Elsbernd, Michael",,,20 /20 ,1.00000,,RECORD COUNT 576
+94821,Active,MUS-120-20,Perf: Piano,AR  ,,"Westphalen, Melinda ","Westphalen, Melinda",,,20 /20 ,1.00000,,RECORD COUNT 576
+94822,Active,MUS-120-21,Perf: Viola,AR  ,,"Miranda, Charles D ","Miranda, Charles",,,20 /20 ,1.00000,,RECORD COUNT 576
+94823,Active,MUS-120-24,Perf: Flute,AR  ,,"Anderson, Claudia ","Anderson, Claudia",,,20 /20 ,1.00000,,RECORD COUNT 576
+94824,Active,MUS-120-25,Perf: Violin,AR  ,,"Miranda, Charles D ","Miranda, Charles",,,20 /20 ,1.00000,,RECORD COUNT 576
+94825,Active,MUS-120-26,Perf: Violin,AR  ,,"Gentzsch, Andrew C ","Gentzsch, Andrew",,,20 /20 ,1.00000,,RECORD COUNT 576
+94826,Active,MUS-120-27,Perf: Jazz Piano,AR  ,,"Espinosa, Gabriel ","Espinosa, Gabriel",,,20 /20 ,1.00000,,RECORD COUNT 576
+94827,Active,MUS-120-28,Perf: Jazz Voice,AR  ,,"Espinosa, Gabriel ","Espinosa, Gabriel",,,20 /20 ,1.00000,,RECORD COUNT 576
+94828,Active,MUS-120-29,Perf: Drum Set,AR  ,,"Hiranmayena, I Putu Tangkas Adi ","Hiranmayena, I Putu Tangkas",,,20 /20 ,1.00000,,RECORD COUNT 576
+94829,Active,MUS-120-32,Perf: Piano,AR  ,,"Joo, Hyejin ","Joo, Hyejin",,,20 /20 ,1.00000,,RECORD COUNT 576
+94830,Active,MUS-120-35,Perf: Tuba,AR  ,,"Parker, Robert C ","Parker, Robert",,,20 /20 ,1.00000,,RECORD COUNT 576
+94831,Active,MUS-120-38,Perf: Cello,AR  ,,"Henson, Alan K ","Henson, Alan",,,20 /20 ,1.00000,,RECORD COUNT 576
+94832,Active,MUS-120-39,Perf: Double Bass,AR  ,,"Charlson, Steven E ","Charlson, Steven",,,20 /20 ,1.00000,,RECORD COUNT 576
+94833,Active,MUS-120-40,Perf: Bassoon,AR  ,,"Jones, Felisha ","Jones, Felisha",,,20 /20 ,1.00000,,RECORD COUNT 576
+94834,Active,MUS-120-42,Perf: Guitar,AR  ,,"Aldridge, James ","Aldridge, Alex",,,20 /20 ,1.00000,,RECORD COUNT 576
+94835,Active,MUS-120-43,Perf: Accordion,AR  ,,"Bergan, Joyce A ","Bergan, Joyce",,,20 /20 ,1.00000,,RECORD COUNT 576
+94837,Active,MUS-120-46,Perf: Oboe,AR  ,,"Jones, Felisha ","Jones, Felisha",,,20 /20 ,1.00000,,RECORD COUNT 576
+94838,Active,MUS-120-48,Perf: Jazz Bass,AR  ,,"Charlson, Steven E ","Charlson, Steven",,,20 /20 ,1.00000,,RECORD COUNT 576
+94839,Active,MUS-120-49,Perf: Baritone Horn,AR  ,,"Parker, Robert C ","Parker, Robert",,,20 /20 ,1.00000,,RECORD COUNT 576
+94803,Active,MUS-201-01,TBD,MWF  ,3:00 PM  - 3:50 PM  ,"Staff, - ","Staff, -",,,20 /20 ,4.00000,,RECORD COUNT 576
+94517,Active,MUS-203-01,Rhythmic Exploration,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Hiranmayena, I Putu Tangkas Adi ","Hiranmayena, I Putu Tangkas",,,25 /25 ,4.00000,,RECORD COUNT 576
+94516,Active,MUS-204-01,Jazz Traditions,TTH  ,1:00 PM  - 2:20 PM  ,"Laver, Mark ","Laver, Mark",,,30 /30 ,4.00000,,RECORD COUNT 576
+94840,Active,MUS-220-01,Perf: Adv Violin,AR  ,,"Finkelshteyn, Tracy V ","Finkelshteyn, Tracy",,,20 /20 ,2.00000,,RECORD COUNT 576
+94841,Active,MUS-220-02,Perf: Adv Voice,AR  ,,"Whitney, Mackenzie ","Whitney, Mackenzie",,,20 /20 ,2.00000,,RECORD COUNT 576
+94842,Active,MUS-220-03,Perf: Adv Trombone,AR  ,,"Parker, Robert C ","Parker, Robert",,,20 /20 ,2.00000,,RECORD COUNT 576
+94843,Active,MUS-220-04,Perf: Adv French Horn,AR  ,,"Stout, Amanda ","Stout, Amanda",,,20 /20 ,2.00000,,RECORD COUNT 576
+94844,Active,MUS-220-05,Perf: Adv Trumpet,AR  ,,"Swartz, Craig L ","Swartz, Craig",,,20 /20 ,2.00000,,RECORD COUNT 576
+94845,Active,MUS-220-06,Perf: Adv Bagpipes,AR  ,,"Clower, Robert P ","Clower, Robert",,,20 /20 ,2.00000,,RECORD COUNT 576
+94846,Active,MUS-220-07,Perf: Adv Saxaphone,AR  ,,"Smith, Ryan J ","Smith, Ryan",,,20 /20 ,2.00000,,RECORD COUNT 576
+94847,Active,MUS-220-08,Perf: Adv Percussion,AR  ,,"Ramirez, Stacey ","Ramirez, Stacey",,,20 /20 ,2.00000,,RECORD COUNT 576
+94848,Active,MUS-220-09,Perf: Clarinet,AR  ,,"Smith, Ryan J ","Smith, Ryan",,,20 /20 ,2.00000,,RECORD COUNT 576
+94849,Active,MUS-220-10,Perf: Adv Jazz Saxophone,AR  ,,"Smith, Ryan J ","Smith, Ryan",,,20 /20 ,2.00000,,RECORD COUNT 576
+94850,Active,MUS-220-11,Perf: Adv Guitar,AR  ,,"Smith, Rex Patrick ","Smith, Rex",,,20 /20 ,2.00000,,RECORD COUNT 576
+94851,Active,MUS-220-13,Perf: Adv Voice,AR  ,,"Mayne, Taylor J ","Mayne, Taylor",,,20 /20 ,2.00000,,RECORD COUNT 576
+94852,Active,MUS-220-14,Perf: Adv Piano,AR  ,,"Messerschmitt, Nicole C ","Messerschmitt, Nicole",,,20 /20 ,2.00000,,RECORD COUNT 576
+94870,Active,MUS-220-15,Perf: Adv Voice,AR  ,,"Sojka, Gregory J ","Sojka, Gregory",,,20 /20 ,2.00000,,RECORD COUNT 576
+94853,Active,MUS-220-16,Perf: Adv Banjo,AR  ,,"Buck, Fred L ","Buck, Fred",,,20 /20 ,2.00000,,RECORD COUNT 576
+94854,Active,MUS-220-17,Perf: Adv Piano,AR  ,,"Liu, Hsin-Hui ","Liu, Hsin-Hui",,,20 /20 ,2.00000,,RECORD COUNT 576
+94855,Active,MUS-220-18,Perf: Adv Harp,AR  ,,"Erickson, Laura J ","Erickson, Laura",,,20 /20 ,2.00000,,RECORD COUNT 576
+94856,Active,MUS-220-19,Perf: Adv Organ,AR  ,,"Elsbernd, Michael J ","Elsbernd, Michael",,,20 /20 ,2.00000,,RECORD COUNT 576
+94857,Active,MUS-220-20,Perf: Adv Piano,AR  ,,"Westphalen, Melinda ","Westphalen, Melinda",,,20 /20 ,2.00000,,RECORD COUNT 576
+94858,Active,MUS-220-21,Perf: Adv Viola,AR  ,,"Miranda, Charles D ","Miranda, Charles",,,20 /20 ,2.00000,,RECORD COUNT 576
+94859,Active,MUS-220-24,Perf: Adv Flute,AR  ,,"Anderson, Claudia ","Anderson, Claudia",,,20 /20 ,2.00000,,RECORD COUNT 576
+94860,Active,MUS-220-26,Perf: Adv Violin,AR  ,,"Gentzsch, Andrew C ","Gentzsch, Andrew",,,20 /20 ,2.00000,,RECORD COUNT 576
+94861,Active,MUS-220-27,Perf: Adv Jazz Piano,AR  ,,"Espinosa, Gabriel ","Espinosa, Gabriel",,,20 /20 ,2.00000,,RECORD COUNT 576
+94862,Active,MUS-220-28,Perf: Adv Jazz Voice,AR  ,,"Espinosa, Gabriel ","Espinosa, Gabriel",,,20 /20 ,2.00000,,RECORD COUNT 576
+94863,Active,MUS-220-32,Perf: Adv Piano,AR  ,,"Joo, Hyejin ","Joo, Hyejin",,,20 /20 ,2.00000,,RECORD COUNT 576
+94864,Active,MUS-220-35,Perf: Adv Tuba,AR  ,,"Parker, Robert C ","Parker, Robert",,,20 /20 ,2.00000,,RECORD COUNT 576
+94865,Active,MUS-220-38,Perf: Adv Cello,AR  ,,"Henson, Alan K ","Henson, Alan",,,20 /20 ,2.00000,,RECORD COUNT 576
+94866,Active,MUS-220-39,Perf: Adv Double Bass,AR  ,,"Charlson, Steven E ","Charlson, Steven",,,20 /20 ,2.00000,,RECORD COUNT 576
+94867,Active,MUS-220-40,Perf: Adv Bassoon,AR  ,,"Jones, Felisha ","Jones, Felisha",,,20 /20 ,2.00000,,RECORD COUNT 576
+94868,Active,MUS-220-42,Perf: Adv Guitar,AR  ,,"Aldridge, James ","Aldridge, Alex",,,20 /20 ,2.00000,,RECORD COUNT 576
+94869,Active,MUS-220-43,Perf: Adv Accordian,AR  ,,"Bergan, Joyce A ","Bergan, Joyce",,,20 /20 ,2.00000,,RECORD COUNT 576
+94871,Active,MUS-220-46,Perf: Adv Oboe,AR  ,,"Jones, Felisha ","Jones, Felisha",,,20 /20 ,2.00000,,RECORD COUNT 576
+94872,Active,MUS-220-48,Perf: Adv Jazz Bass,AR  ,,"Charlson, Steven E ","Charlson, Steven",,,20 /20 ,2.00000,,RECORD COUNT 576
+94873,Active,MUS-220-49,Perf: Adv Baritone Horn,AR  ,,"Parker, Robert C ","Parker, Robert",,,20 /20 ,2.00000,,RECORD COUNT 576
+94874,Active,MUS-221-01,Perf: Adv Violin,AR  ,,"Finkelshteyn, Tracy V ","Finkelshteyn, Tracy",,,20 /20 ,2.00000,,RECORD COUNT 576
+94875,Active,MUS-221-02,Perf: Adv Voice,AR  ,,"Whitney, Mackenzie ","Whitney, Mackenzie",,,20 /20 ,2.00000,,RECORD COUNT 576
+94876,Active,MUS-221-03,Perf: Adv Trombone,AR  ,,"Parker, Robert C ","Parker, Robert",,,20 /20 ,2.00000,,RECORD COUNT 576
+94877,Active,MUS-221-04,Perf: Adv French Horn,AR  ,,"Stout, Amanda ","Stout, Amanda",,,20 /20 ,2.00000,,RECORD COUNT 576
+94878,Active,MUS-221-05,Perf: Adv Trumpet,AR  ,,"Swartz, Craig L ","Swartz, Craig",,,20 /20 ,2.00000,,RECORD COUNT 576
+94879,Active,MUS-221-06,Perf: Adv Bagpipes,AR  ,,"Clower, Robert P ","Clower, Robert",,,20 /20 ,2.00000,,RECORD COUNT 576
+94880,Active,MUS-221-07,Perf: Adv Saxophone,AR  ,,"Smith, Ryan J ","Smith, Ryan",,,20 /20 ,2.00000,,RECORD COUNT 576
+94881,Active,MUS-221-08,Perf: Adv Percussion,AR  ,,"Ramirez, Stacey ","Ramirez, Stacey",,,20 /20 ,2.00000,,RECORD COUNT 576
+94882,Active,MUS-221-09,Perf: Adv Clarinet,AR  ,,"Smith, Ryan J ","Smith, Ryan",,,20 /20 ,2.00000,,RECORD COUNT 576
+94883,Active,MUS-221-10,Perf: Adv Jazz Saxophone,AR  ,,"Smith, Ryan J ","Smith, Ryan",,,20 /20 ,2.00000,,RECORD COUNT 576
+94884,Active,MUS-221-11,Perf: Adv Guitar,AR  ,,"Smith, Rex Patrick ","Smith, Rex",,,20 /20 ,2.00000,,RECORD COUNT 576
+94885,Active,MUS-221-13,Perf: Adv Voice,AR  ,,"Mayne, Taylor J ","Mayne, Taylor",,,20 /20 ,2.00000,,RECORD COUNT 576
+94886,Active,MUS-221-14,Perf: Adv Piano,AR  ,,"Messerschmitt, Nicole C ","Messerschmitt, Nicole",,,20 /20 ,2.00000,,RECORD COUNT 576
+94903,Active,MUS-221-15,Perf: Adv Voice,AR  ,,"Sojka, Gregory J ","Sojka, Gregory",,,20 /20 ,2.00000,,RECORD COUNT 576
+94887,Active,MUS-221-16,Perf: Adv Banjo,AR  ,,"Buck, Fred L ","Buck, Fred",,,20 /20 ,2.00000,,RECORD COUNT 576
+94888,Active,MUS-221-17,Perf: Adv Piano,AR  ,,"Liu, Hsin-Hui ","Liu, Hsin-Hui",,,20 /20 ,2.00000,,RECORD COUNT 576
+94889,Active,MUS-221-18,Perf: Adv Harp,AR  ,,"Erickson, Laura J ","Erickson, Laura",,,20 /20 ,2.00000,,RECORD COUNT 576
+94890,Active,MUS-221-19,Perf: Adv Organ,AR  ,,"Elsbernd, Michael J ","Elsbernd, Michael",,,20 /20 ,2.00000,,RECORD COUNT 576
+94891,Active,MUS-221-20,Perf: Adv Piano,AR  ,,"Westphalen, Melinda ","Westphalen, Melinda",,,20 /20 ,2.00000,,RECORD COUNT 576
+94892,Active,MUS-221-21,Perf: Adv Viola,AR  ,,"Miranda, Charles D ","Miranda, Charles",,,20 /20 ,2.00000,,RECORD COUNT 576
+94893,Active,MUS-221-24,Perf: Adv Flute,AR  ,,"Anderson, Claudia ","Anderson, Claudia",,,20 /20 ,2.00000,,RECORD COUNT 576
+94894,Active,MUS-221-26,Perf: Adv Violin,AR  ,,"Gentzsch, Andrew C ","Gentzsch, Andrew",,,20 /20 ,2.00000,,RECORD COUNT 576
+94895,Active,MUS-221-27,Perf: Adv Jazz Piano,AR  ,,"Espinosa, Gabriel ","Espinosa, Gabriel",,,20 /20 ,2.00000,,RECORD COUNT 576
+94896,Active,MUS-221-28,Perf: Adv Jazz Voice,AR  ,,"Espinosa, Gabriel ","Espinosa, Gabriel",,,20 /20 ,2.00000,,RECORD COUNT 576
+94897,Active,MUS-221-32,Perf: Adv Piano,AR  ,,"Joo, Hyejin ","Joo, Hyejin",,,20 /20 ,2.00000,,RECORD COUNT 576
+94898,Active,MUS-221-35,Perf: Adv Tuba,AR  ,,"Parker, Robert C ","Parker, Robert",,,20 /20 ,2.00000,,RECORD COUNT 576
+94899,Active,MUS-221-38,Perf: Adv Cello,AR  ,,"Henson, Alan K ","Henson, Alan",,,20 /20 ,2.00000,,RECORD COUNT 576
+94900,Active,MUS-221-39,Perf: Adv Double Bass,AR  ,,"Charlson, Steven E ","Charlson, Steven",,,20 /20 ,2.00000,,RECORD COUNT 576
+94901,Active,MUS-221-40,Perf: Adv Bassoon,AR  ,,"Jones, Felisha ","Jones, Felisha",,,20 /20 ,2.00000,,RECORD COUNT 576
+94902,Active,MUS-221-42,Perf: Adv Guitar,AR  ,,"Aldridge, James ","Aldridge, Alex",,,20 /20 ,2.00000,,RECORD COUNT 576
+94904,Active,MUS-221-46,Perf: Adv Oboe,AR  ,,"Jones, Felisha ","Jones, Felisha",,,20 /20 ,2.00000,,RECORD COUNT 576
+94905,Active,MUS-221-48,Perf: Adv Jazz Bass,AR  ,,"Charlson, Steven E ","Charlson, Steven",,,20 /20 ,2.00000,,RECORD COUNT 576
+94906,Active,MUS-221-49,Perf: Adv Baritone Horn,AR  ,,"Parker, Robert C ","Parker, Robert",,,20 /20 ,2.00000,,RECORD COUNT 576
+94518,Active,MUS-261-01,Music in Europe to 1750,MWF  ,11:00 AM - 11:50 AM  ,"Staff, - ","Staff, -",,,18 /18 ,4.00000,,RECORD COUNT 576
+95432,Active,MUS-295-01,ST: Intro to Audio Production,MW  ,1:00 PM  - 2:20 PM  ,"Staff, - ","Staff, -",,,12 /12 ,2.00000,,RECORD COUNT 576
+94457,Active,NRS-495-01,Neuroscience Seminar,TTH  ,8:00 AM  - 9:50 AM  ,"Levandoski, Mark M ","Levandoski, Mark",,,15 /15 ,4.00000,,RECORD COUNT 576
+94779,Active,PHE-100-01,Softball Skills,TTH  ,10:00 AM - 10:50 AM  ,"Determan, Lexy ","Determan, Lexy",,,16 /16 ,0.50000,,RECORD COUNT 576
+94774,Active,PHE-100-03,Advanced Baseball,MW  ,3:00 PM  - 3:50 PM  ,"Hollibaugh, Timothy J ","Hollibaugh, Tim",,,15 /15 ,0.50000,,RECORD COUNT 576
+94800,Active,PHE-100-04,Beginning Basketball Skills,MW  ,9:00 AM  - 9:50 AM  ,"Harrold, Dana ","Harrold, Dana",,,20 /20 ,0.50000,,RECORD COUNT 576
+94776,Active,PHE-100-05,Bowling,MW  ,1:00 PM  - 1:50 PM  ,"Jaworski, Brian ","Jaworski, Brian",,,24 /24 ,0.50000,,RECORD COUNT 576
+94778,Active,PHE-100-07,Conditioning,TTH  ,10:00 AM - 10:50 AM  ,"Harrold, Dana ","Harrold, Dana",,,12 /12 ,1.00000,,RECORD COUNT 576
+94797,Active,PHE-100-13,Beginning Golf,MW  ,9:00 AM  - 9:50 AM  ,"Cody, Cole ","Cody, Cole",,,12 /12 ,0.50000,,RECORD COUNT 576
+94798,Active,PHE-100-14,Advanced Golf,TTH  ,9:00 AM  - 9:50 AM  ,"Cody, Cole ","Cody, Cole",,,6  /6  ,0.50000,,RECORD COUNT 576
+94775,Active,PHE-100-15,Advanced Basketball Skills,TTH  ,1:00 PM  - 1:50 PM  ,"Arseneault Jr., David N ","Arseneault Jr., David",,,10 /10 ,0.50000,,RECORD COUNT 576
+94780,Active,PHE-100-18,Beginning Racquetball,TTH  ,10:00 AM - 10:50 AM  ,"Arseneault Jr., David N ","Arseneault Jr., David",,,6  /6  ,0.50000,,RECORD COUNT 576
+94781,Active,PHE-100-19A,Rock Climbing,T  ,2:00 PM  - 3:50 PM  ,"Preperato, Amanda Mary ","Preperato, Amanda",,,6  /6  ,0.50000,,RECORD COUNT 576
+94782,Active,PHE-100-19B,Rock Climbing,T  ,2:00 PM  - 3:50 PM  ,"Preperato, Amanda Mary ","Preperato, Amanda",,,6  /6  ,0.50000,,RECORD COUNT 576
+94783,Active,PHE-100-22,Swimming Technique,MW  ,10:00 AM - 10:50 AM  ,"Hedman, Matthew ","Hedman, Matt",,,10 /10 ,0.50000,,RECORD COUNT 576
+94785,Active,PHE-100-24,Beginning Swimming,TTH  ,10:00 AM - 10:50 AM  ,"Hedman, Matthew ","Hedman, Matt",,,10 /10 ,0.50000,,RECORD COUNT 576
+94786,Active,PHE-100-25,Advanced Tennis,MW  ,1:00 PM  - 1:50 PM  ,"Hasenyager, Zachary ","Hasenyager, Zachary",,,12 /12 ,0.50000,,RECORD COUNT 576
+94787,Active,PHE-100-26,Beginning Tennis,TTH  ,2:00 PM  - 2:50 PM  ,"Hasenyager, Zachary ","Hasenyager, Zachary",,,12 /12 ,0.50000,,RECORD COUNT 576
+94788,Active,PHE-100-28A,Water Aerobics,MWF  ,11:00 AM - 11:50 AM  ,"Freeman, Evelyn ","Freeman, Evelyn",,,20 /20 ,0.50000,,RECORD COUNT 576
+94789,Active,PHE-100-28B,Water Aerobics,MWF  ,11:00 AM - 11:50 AM  ,"Freeman, Evelyn ","Freeman, Evelyn",,,20 /20 ,0.50000,,RECORD COUNT 576
+94784,Active,PHE-100-31,Sand Volleyball,MW  ,2:00 PM  - 2:50 PM  ,"Ragan, Eric Lansing ","Ragan, Eric",,,25 /25 ,0.50000,,RECORD COUNT 576
+94790,Active,PHE-100-36A,Indoor Cycling Plus Core,TTH  ,9:00 AM  - 9:50 AM  ,"Freeman, Evelyn ","Freeman, Evelyn",,,20 /20 ,0.50000,,RECORD COUNT 576
+94791,Active,PHE-100-36B,Indoor Cycling Plus Core,TTH  ,9:00 AM  - 9:50 AM  ,"Freeman, Evelyn ","Freeman, Evelyn",,,20 /20 ,0.50000,,RECORD COUNT 576
+94793,Active,PHE-100-39,Advanced Weightlifting,MW  ,9:00 AM  - 9:50 AM  ,"Pedersen, Jeffrey J ","Pedersen, Jeff",,,15 /15 ,1.00000,,RECORD COUNT 576
+94792,Active,PHE-100-44,Beginning Weight Lifting,MW  ,8:00 AM  - 8:50 AM  ,"Pedersen, Jeffrey J ","Pedersen, Jeff",,,15 /15 ,1.00000,,RECORD COUNT 576
+94794,Active,PHE-100-47,Fishing,TTH  ,9:00 AM  - 9:50 AM  ,"Jaworski, Brian ","Jaworski, Brian",,,4  /4  ,0.50000,,RECORD COUNT 576
+94795,Active,PHE-100-48,Yoga,TTH  ,10:00 AM - 10:50 AM  ,"Staff, - ","Staff, -",,,25 /25 ,1.00000,,RECORD COUNT 576
+94777,Active,PHE-100-54,"Wellness: Strength, Stabilty",TTH  ,10:00 AM - 10:50 AM  ,"Burnell, Sarah Linn ","Burnell, Sarah",,,15 /15 ,0.50000,,RECORD COUNT 576
+94766,Active,PHE-101-01,Men's Cross Country,MTWTHF  ,4:30 PM  - 6:30 PM  ,"Burnell, Sarah Linn ","Burnell, Sarah",,,30 /30 ,0.50000,,RECORD COUNT 576
+94767,Active,PHE-101-02,Women's Cross Country,MTWTHF  ,4:30 PM  - 6:30 PM  ,"Burnell, Sarah Linn ","Burnell, Sarah",,,30 /30 ,0.50000,,RECORD COUNT 576
+94768,Active,PHE-101-03,Football,MTWTHF  ,4:30 PM  - 6:30 PM  ,"Barnes, Brent ","Barnes, Brent",,,30 /30 ,0.50000,,RECORD COUNT 576
+94769,Active,PHE-101-04,Women's Golf,MTWTHF  ,4:30 PM  - 6:30 PM  ,"Cody, Cole ","Cody, Cole",,,30 /30 ,0.50000,,RECORD COUNT 576
+94770,Active,PHE-101-05,Men's Soccer,MTWTHF  ,4:30 PM  - 6:30 PM  ,"Jaworski, Brian ","Jaworski, Brian",,,30 /30 ,0.50000,,RECORD COUNT 576
+94771,Active,PHE-101-06,Women's Soccer,MTWTHF  ,4:30 PM  - 6:30 PM  ,"Koester, Kirsten ","Koester, Kirsten",,,30 /30 ,0.50000,,RECORD COUNT 576
+94772,Active,PHE-101-07,Women's Tennis,MTWTHF  ,4:30 PM  - 6:30 PM  ,"Hasenyager, Zachary ","Hasenyager, Zachary",,,30 /30 ,0.50000,,RECORD COUNT 576
+94773,Active,PHE-101-08,Volleyball,MTWTHF  ,4:30 PM  - 6:30 PM  ,"Ragan, Eric Lansing ","Ragan, Eric",,,30 /30 ,0.50000,,RECORD COUNT 576
+94796,Active,PHE-235-01,Psych Foundations of Sport,MWF  ,10:00 AM - 10:50 AM  ,"Hasenyager, Zachary; Determan, Lexy","Hasenyager, Zachary","Determan, Lexy","Determan, Lexy",25 /25 ,4.00000,,RECORD COUNT 576
+94799,Active,PHE-295-01,ST: Team Development T & F,T  ,8:00 AM  - 8:50 AM  ,"Pedersen, Jeffrey J ","Pedersen, Jeff",,,15 /15 ,2.00000,,RECORD COUNT 576
+94349,Active,PHI-102-01,Symbolic Logic,MWF  ,8:00 AM  - 8:50 AM  ,"Fennell, John ","Fennell, John",,,25 /25 ,4.00000,,RECORD COUNT 576
+94350,Active,PHI-102-02,Symbolic Logic,MWF  ,9:00 AM  - 9:50 AM  ,"Fennell, John ","Fennell, John",,,25 /25 ,4.00000,,RECORD COUNT 576
+94351,Active,PHI-111-01,Introduction to Philosophy,MWF  ,10:00 AM - 10:50 AM  ,"Rios Acuna, Julian D ","Rios Acuna, Julian",,,25 /25 ,4.00000,,RECORD COUNT 576
+94353,Active,PHI-111-02,Introduction to Philosophy,MWF  ,1:00 PM  - 1:50 PM  ,"Nyden, Tammy ","Nyden, Tammy",,,25 /25 ,4.00000,,RECORD COUNT 576
+94352,Active,PHI-121-01,Philosophy for Life,TTH  ,1:00 PM  - 2:20 PM  ,"Dobe, Jennifer ","Dobe, Jennifer",,,25 /25 ,4.00000,,RECORD COUNT 576
+94355,Active,PHI-231-01,History of Ancient Philosophy,TTH  ,8:30 AM  - 9:50 AM  ,"Cummins, W Joseph ","Cummins, W",,,25 /25 ,4.00000,,RECORD COUNT 576
+94357,Active,PHI-243-01,Epistemic Injustices,MW  ,10:00 AM - 11:20 AM  ,"Nyden, Tammy ","Nyden, Tammy",,,22 /20 ,4.00000,,RECORD COUNT 576
+94356,Active,PHI-258-01,Clscl & Cntmp Am Pragmatism,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Fennell, John ","Fennell, John",,,22 /22 ,4.00000,,RECORD COUNT 576
+94765,Active,PHI-395-01,ST: Decolonial Phil Seminar,MW  ,2:00 PM  - 3:50 PM  ,"Rios Acuna, Julian D ","Rios Acuna, Julian",,,15 /15 ,4.00000,,RECORD COUNT 576
+94404,Active,PHY-115-01,How to Learn Physics,MWF  ,10:00 AM - 11:50 AM  ,"Hutchison, Paul ","Hutchison, Paul",,,24 /24 ,4.00000,,RECORD COUNT 576
+94478,Active,PHY-116-01,Universe & Its Structure,MWF  ,3:00 PM  - 3:50 PM  ,"Staff, - ","Staff, -",,,30 /30 ,4.00000,,RECORD COUNT 576
+94479,Active,PHY-131-01,General Physics I w/lab,MWF  ,8:00 AM  - 9:50 AM  ,"Hasegawa, Keisuke; Staff, -","Hasegawa, Keisuke","Staff, -","Staff, -",24 /24 ,4.00000,,RECORD COUNT 576
+94480,Active,PHY-131-02,General Physics I w/lab,MWF  ,10:00 AM - 11:50 AM  ,"Hasegawa, Keisuke; Staff, -","Hasegawa, Keisuke","Staff, -","Staff, -",24 /24 ,4.00000,,RECORD COUNT 576
+94481,Active,PHY-131-03,General Physics I w/lab,MWF  ,2:00 PM  - 3:50 PM  ,"Hasegawa, Keisuke; Staff, -","Hasegawa, Keisuke","Staff, -","Staff, -",24 /24 ,4.00000,,RECORD COUNT 576
+94499,Active,PHY-132-01,General Physics II w/lab,MWF  ,8:00 AM  - 8:50 AM  ,"Burson, Kristen; Staff, -","Burson, Kristen","Staff, -","Staff, -",24 /24 ,4.00000,,RECORD COUNT 576
+94500,Active,PHY-132-02,General Physics II w/lab,MWF  ,9:00 AM  - 9:50 AM  ,"Burson, Kristen; Staff, -","Burson, Kristen","Staff, -","Staff, -",24 /24 ,4.00000,,RECORD COUNT 576
+94501,Active,PHY-132L-01,General Physics II Lab,T  ,1:00 PM  - 3:50 PM  ,"Burson, Kristen; Staff, -","Burson, Kristen","Staff, -","Staff, -",24 /24 ,0.00000,,RECORD COUNT 576
+94502,Active,PHY-132L-02,General Physics II Lab,TH  ,1:00 PM  - 3:50 PM  ,"Burson, Kristen; Staff, -","Burson, Kristen","Staff, -","Staff, -",24 /24 ,0.00000,,RECORD COUNT 576
+94482,Active,PHY-232-01,Modern Physics w/lab,MWF  ,10:00 AM - 10:50 AM  ,"Cunningham, Charles E ","Cunningham, Charles",,,20 /20 ,4.00000,,RECORD COUNT 576
+94483,Active,PHY-232-02,Modern Physics w/lab,MWF  ,11:00 AM - 11:50 AM  ,"Christensen, Charlotte ","Christensen, Charlotte",,,20 /20 ,4.00000,,RECORD COUNT 576
+94484,Active,PHY-232L-01,Modern Physics Lab,T  ,8:00 AM  - 10:50 AM  ,"Hasegawa, Keisuke ","Hasegawa, Keisuke",,,12 /12 ,0.00000,,RECORD COUNT 576
+94485,Active,PHY-232L-02,Modern Physics Lab,T  ,1:00 PM  - 3:50 PM  ,"Cunningham, Charles E ","Cunningham, Charles",,,12 /12 ,0.00000,,RECORD COUNT 576
+94486,Active,PHY-232L-03,Modern Physics Lab,TH  ,1:00 PM  - 3:50 PM  ,"Cunningham, Charles E ","Cunningham, Charles",,,12 /12 ,0.00000,,RECORD COUNT 576
+94487,Active,PHY-335-01,Electromagnetic Theory,TTH  ,8:30 AM  - 9:50 AM  ,"Staff, - ","Staff, -",,,18 /18 ,4.00000,,RECORD COUNT 576
+94488,Active,PHY-456-01,Introduction to Quantum Theory,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Staff, - ","Staff, -",,,15 /15 ,4.00000,,RECORD COUNT 576
+94489,Active,PHY-462-01,Advanced Laboratory,MW  ,1:00 PM  - 3:50 PM  ,"Burson, Kristen ","Burson, Kristen",,,12 /12 ,2.00000,,RECORD COUNT 576
+94490,Active,POL-101-01,Intro to Political Science,MWF  ,9:00 AM  - 9:50 AM  ,"Hanson, Peter ","Hanson, Peter",,,25 /25 ,4.00000,,RECORD COUNT 576
+94491,Active,POL-101-02,Intro to Political Science,MWF  ,1:00 PM  - 1:50 PM  ,"Sala, Gemma ","Sala, Gemma",,,25 /25 ,4.00000,,RECORD COUNT 576
+94492,Active,POL-101-03,Intro to Political Science,MWF  ,3:00 PM  - 3:50 PM  ,"Nava, Courtney J ","Nava, Courtney",,,25 /25 ,4.00000,,RECORD COUNT 576
+94493,Active,POL-101-04,Intro to Political Science,TTH  ,1:00 PM  - 2:20 PM  ,"Driscoll, Barry ","Driscoll, Barry",,,25 /25 ,4.00000,,RECORD COUNT 576
+94497,Active,POL-219-01,Constitutional Law & Politics,MWF  ,2:00 PM  - 3:50 PM  ,"Hanson, Peter ","Hanson, Peter",,,25 /25 ,4.00000,,RECORD COUNT 576
+94522,Active,POL-220-01,Foundations of Policy Analysis,TTH  ,8:30 AM  - 9:50 AM  ,"Jozwiak, Andreas ","Jozwiak, Andreas",,,25 /25 ,4.00000,,RECORD COUNT 576
+94498,Active,POL-251-01,Internatnl Political Economy,TTH  ,8:30 AM  - 9:50 AM  ,"Driscoll, Barry ","Driscoll, Barry",,,25 /25 ,4.00000,,RECORD COUNT 576
+94495,Active,POL-257-01,Nationalism,MWF  ,10:00 AM - 11:50 AM  ,"Sala, Gemma ","Sala, Gemma",,,25 /25 ,4.00000,,RECORD COUNT 576
+94494,Active,POL-262-01,African Politics,MWF  ,8:30 AM  - 9:50 AM  ,"Driscoll, Barry ","Driscoll, Barry",,,25 /25 ,4.00000,,RECORD COUNT 576
+94496,Active,POL-273-01,Politics of Russia,MWF  ,2:00 PM  - 2:50 PM  ,"Lussier, Danielle N ","Lussier, Danielle",,,25 /25 ,4.00000,,RECORD COUNT 576
+94598,Active,POL-295-01,ST: Race and Ethnic Pol in US,MWF  ,1:00 PM  - 1:50 PM  ,"Nava, Courtney J ","Nava, Courtney",,,25 /25 ,4.00000,,RECORD COUNT 576
+94527,Active,POL-319-01,Advanced Constitutional Law,TTH  ,2:00 PM  - 3:50 PM  ,"Hanson, Peter ","Hanson, Peter",,,15 /15 ,4.00000,,RECORD COUNT 576
+94525,Active,POL-320-01,Applied Policy Analysis,TTH  ,2:00 PM  - 3:50 PM  ,"Jozwiak, Andreas ","Jozwiak, Andreas",,,16 /16 ,4.00000,,RECORD COUNT 576
+94314,Active,POL-325-01,Fragile/Cnflct Affctd Country,MW  ,2:00 PM  - 3:50 PM  ,"Brottem, Leif ","Brottem, Leif",,,15 /15 ,4.00000,,RECORD COUNT 576
+94524,Active,POL-335-01,Adv Sem Comparative Politics,MW  ,10:00 AM - 11:50 AM  ,"Lussier, Danielle N ","Lussier, Danielle",,,15 /15 ,4.00000,,RECORD COUNT 576
+94523,Active,PST-220-01,Foundations of Policy Analysis,TTH  ,8:30 AM  - 9:50 AM  ,"Jozwiak, Andreas ","Jozwiak, Andreas",,,25 /25 ,4.00000,,RECORD COUNT 576
+94526,Active,PST-320-01,Applied Policy Analysis,TTH  ,2:00 PM  - 3:50 PM  ,"Jozwiak, Andreas ","Jozwiak, Andreas",,,16 /16 ,4.00000,,RECORD COUNT 576
+94321,Active,PSY-113-01,Intro to Psychology w/lab,MWF TH,8:00 AM  - 8:50 AM 1:00 PM  - 3:50 PM ,"Ralston, Christopher ","Ralston, Christopher",,,26 /26 ,4.00000,,RECORD COUNT 576
+94324,Active,PSY-113-02,Intro to Psychology w/lab,MWF W,9:00 AM  - 9:50 AM 1:00 PM  - 3:50 PM ,"Ng, Brandon ","Ng, Brandon",,,26 /26 ,4.00000,,RECORD COUNT 576
+94322,Active,PSY-113-03,Intro to Psychology w/lab,MWF T,10:00 AM - 10:50 AM 1:00 PM  - 3:50 PM ,"Ellis, Ann E ","Ellis, Ann",,,26 /26 ,4.00000,,RECORD COUNT 576
+94325,Active,PSY-214-01,Social Psychology w/lab,MW TH,1:00 PM  - 2:20 PM 1:00 PM  - 3:50 PM ,"Vossoughi, Nadia ","Vossoughi, Nadia",,,25 /25 ,4.00000,,RECORD COUNT 576
+94326,Active,PSY-225-01,Research Methods,TTH  ,8:30 AM  - 9:50 AM  ,"Conway, Christopher M ","Conway, Christopher",,,25 /25 ,4.00000,,RECORD COUNT 576
+94327,Active,PSY-225-02,Research Methods,MWF  ,11:00 AM - 11:50 AM  ,"Ralston, Christopher ","Ralston, Christopher",,,25 /25 ,4.00000,,RECORD COUNT 576
+94328,Active,PSY-231-01,Sensation & Perception w/lab,MWF M,11:00 AM - 11:50 AM 1:00 PM  - 3:50 PM ,"Papaioannou, Orestis ","Papaioannou, Orestis",,,25 /25 ,4.00000,,RECORD COUNT 576
+94329,Active,PSY-246-01,Brain and Behavior,MWF  ,10:00 AM - 10:50 AM  ,"Rempel-Clower, Nancy L ","Rempel-Clower, Nancy",,,25 /25 ,4.00000,,RECORD COUNT 576
+94330,Active,PSY-250-01,Health Psychology,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Ellis, Ann E ","Ellis, Ann",,,25 /25 ,4.00000,,RECORD COUNT 576
+94331,Active,PSY-260-01,Cognitive Psychology w/lab,MWF T,9:00 AM  - 9:50 AM 1:00 PM  - 3:50 PM ,"Conway, Christopher M ","Conway, Christopher",,,25 /25 ,4.00000,,RECORD COUNT 576
+94335,Active,PSY-311-01,Hist Psychological Theories,MWF  ,3:00 PM  - 3:50 PM  ,"Lopatto, David ","Lopatto, David",,,15 /15 ,4.00000,,RECORD COUNT 576
+95447,Active,PSY-314-01,Psych Collective Action,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Vossoughi, Nadia ","Vossoughi, Nadia",,,15 /15 ,4.00000,,RECORD COUNT 576
+94332,Active,PSY-317-01,Personality Psychology,MW  ,1:00 PM  - 2:20 PM  ,"Sinnett, Laura M ","Sinnett, Laura",,,15 /15 ,4.00000,,RECORD COUNT 576
+94334,Active,PSY-348-01,Behavioral Medicine w/lab,MWF T,10:00 AM - 10:50 AM 1:00 PM  - 3:50 PM ,"Lopatto, David ","Lopatto, David",,,15 /15 ,4.00000,,RECORD COUNT 576
+94333,Cancelled,PSY-348-01,Behavioral Medicine,MWF  ,10:00 AM - 10:50 AM  ,"Lopatto, David ","Lopatto, David",,,15 /15 ,4.00000,,RECORD COUNT 576
+95406,Active,REL-104-01,Studying Religion: India,MWF  ,9:00 AM  - 9:50 AM  ,"Dobe, Timothy S ","Dobe, Tim",,,25 /25 ,4.00000,,RECORD COUNT 576
+95407,Active,REL-106-01,Studying Rel: Black Rel Trds,MWF  ,1:00 PM  - 1:50 PM  ,"Hills, Darrius D ","Hills, Darrius",,,25 /25 ,4.00000,,RECORD COUNT 576
+95411,Active,REL-211-01,The Hebrew Bible,MWF  ,11:00 AM - 11:50 AM  ,"Rietz, Henry W Morisada ","Rietz, Henry",,,20 /20 ,4.00000,,RECORD COUNT 576
+95410,Active,REL-240-01,Religion Is Everywhere,MW  ,2:30 PM  - 3:50 PM  ,"Rietz, Henry W Morisada ","Rietz, Henry",,,20 /20 ,4.00000,,RECORD COUNT 576
+95433,Cancelled,REL-242-01,"Rel, Race, & Am Evngclsm",TTH  ,1:00 PM  - 2:20 PM  ,"Hills, Darrius D ","Hills, Darrius",,,25 /25 ,4.00000,,RECORD COUNT 576
+95408,Active,REL-242-01,"Rel, Race, & Amer Evangelicism",TTH  ,1:00 PM  - 2:20 PM  ,"Hills, Darrius D ","Hills, Darrius",,,25 /25 ,4.00000,,RECORD COUNT 576
+95409,Active,REL-243-01,Religion and Hip-Hop,TTH  ,8:30 AM  - 9:50 AM  ,"Hills, Darrius D ","Hills, Darrius",,,25 /25 ,4.00000,,RECORD COUNT 576
+95412,Active,REL-252-01,"Religion, Healing, & Health",TTH  ,2:30 PM  - 3:50 PM  ,"Chen, Dixuan Yujing ","Chen, Dixuan Yujing",,,20 /20 ,4.00000,,RECORD COUNT 576
+95413,Active,REL-311-01,Thry & Mthd in Study of Relign,MW  ,10:00 AM - 11:50 AM  ,"Saba, Elias G ","Saba, Elias",,,15 /15 ,4.00000,,RECORD COUNT 576
+94246,Active,REL-326-01,Anthropology of Religion,MWF  ,3:00 PM  - 3:50 PM  ,"Andelson, Jonathan ","Andelson, Jonathan",,,15 /15 ,4.00000,,RECORD COUNT 576
+94588,Active,RUS-101-01,Beginning Russian I,MWF  ,10:00 AM - 10:50 AM  ,"Armstrong, Todd Patrick ","Armstrong, Todd",,,20 /20 ,4.00000,,RECORD COUNT 576
+94596,Active,RUS-200-01,Conversational Russian,AR  ,,"Staff, - ","Staff, -",,,15 /15 ,1.00000,,RECORD COUNT 576
+94592,Active,RUS-214-01,Russian/Soviet Food Culture,TTH  ,2:00 PM  - 3:50 PM  ,"Armstrong, Todd Patrick ","Armstrong, Todd",,,15 /15 ,4.00000,,RECORD COUNT 576
+94590,Active,RUS-221-01,Intermediate Russian I,MWF  ,9:00 AM  - 9:50 AM  ,"Herold, Kelly ","Herold, Kelly",,,20 /20 ,4.00000,,RECORD COUNT 576
+94594,Active,RUS-281-01,Major Russ Writers: Nabokov,MWF  ,1:00 PM  - 1:50 PM  ,"Herold, Kelly ","Herold, Kelly",,,25 /25 ,4.00000,,RECORD COUNT 576
+94591,Active,RUS-313-01,Prsnt Thrgh Pst: Rus Cult Trad,MWF  ,3:00 PM  - 3:50 PM  ,"Greene, Raquel G ","Greene, Raquel",,,15 /15 ,4.00000,,RECORD COUNT 576
+95160,Cancelled,SAM-295-01,ST: Israel/Palestine History,MW  ,1:00 PM  - 2:20 PM  ,"Staff, - ","Staff, -",,,25 /25 ,4.00000,,RECORD COUNT 576
+95050,Active,SCI-100-01,Science Laboratory,AR  ,,"Mahlab, Minna A ","Mahlab, Minna",,,15 /15 ,1.00000,,RECORD COUNT 576
+95111,Active,SMS-150-01,"Intro Sci, Med, Tech & Society",MWF  ,9:00 AM  - 9:50 AM  ,"Guenther, Michael B ","Guenther, Michael",,,25 /25 ,4.00000,,RECORD COUNT 576
+95414,Active,SOC-111-01,Introduction to Sociology,MWF  ,8:00 AM  - 8:50 AM  ,"Staff, - ","Staff, -",,,25 /25 ,4.00000,,RECORD COUNT 576
+95415,Active,SOC-111-02,Introduction to Sociology,MWF  ,11:00 AM - 11:50 AM  ,"Francisco, Sara C ","Francisco, Sara",,,25 /25 ,4.00000,,RECORD COUNT 576
+95416,Active,SOC-111-03,Introduction to Sociology,MWF  ,2:00 PM  - 2:50 PM  ,"Francisco, Sara C ","Francisco, Sara",,,25 /25 ,4.00000,,RECORD COUNT 576
+95417,Active,SOC-111-04,Introduction to Sociology,TTH  ,1:00 PM  - 2:20 PM  ,"Escandell, Xavier ","Escandell, Xavier",,,25 /25 ,4.00000,,RECORD COUNT 576
+95418,Active,SOC-111-05,Introduction to Sociology,TTH  ,2:30 PM  - 3:50 PM  ,"Escandell, Xavier ","Escandell, Xavier",,,25 /25 ,4.00000,,RECORD COUNT 576
+95419,Active,SOC-240-01,Social Movements,MWF  ,11:00 AM - 11:50 AM  ,"Haenfler, Ross J ","Haenfler, Ross",,,22 /22 ,4.00000,,RECORD COUNT 576
+95427,Active,SOC-285-01,Contemp Sociological Theory,TTH  ,1:00 PM  - 2:20 PM  ,"Bacon, J.M. ","Bacon, Jules",,,18 /18 ,4.00000,,RECORD COUNT 576
+95428,Active,SOC-285-02,Contemp Sociological Theory,MW  ,10:00 AM - 11:20 AM  ,"Erickson, Karla A ","Erickson, Karla",,,18 /18 ,4.00000,,RECORD COUNT 576
+95423,Active,SOC-291-01,Meth Empirical Investigation,MW  ,10:00 AM - 11:20 AM  ,"Escandell, Xavier ","Escandell, Xavier",,,18 /18 ,4.00000,,RECORD COUNT 576
+95424,Active,SOC-291-02,Meth Empirical Investigation,MW  ,1:00 PM  - 2:20 PM  ,"Escandell, Xavier ","Escandell, Xavier",,,18 /18 ,4.00000,,RECORD COUNT 576
+95420,Active,SOC-295-01,"ST: Arts, Crafts, & Activism",MW  ,8:30 AM  - 9:50 AM  ,"Snook, Jennifer ","Snook, Jennifer",,,25 /25 ,4.00000,,RECORD COUNT 576
+95461,Active,SOC-295-02,ST: Data Analysis Soc Science,MWF  ,1:00 PM  - 1:50 PM  ,"Francisco, Sara C ","Francisco, Sara",,,25 /25 ,4.00000,,RECORD COUNT 576
+95422,Active,SOC-350-01,Christian Nationalism,MW  ,10:00 AM - 11:50 AM  ,"Snook, Jennifer ","Snook, Jennifer",,,14 /14 ,4.00000,,RECORD COUNT 576
+95421,Active,SOC-360-01,"Work in the ""New"" Economy",MW  ,8:00 AM  - 9:50 AM  ,"Erickson, Karla A ","Erickson, Karla",,,15 /15 ,4.00000,,RECORD COUNT 576
+95345,Active,SPN-105-01,Introduction Spanish Lang I,MTWF  ,10:00 AM - 10:50 AM  ,"Aparicio, Yvette ","Aparicio, Yvette",,,20 /20 ,4.00000,,RECORD COUNT 576
+95346,Active,SPN-105-02,Introduction Spanish Lang I,MTWF  ,1:00 PM  - 1:50 PM  ,"Perez, Mirzam C ","Perez, Mirzam",,,20 /20 ,4.00000,,RECORD COUNT 576
+95347,Active,SPN-106-01,Introduction Spanish Lang II,MTWF  ,10:00 AM - 10:50 AM  ,"Staff, - ","Staff, -",,,20 /20 ,4.00000,,RECORD COUNT 576
+95348,Active,SPN-106-02,Introduction Spanish Lang II,MTWF  ,1:00 PM  - 1:50 PM  ,"Staff, - ","Staff, -",,,20 /20 ,4.00000,,RECORD COUNT 576
+95349,Cancelled,SPN-204-01,Communication in Spanish I,T  ,10:00 AM - 10:50 AM  ,"Staff, - ","Staff, -",,,15 /15 ,1.00000,,RECORD COUNT 576
+95350,Cancelled,SPN-205-01,Communication in Spanish II,TH  ,10:00 AM - 10:50 AM  ,"Staff, - ","Staff, -",,,15 /15 ,1.00000,,RECORD COUNT 576
+95351,Active,SPN-217-01,Intermediate Spanish,MWF  ,8:00 AM  - 8:50 AM  ,"Valentin del Barrio, Maria Carmen ","Valentin del Barrio, Carmen",,,20 /20 ,4.00000,,RECORD COUNT 576
+95352,Active,SPN-217-02,Intermediate Spanish,MWF  ,10:00 AM - 10:50 AM  ,"Benoist, Maria Valerie ","Benoist, Valerie",,,20 /20 ,4.00000,,RECORD COUNT 576
+95353,Active,SPN-217-03,Intermediate Spanish,MWF  ,11:00 AM - 11:50 AM  ,"Valentin del Barrio, Maria Carmen ","Valentin del Barrio, Carmen",,,20 /20 ,4.00000,,RECORD COUNT 576
+95354,Active,SPN-217-04,Intermediate Spanish,MWF  ,1:00 PM  - 1:50 PM  ,"Aparicio, Yvette ","Aparicio, Yvette",,,20 /20 ,4.00000,,RECORD COUNT 576
+95355,Active,SPN-285-01,Lit Cult Spanish Spk World,MWF  ,9:00 AM  - 9:50 AM  ,"Aparicio, Yvette ","Aparicio, Yvette",,,20 /20 ,4.00000,,RECORD COUNT 576
+95356,Active,SPN-285-02,Lit Cult Spanish Spk World,MWF  ,11:00 AM - 11:50 AM  ,"Perez, Mirzam C ","Perez, Mirzam",,,20 /20 ,4.00000,,RECORD COUNT 576
+95362,Active,SPN-295-01,ST: Communication in Spanish,TH  ,10:00 AM - 10:50 AM  ,"Staff, - ","Staff, -",,,15 /15 ,1.00000,,RECORD COUNT 576
+95357,Active,SPN-317-01,Readngs in US Latinx Lit/Cult,MW  ,2:30 PM  - 3:50 PM  ,"Petrus, John ","Petrus, John",,,15 /15 ,4.00000,,RECORD COUNT 576
+95361,Active,SPN-320-01,Cult of Spanish Speakng World,TTH  ,2:30 PM  - 3:50 PM  ,"Perez, Mirzam C ","Perez, Mirzam",,,15 /15 ,4.00000,,RECORD COUNT 576
+95358,Active,SPN-343-01,The Art of Language,TTH  ,8:30 AM  - 9:50 AM  ,"Valentin del Barrio, Maria Carmen ","Valentin del Barrio, Carmen",,,15 /15 ,4.00000,,RECORD COUNT 576
+95359,Active,SPN-383-01,Latin American Colonial World,MW  ,2:00 PM  - 3:50 PM  ,"Benoist, Maria Valerie ","Benoist, Valerie",,,15 /15 ,4.00000,,RECORD COUNT 576
+94414,Active,SST-110-01,Comparative Herbalism,W  ,1:00 PM  - 3:50 PM  ,"Lewis, Carolyn Herbst ","Lewis, Carolyn",,,10 /10 ,2.00000,,RECORD COUNT 576
+94415,Active,SST-110-02,Comparative Herbalism,W  ,1:00 PM  - 3:50 PM  ,"Lewis, Carolyn Herbst ","Lewis, Carolyn",,,10 /10 ,2.00000,,RECORD COUNT 576
+94336,Active,SST-125-01,Intro to Geographic Info Systm,M  ,7:00 PM  - 9:50 PM  ,"Brottem, Leif ","Brottem, Leif",,,25 /25 ,2.00000,,RECORD COUNT 576
+94337,Active,SST-125-02,Intro to Geographic Info Systm,M  ,7:00 PM  - 9:50 PM  ,"Brottem, Leif ","Brottem, Leif",,,25 /25 ,2.00000,,RECORD COUNT 576
+94309,Active,STA-209-01,Applied Statistics,MWF  ,8:30 AM  - 9:50 AM  ,"Nolte, Collin ","Nolte, Collin",,,26 /26 ,4.00000,,RECORD COUNT 576
+94310,Active,STA-209-02,Applied Statistics,MWF  ,10:00 AM - 11:20 AM  ,"Nolte, Collin ","Nolte, Collin",,,26 /26 ,4.00000,,RECORD COUNT 576
+94311,Active,STA-230-01,Introduction to Data Science,TTH  ,8:30 AM  - 9:50 AM  ,"Staff, - ","Staff, -",,,25 /18 ,4.00000,,RECORD COUNT 576
+94312,Active,STA-230-02,Introduction to Data Science,TTH  ,1:00 PM  - 2:20 PM  ,"Staff, - ","Staff, -",,,25 /18 ,4.00000,,RECORD COUNT 576
+94313,Active,STA-310-01,Statistical Modeling,MWF  ,1:00 PM  - 1:50 PM  ,"Jonkman, Jeffrey ","Jonkman, Jeff",,,20 /20 ,4.00000,,RECORD COUNT 576
+94315,Active,STA-310-02,Statistical Modeling,MWF  ,2:00 PM  - 2:50 PM  ,"Jonkman, Jeffrey ","Jonkman, Jeff",,,20 /20 ,4.00000,,RECORD COUNT 576
+94316,Active,STA-335-01,Probability & Statistics I,MWF  ,1:00 PM  - 1:50 PM  ,"Wells, Jonathan M ","Wells, Jonathan",,,25 /25 ,4.00000,,RECORD COUNT 576
+94318,Active,STA-335-02,Probability & Statistics I,MWF  ,3:00 PM  - 3:50 PM  ,"Wells, Jonathan M ","Wells, Jonathan",,,25 /25 ,4.00000,,RECORD COUNT 576
+95332,Active,THD-102-01,Intro to Dance Technique,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Hurley, Kathleen ","Hurley, Kathleen",,,14 /14 ,2.00000,,RECORD COUNT 576
+95333,Active,THD-110-01,Intro to Movement for the Perf,MW  ,2:00 PM  - 3:50 PM  ,"Sanou, Aguibou Bougobali ","Sanou, Aguibou",,,18 /18 ,4.00000,,RECORD COUNT 576
+95328,Active,THD-120-01,Introduction to Acting,MW  ,9:00 AM  - 11:50 AM  ,"Quintero, Craig ","Quintero, Craig",,,14 /14 ,4.00000,,RECORD COUNT 576
+95335,Active,THD-130-01,Behind the Curtain: Perf Desig,TTH  ,1:00 PM  - 3:50 PM  ,"Thomas, Justin M ","Thomas, Justin",,,16 /16 ,4.00000,,RECORD COUNT 576
+95364,Active,THD-202-01,Contemporary Dance Practices,TTH  ,8:30 AM  - 9:50 AM  ,"Hurley, Kathleen ","Hurley, Kathleen",,,14 /14 ,2.00000,,RECORD COUNT 576
+95369,Active,THD-203-01,Dance Ensemble/ACTivate,MTW  ,7:00 PM  - 9:50 PM  ,"Sanou, Aguibou Bougobali ","Sanou, Aguibou",,,20 /20 ,2.00000,,RECORD COUNT 576
+95334,Active,THD-221-01,Directing,MW  ,2:00 PM  - 3:50 PM  ,"Quintero, Craig ","Quintero, Craig",,,12 /12 ,4.00000,,RECORD COUNT 576
+95331,Active,THD-240-01,Interdisciplinary Performance,MW  ,1:00 PM  - 2:20 PM  ,"Shook, Jennifer ","Shook, Jen",,,20 /20 ,4.00000,,RECORD COUNT 576
+95329,Active,THD-350-01,Theatre Methods: Dramaturgy,T TH,10:00 AM - 11:50 AM 10:00 AM - 10:50 AM,"Miller, Kristina K ","Miller, Karie",,,20 /20 ,4.00000,,RECORD COUNT 576
+94477,Active,WIL-101-01,Entrprse Freelance Journalsm,MW  ,2:30 PM  - 3:50 PM  ,"Staff, - ","Staff, -",,,24 /24 ,1.00000,,RECORD COUNT 576
+94473,Active,WIL-201-01,Entrepreneurship & Soc Change,TTH  ,2:30 PM  - 3:50 PM  ,"Staff, - ","Staff, -",,,24 /24 ,1.00000,,RECORD COUNT 576
+94475,Active,WIL-210-01,Learning From Alumni,F  ,2:30 PM  - 3:50 PM  ,"Rietz, Henry W Morisada ","Rietz, Henry",,,30 /30 ,2.00000,,RECORD COUNT 576
+95381,Active,WRT-101-01,Writing in the Liberal Arts,M  ,10:00 AM - 10:50 AM  ,"Nichols-Besel, Kristen ","Nichols-Besel, Kristen",,,15 /15 ,1.00000,,RECORD COUNT 576
+95382,Active,WRT-101-02,Writing in the Liberal Arts,M  ,3:00 PM  - 3:50 PM  ,"Nichols-Besel, Kristen ","Nichols-Besel, Kristen",,,15 /15 ,1.00000,,RECORD COUNT 576
+95383,Active,WRT-101-03,Writing in the Liberal Arts,T  ,10:00 AM - 10:50 AM  ,"Park, Jennifer ","Park, Jennifer",,,15 /15 ,1.00000,,RECORD COUNT 576
+95384,Active,WRT-101-04,Writing in the Liberal Arts,T  ,11:00 AM - 11:50 AM  ,"Perez, David ","Perez, David",,,15 /15 ,1.00000,,RECORD COUNT 576
+95385,Active,WRT-101-05,Writing in the Liberal Arts,T  ,3:00 PM  - 3:50 PM  ,"Rudolph, William K ","Rudolph, Bill",,,15 /15 ,1.00000,,RECORD COUNT 576
+95387,Active,WRT-101-06,Writing in the Liberal Arts,TH  ,10:00 AM - 10:50 AM  ,"Price, Taylor ","Price, Taylor",,,15 /15 ,1.00000,,RECORD COUNT 576
+95374,Active,WRT-301-01,Teaching & Tutoring Writing,TTH  ,2:30 PM  - 3:50 PM  ,"Turk, Martisha ","Turk, Tisha",,,12 /12 ,4.00000,,RECORD COUNT 576
+
